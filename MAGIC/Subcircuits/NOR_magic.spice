@@ -1,0 +1,30 @@
+* SPICE3 file created from NOR_magic.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 out B a_13_6# w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=48 ps=28
+M1001 a_13_6# A VDD w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=40 ps=26
+M1002 GND B out Gnd nfet w=4 l=2
++  ad=58 pd=44 as=24 ps=20
+M1003 out A GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 A GND 0.07fF
+C1 B A 0.08fF
+C2 w_0_0# out 0.03fF
+C3 VDD A 0.02fF
+C4 B GND 0.13fF
+C5 A w_0_0# 0.06fF
+C6 B w_0_0# 0.06fF
+C7 VDD w_0_0# 0.06fF
+C8 A out 0.05fF
+C9 GND out 0.15fF
+C10 B out 0.10fF
+C11 VDD out 0.03fF
+C12 GND Gnd 0.22fF
+C13 out Gnd 0.07fF
+C14 VDD Gnd 0.08fF
+C15 B Gnd 0.21fF
+C16 A Gnd 0.14fF
+C17 w_0_0# Gnd 0.64fF

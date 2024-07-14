@@ -1,0 +1,54 @@
+magic
+tech scmos
+timestamp 1669671046
+<< metal1 >>
+rect 185 138 189 192
+rect 392 180 453 184
+rect -47 114 -39 119
+rect 449 75 453 180
+rect 45 36 49 59
+rect 269 54 273 59
+rect 269 50 399 54
+rect 456 50 463 53
+rect 45 28 400 36
+<< m2contact >>
+rect 170 180 175 185
+rect 199 180 204 185
+rect 174 119 179 124
+rect 401 119 406 125
+rect 44 59 49 64
+rect 268 59 273 64
+<< metal2 >>
+rect 175 180 199 184
+rect -47 146 -39 151
+rect 45 64 49 157
+rect 175 146 187 151
+rect 175 124 179 146
+rect 269 64 273 155
+rect 406 119 466 124
+rect 137 50 243 54
+rect 269 52 367 55
+rect 269 50 273 52
+rect 238 21 242 50
+rect 407 21 412 27
+rect 238 16 412 21
+use OR_magic  OR_magic_0
+timestamp 1669670886
+transform 1 0 404 0 1 25
+box -5 2 52 54
+use HA_magic  HA_magic_0
+timestamp 1669670993
+transform 1 0 -76 0 1 60
+box 37 -10 254 129
+use HA_magic  HA_magic_1
+timestamp 1669670993
+transform 1 0 148 0 1 60
+box 37 -10 254 129
+<< labels >>
+rlabel space 253 108 257 112 7 SUM
+rlabel metal2 463 121 463 121 7 sum
+rlabel metal1 461 52 461 53 7 carry
+rlabel metal1 -43 117 -43 117 3 B
+rlabel metal2 -42 148 -42 148 3 A
+rlabel metal1 187 189 187 189 5 C
+<< end >>

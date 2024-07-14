@@ -1,0 +1,32 @@
+timestamp 1669670829
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use NAND_magic NAND_magic_0 1 0 0 0 1 19
+use NOT_magic NOT_magic_0 1 0 38 0 1 19
+node "m2_5_n11#" 1 699.735 5 -11 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 293 134 0 0 0 0 0 0 0 0
+node "B" 0 53.7624 -3 -4 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 36 0 0 0 0 0 0 0 0 0 0
+node "out" 0 17.8188 62 14 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0 0 0 0 0 0 0
+node "m1_32_14#" 0 27.6216 32 14 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0 0 0 0 0 0 0
+node "A" 0 17.8188 -3 14 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0 0 0 0 0 0 0
+node "m1_32_39#" 0 21.6096 32 39 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0 0 0 0 0 0 0
+node "w_32_19#" 3097 120.528 32 19 nw 0 0 0 0 120 52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "w_32_19#" "m1_32_39#" 6.012
+cap "B" "m2_5_n11#" 96.714
+cap "NAND_magic_0/w_0_0#" "NAND_magic_0/out" -1.06581e-14
+cap "NAND_magic_0/w_0_0#" "NAND_magic_0/VDD" 1.42109e-14
+cap "NAND_magic_0/B" "NAND_magic_0/GND" 34.365
+cap "NAND_magic_0/out" "NAND_magic_0/VDD" 5.68434e-14
+merge "NAND_magic_0/B" "B" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "NOT_magic_0/GND" "NAND_magic_0/GND" -104.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "NAND_magic_0/GND" "m2_5_n11#"
+merge "NOT_magic_0/w_0_0#" "NAND_magic_0/w_0_0#" -8.52651e-14 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "NAND_magic_0/w_0_0#" "w_32_19#"
+merge "NOT_magic_0/VDD" "NAND_magic_0/VDD" -16.032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "NAND_magic_0/VDD" "m1_32_39#"
+merge "NOT_magic_0/in" "NAND_magic_0/out" -16.032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "NAND_magic_0/out" "m1_32_14#"
+merge "NOT_magic_0/out" "out" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "NAND_magic_0/A" "A" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0

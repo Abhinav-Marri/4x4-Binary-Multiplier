@@ -1,0 +1,39 @@
+* SPICE3 file created from AND_magic.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 VDD B NOT_magic_0/in w_32_19# pfet w=8 l=2
++  ad=120 pd=78 as=48 ps=28
+M1001 NOT_magic_0/in A VDD w_32_19# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 NOT_magic_0/in B NAND_magic_0/a_13_n12# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1003 NAND_magic_0/a_13_n12# A GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=58 ps=44
+M1004 out NOT_magic_0/in VDD w_32_19# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1005 out NOT_magic_0/in GND Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+C0 A B 0.08fF
+C1 w_32_19# NOT_magic_0/in 0.09fF
+C2 out NOT_magic_0/in 0.05fF
+C3 w_32_19# B 0.06fF
+C4 A VDD 0.02fF
+C5 A GND 0.07fF
+C6 w_32_19# VDD 0.14fF
+C7 VDD out 0.11fF
+C8 GND out 0.04fF
+C9 NOT_magic_0/in B 0.08fF
+C10 A w_32_19# 0.06fF
+C11 w_32_19# out 0.03fF
+C12 VDD NOT_magic_0/in 0.24fF
+C13 GND NOT_magic_0/in 0.07fF
+C14 A NOT_magic_0/in 0.05fF
+C15 GND B 0.13fF
+C16 out Gnd 0.07fF
+C17 GND Gnd 1.01fF
+C18 NOT_magic_0/in Gnd 0.28fF
+C19 VDD Gnd 0.16fF
+C20 B Gnd 0.24fF
+C21 A Gnd 0.16fF
+C22 w_32_19# Gnd 1.25fF

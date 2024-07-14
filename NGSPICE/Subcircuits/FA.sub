@@ -1,0 +1,12 @@
+
+.subckt FA a b c sum carry vdd gnd
+
+.INCLUDE HA.sub
+.INCLUDE OR.spice
+
+x1 a b sum1 carry1 vdd gnd HA
+x2 sum1 c sum carry2 vdd gnd HA
+x3 carry carry1 carry2 vdd gnd OR
+
+.ends FA
+

@@ -1,0 +1,112 @@
+* SPICE3 file created from HA_magic.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 VDD B XOR_magic_0/NAND_magic_3/A XOR_magic_0/NAND_magic_0/w_0_0# pfet w=8 l=2
++  ad=440 pd=286 as=48 ps=28
+M1001 XOR_magic_0/NAND_magic_3/A A VDD XOR_magic_0/NAND_magic_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 XOR_magic_0/NAND_magic_3/A B XOR_magic_0/NAND_magic_0/a_13_n12# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1003 XOR_magic_0/NAND_magic_0/a_13_n12# A GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=174 ps=132
+M1004 VDD XOR_magic_0/NAND_magic_3/A XOR_magic_0/NAND_magic_2/A XOR_magic_0/NAND_magic_1/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1005 XOR_magic_0/NAND_magic_2/A A VDD XOR_magic_0/NAND_magic_1/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 XOR_magic_0/NAND_magic_2/A XOR_magic_0/NAND_magic_3/A XOR_magic_0/NAND_magic_1/a_13_n12# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1007 XOR_magic_0/NAND_magic_1/a_13_n12# A GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 VDD XOR_magic_0/NAND_magic_2/B sum XOR_magic_0/NAND_magic_2/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1009 sum XOR_magic_0/NAND_magic_2/A VDD XOR_magic_0/NAND_magic_2/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 sum XOR_magic_0/NAND_magic_2/B XOR_magic_0/NAND_magic_2/a_13_n12# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1011 XOR_magic_0/NAND_magic_2/a_13_n12# XOR_magic_0/NAND_magic_2/A GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 VDD B XOR_magic_0/NAND_magic_2/B XOR_magic_0/NAND_magic_3/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1013 XOR_magic_0/NAND_magic_2/B XOR_magic_0/NAND_magic_3/A VDD XOR_magic_0/NAND_magic_3/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 XOR_magic_0/NAND_magic_2/B B XOR_magic_0/NAND_magic_3/a_13_n12# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1015 XOR_magic_0/NAND_magic_3/a_13_n12# XOR_magic_0/NAND_magic_3/A GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 VDD B AND_magic_0/NOT_magic_0/in AND_magic_0/w_32_19# pfet w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1017 AND_magic_0/NOT_magic_0/in A VDD AND_magic_0/w_32_19# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 AND_magic_0/NOT_magic_0/in B AND_magic_0/NAND_magic_0/a_13_n12# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1019 AND_magic_0/NAND_magic_0/a_13_n12# A GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 carry AND_magic_0/NOT_magic_0/in VDD AND_magic_0/w_32_19# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1021 carry AND_magic_0/NOT_magic_0/in GND Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+C0 AND_magic_0/w_32_19# AND_magic_0/NOT_magic_0/in 0.09fF
+C1 VDD XOR_magic_0/NAND_magic_0/w_0_0# 0.09fF
+C2 GND XOR_magic_0/NAND_magic_2/A 0.07fF
+C3 XOR_magic_0/NAND_magic_0/w_0_0# A 0.08fF
+C4 AND_magic_0/w_32_19# carry 0.03fF
+C5 XOR_magic_0/NAND_magic_2/w_0_0# XOR_magic_0/NAND_magic_2/A 0.06fF
+C6 sum VDD 0.22fF
+C7 GND AND_magic_0/NOT_magic_0/in 0.07fF
+C8 XOR_magic_0/NAND_magic_3/w_0_0# B 0.06fF
+C9 VDD A 0.15fF
+C10 XOR_magic_0/NAND_magic_2/B XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C11 GND carry 0.04fF
+C12 XOR_magic_0/NAND_magic_2/B XOR_magic_0/NAND_magic_2/A 0.08fF
+C13 XOR_magic_0/NAND_magic_3/A XOR_magic_0/NAND_magic_1/w_0_0# 0.06fF
+C14 AND_magic_0/NOT_magic_0/in B 0.08fF
+C15 GND XOR_magic_0/NAND_magic_3/A 0.17fF
+C16 VDD XOR_magic_0/NAND_magic_3/w_0_0# 0.09fF
+C17 sum XOR_magic_0/NAND_magic_2/A 0.05fF
+C18 VDD XOR_magic_0/NAND_magic_2/A 0.24fF
+C19 A XOR_magic_0/NAND_magic_2/A 0.05fF
+C20 XOR_magic_0/NAND_magic_3/A B 0.15fF
+C21 VDD AND_magic_0/NOT_magic_0/in 0.24fF
+C22 AND_magic_0/NOT_magic_0/in A 0.05fF
+C23 AND_magic_0/w_32_19# B 0.06fF
+C24 XOR_magic_0/NAND_magic_2/B XOR_magic_0/NAND_magic_3/A 0.05fF
+C25 VDD carry 0.20fF
+C26 GND B 0.35fF
+C27 XOR_magic_0/NAND_magic_3/A XOR_magic_0/NAND_magic_0/w_0_0# 0.02fF
+C28 XOR_magic_0/NAND_magic_2/B GND 0.09fF
+C29 XOR_magic_0/NAND_magic_2/B XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C30 VDD XOR_magic_0/NAND_magic_1/w_0_0# 0.09fF
+C31 VDD XOR_magic_0/NAND_magic_3/A 0.38fF
+C32 A XOR_magic_0/NAND_magic_1/w_0_0# 0.12fF
+C33 XOR_magic_0/NAND_magic_3/A A 0.13fF
+C34 VDD AND_magic_0/w_32_19# 0.14fF
+C35 XOR_magic_0/NAND_magic_2/B B 0.08fF
+C36 AND_magic_0/w_32_19# A 0.06fF
+C37 sum XOR_magic_0/NAND_magic_2/w_0_0# 0.02fF
+C38 GND VDD 0.07fF
+C39 GND A 0.30fF
+C40 XOR_magic_0/NAND_magic_0/w_0_0# B 0.06fF
+C41 VDD XOR_magic_0/NAND_magic_2/w_0_0# 0.09fF
+C42 AND_magic_0/NOT_magic_0/in carry 0.05fF
+C43 sum XOR_magic_0/NAND_magic_2/B 0.08fF
+C44 XOR_magic_0/NAND_magic_3/A XOR_magic_0/NAND_magic_3/w_0_0# 0.06fF
+C45 A B 0.32fF
+C46 XOR_magic_0/NAND_magic_1/w_0_0# XOR_magic_0/NAND_magic_2/A 0.02fF
+C47 XOR_magic_0/NAND_magic_2/B VDD 0.22fF
+C48 XOR_magic_0/NAND_magic_3/A XOR_magic_0/NAND_magic_2/A 0.08fF
+C49 carry Gnd 0.04fF
+C50 AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C51 AND_magic_0/w_32_19# Gnd 1.25fF
+C52 XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C53 B Gnd 1.66fF
+C54 A Gnd 1.23fF
+C55 XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C56 sum Gnd 0.16fF
+C57 VDD Gnd 1.34fF
+C58 XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C59 XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C60 XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C61 XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C62 GND Gnd 6.41fF
+C63 XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF

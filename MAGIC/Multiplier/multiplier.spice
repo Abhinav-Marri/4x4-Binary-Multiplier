@@ -1,0 +1,2750 @@
+* SPICE3 file created from multiplier.ext - technology: scmos
+.SUBCKT multiplier_magic P0 P1 P2 P3 P4 P5 P6 C5 A0 A1 A2 A3 B0 B1 B2 B3 VDD GND
+.option scale=0.09u
+
+M1000 VDD B1 AND_magic_10/NOT_magic_0/in AND_magic_10/w_32_19# CMOSP w=8 l=2
++  ad=11360 pd=7384 as=48 ps=28
+M1001 AND_magic_10/NOT_magic_0/in A3 VDD AND_magic_10/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 AND_magic_10/NOT_magic_0/in B1 AND_magic_10/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1003 AND_magic_10/NAND_magic_0/a_13_n12# A3 GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=5104 ps=3872
+M1004 FA_magic_2/A AND_magic_10/NOT_magic_0/in VDD AND_magic_10/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1005 FA_magic_2/A AND_magic_10/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1006 VDD B2 AND_magic_11/NOT_magic_0/in AND_magic_11/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1007 AND_magic_11/NOT_magic_0/in A2 VDD AND_magic_11/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 AND_magic_11/NOT_magic_0/in B2 AND_magic_11/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1009 AND_magic_11/NAND_magic_0/a_13_n12# A2 GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 FA_magic_2/B AND_magic_11/NOT_magic_0/in VDD AND_magic_11/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1011 FA_magic_2/B AND_magic_11/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1012 FA_magic_0/OR_magic_0/NOT_magic_0/in FA_magic_0/OR_magic_0/B FA_magic_0/OR_magic_0/NOR_magic_0/a_13_6# FA_magic_0/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=48 ps=28
+M1013 FA_magic_0/OR_magic_0/NOR_magic_0/a_13_6# FA_magic_0/OR_magic_0/A VDD FA_magic_0/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 GND FA_magic_0/OR_magic_0/B FA_magic_0/OR_magic_0/NOT_magic_0/in Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=24 ps=20
+M1015 FA_magic_0/OR_magic_0/NOT_magic_0/in FA_magic_0/OR_magic_0/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 FA_magic_5/C FA_magic_0/OR_magic_0/NOT_magic_0/in VDD FA_magic_0/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1017 FA_magic_5/C FA_magic_0/OR_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1018 VDD FA_magic_0/B FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1019 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_0/A VDD FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_0/B FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1021 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# FA_magic_0/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1022 VDD FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1023 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_0/A VDD FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1025 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# FA_magic_0/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 VDD FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_0/HA_magic_1/A FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1027 FA_magic_0/HA_magic_1/A FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/A VDD FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1028 FA_magic_0/HA_magic_1/A FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1029 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1030 VDD FA_magic_0/B FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1031 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/A VDD FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_0/B FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1033 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1034 VDD FA_magic_0/B FA_magic_0/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_0/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1035 FA_magic_0/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_0/A VDD FA_magic_0/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 FA_magic_0/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_0/B FA_magic_0/HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1037 FA_magic_0/HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# FA_magic_0/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1038 FA_magic_0/OR_magic_0/B FA_magic_0/HA_magic_0/AND_magic_0/NOT_magic_0/in VDD FA_magic_0/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1039 FA_magic_0/OR_magic_0/B FA_magic_0/HA_magic_0/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1040 VDD FA_magic_0/C FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1041 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_0/HA_magic_1/A VDD FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1042 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_0/C FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1043 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# FA_magic_0/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1044 VDD FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1045 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_0/HA_magic_1/A VDD FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1046 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1047 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# FA_magic_0/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1048 VDD FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/B P2 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1049 P2 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/A VDD FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1050 P2 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1051 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1052 VDD FA_magic_0/C FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1053 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/A VDD FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1054 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_0/C FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1055 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1056 VDD FA_magic_0/C FA_magic_0/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_0/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1057 FA_magic_0/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_0/HA_magic_1/A VDD FA_magic_0/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1058 FA_magic_0/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_0/C FA_magic_0/HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1059 FA_magic_0/HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# FA_magic_0/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1060 FA_magic_0/OR_magic_0/A FA_magic_0/HA_magic_1/AND_magic_0/NOT_magic_0/in VDD FA_magic_0/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1061 FA_magic_0/OR_magic_0/A FA_magic_0/HA_magic_1/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1062 VDD B3 AND_magic_12/NOT_magic_0/in AND_magic_12/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1063 AND_magic_12/NOT_magic_0/in A1 VDD AND_magic_12/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1064 AND_magic_12/NOT_magic_0/in B3 AND_magic_12/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1065 AND_magic_12/NAND_magic_0/a_13_n12# A1 GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1066 FA_magic_6/B AND_magic_12/NOT_magic_0/in VDD AND_magic_12/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1067 FA_magic_6/B AND_magic_12/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1068 FA_magic_1/OR_magic_0/NOT_magic_0/in FA_magic_1/OR_magic_0/B FA_magic_1/OR_magic_0/NOR_magic_0/a_13_6# FA_magic_1/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=48 ps=28
+M1069 FA_magic_1/OR_magic_0/NOR_magic_0/a_13_6# FA_magic_1/OR_magic_0/A VDD FA_magic_1/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1070 GND FA_magic_1/OR_magic_0/B FA_magic_1/OR_magic_0/NOT_magic_0/in Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=24 ps=20
+M1071 FA_magic_1/OR_magic_0/NOT_magic_0/in FA_magic_1/OR_magic_0/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1072 FA_magic_6/C FA_magic_1/OR_magic_0/NOT_magic_0/in VDD FA_magic_1/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1073 FA_magic_6/C FA_magic_1/OR_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1074 VDD FA_magic_1/B FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1075 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_1/A VDD FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1076 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_1/B FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1077 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# FA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1078 VDD FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1079 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_1/A VDD FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1080 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1081 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# FA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1082 VDD FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_1/HA_magic_1/A FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1083 FA_magic_1/HA_magic_1/A FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/A VDD FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1084 FA_magic_1/HA_magic_1/A FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1085 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1086 VDD FA_magic_1/B FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1087 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/A VDD FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1088 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_1/B FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1089 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1090 VDD FA_magic_1/B FA_magic_1/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_1/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1091 FA_magic_1/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_1/A VDD FA_magic_1/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1092 FA_magic_1/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_1/B FA_magic_1/HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1093 FA_magic_1/HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# FA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1094 FA_magic_1/OR_magic_0/B FA_magic_1/HA_magic_0/AND_magic_0/NOT_magic_0/in VDD FA_magic_1/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1095 FA_magic_1/OR_magic_0/B FA_magic_1/HA_magic_0/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1096 VDD FA_magic_1/C FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1097 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_1/HA_magic_1/A VDD FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1098 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_1/C FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1099 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# FA_magic_1/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1100 VDD FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1101 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_1/HA_magic_1/A VDD FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1102 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1103 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# FA_magic_1/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1104 VDD FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_5/A FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1105 FA_magic_5/A FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/A VDD FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1106 FA_magic_5/A FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1107 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1108 VDD FA_magic_1/C FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1109 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/A VDD FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1110 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_1/C FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1111 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1112 VDD FA_magic_1/C FA_magic_1/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_1/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1113 FA_magic_1/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_1/HA_magic_1/A VDD FA_magic_1/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1114 FA_magic_1/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_1/C FA_magic_1/HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1115 FA_magic_1/HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# FA_magic_1/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1116 FA_magic_1/OR_magic_0/A FA_magic_1/HA_magic_1/AND_magic_0/NOT_magic_0/in VDD FA_magic_1/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1117 FA_magic_1/OR_magic_0/A FA_magic_1/HA_magic_1/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1118 VDD B2 AND_magic_13/NOT_magic_0/in AND_magic_13/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1119 AND_magic_13/NOT_magic_0/in A3 VDD AND_magic_13/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1120 AND_magic_13/NOT_magic_0/in B2 AND_magic_13/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1121 AND_magic_13/NAND_magic_0/a_13_n12# A3 GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1122 FA_magic_3/A AND_magic_13/NOT_magic_0/in VDD AND_magic_13/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1123 FA_magic_3/A AND_magic_13/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1124 VDD B0 AND_magic_0/NOT_magic_0/in AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1125 AND_magic_0/NOT_magic_0/in A0 VDD AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1126 AND_magic_0/NOT_magic_0/in B0 AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1127 AND_magic_0/NAND_magic_0/a_13_n12# A0 GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1128 P0 AND_magic_0/NOT_magic_0/in VDD AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1129 P0 AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1130 FA_magic_2/OR_magic_0/NOT_magic_0/in FA_magic_2/OR_magic_0/B FA_magic_2/OR_magic_0/NOR_magic_0/a_13_6# FA_magic_2/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=48 ps=28
+M1131 FA_magic_2/OR_magic_0/NOR_magic_0/a_13_6# FA_magic_2/OR_magic_0/A VDD FA_magic_2/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1132 GND FA_magic_2/OR_magic_0/B FA_magic_2/OR_magic_0/NOT_magic_0/in Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=24 ps=20
+M1133 FA_magic_2/OR_magic_0/NOT_magic_0/in FA_magic_2/OR_magic_0/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1134 FA_magic_3/C FA_magic_2/OR_magic_0/NOT_magic_0/in VDD FA_magic_2/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1135 FA_magic_3/C FA_magic_2/OR_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1136 VDD FA_magic_2/B FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1137 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_2/A VDD FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1138 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_2/B FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1139 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# FA_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1140 VDD FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1141 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_2/A VDD FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1142 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1143 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# FA_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1144 VDD FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_2/HA_magic_1/A FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1145 FA_magic_2/HA_magic_1/A FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/A VDD FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1146 FA_magic_2/HA_magic_1/A FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1147 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1148 VDD FA_magic_2/B FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1149 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/A VDD FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1150 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_2/B FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1151 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1152 VDD FA_magic_2/B FA_magic_2/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_2/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1153 FA_magic_2/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_2/A VDD FA_magic_2/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1154 FA_magic_2/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_2/B FA_magic_2/HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1155 FA_magic_2/HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# FA_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1156 FA_magic_2/OR_magic_0/B FA_magic_2/HA_magic_0/AND_magic_0/NOT_magic_0/in VDD FA_magic_2/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1157 FA_magic_2/OR_magic_0/B FA_magic_2/HA_magic_0/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1158 VDD FA_magic_2/C FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1159 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_2/HA_magic_1/A VDD FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1160 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_2/C FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1161 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# FA_magic_2/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1162 VDD FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1163 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_2/HA_magic_1/A VDD FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1164 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1165 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# FA_magic_2/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1166 VDD FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_6/A FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1167 FA_magic_6/A FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/A VDD FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1168 FA_magic_6/A FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1169 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1170 VDD FA_magic_2/C FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1171 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/A VDD FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1172 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_2/C FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1173 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1174 VDD FA_magic_2/C FA_magic_2/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_2/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1175 FA_magic_2/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_2/HA_magic_1/A VDD FA_magic_2/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1176 FA_magic_2/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_2/C FA_magic_2/HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1177 FA_magic_2/HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# FA_magic_2/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1178 FA_magic_2/OR_magic_0/A FA_magic_2/HA_magic_1/AND_magic_0/NOT_magic_0/in VDD FA_magic_2/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1179 FA_magic_2/OR_magic_0/A FA_magic_2/HA_magic_1/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1180 VDD B3 AND_magic_14/NOT_magic_0/in AND_magic_14/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1181 AND_magic_14/NOT_magic_0/in A2 VDD AND_magic_14/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1182 AND_magic_14/NOT_magic_0/in B3 AND_magic_14/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1183 AND_magic_14/NAND_magic_0/a_13_n12# A2 GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1184 FA_magic_3/B AND_magic_14/NOT_magic_0/in VDD AND_magic_14/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1185 FA_magic_3/B AND_magic_14/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1186 VDD B1 AND_magic_1/NOT_magic_0/in AND_magic_1/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1187 AND_magic_1/NOT_magic_0/in A0 VDD AND_magic_1/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1188 AND_magic_1/NOT_magic_0/in B1 AND_magic_1/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1189 AND_magic_1/NAND_magic_0/a_13_n12# A0 GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1190 HA_magic_0/A AND_magic_1/NOT_magic_0/in VDD AND_magic_1/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1191 HA_magic_0/A AND_magic_1/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1192 FA_magic_3/OR_magic_0/NOT_magic_0/in FA_magic_3/OR_magic_0/B FA_magic_3/OR_magic_0/NOR_magic_0/a_13_6# FA_magic_3/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=48 ps=28
+M1193 FA_magic_3/OR_magic_0/NOR_magic_0/a_13_6# FA_magic_3/OR_magic_0/A VDD FA_magic_3/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1194 GND FA_magic_3/OR_magic_0/B FA_magic_3/OR_magic_0/NOT_magic_0/in Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=24 ps=20
+M1195 FA_magic_3/OR_magic_0/NOT_magic_0/in FA_magic_3/OR_magic_0/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1196 FA_magic_4/A FA_magic_3/OR_magic_0/NOT_magic_0/in VDD FA_magic_3/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1197 FA_magic_4/A FA_magic_3/OR_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1198 VDD FA_magic_3/B FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1199 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_3/A VDD FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1200 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_3/B FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1201 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# FA_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1202 VDD FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1203 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_3/A VDD FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1204 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1205 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# FA_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1206 VDD FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_3/HA_magic_1/A FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1207 FA_magic_3/HA_magic_1/A FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/A VDD FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1208 FA_magic_3/HA_magic_1/A FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1209 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1210 VDD FA_magic_3/B FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1211 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/A VDD FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1212 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_3/B FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1213 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1214 VDD FA_magic_3/B FA_magic_3/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_3/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1215 FA_magic_3/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_3/A VDD FA_magic_3/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1216 FA_magic_3/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_3/B FA_magic_3/HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1217 FA_magic_3/HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# FA_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1218 FA_magic_3/OR_magic_0/B FA_magic_3/HA_magic_0/AND_magic_0/NOT_magic_0/in VDD FA_magic_3/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1219 FA_magic_3/OR_magic_0/B FA_magic_3/HA_magic_0/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1220 VDD FA_magic_3/C FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1221 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_3/HA_magic_1/A VDD FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1222 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_3/C FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1223 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# FA_magic_3/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1224 VDD FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1225 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_3/HA_magic_1/A VDD FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1226 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1227 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# FA_magic_3/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1228 VDD FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_7/A FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1229 FA_magic_7/A FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/A VDD FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1230 FA_magic_7/A FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1231 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1232 VDD FA_magic_3/C FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1233 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/A VDD FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1234 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_3/C FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1235 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1236 VDD FA_magic_3/C FA_magic_3/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_3/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1237 FA_magic_3/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_3/HA_magic_1/A VDD FA_magic_3/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1238 FA_magic_3/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_3/C FA_magic_3/HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1239 FA_magic_3/HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# FA_magic_3/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1240 FA_magic_3/OR_magic_0/A FA_magic_3/HA_magic_1/AND_magic_0/NOT_magic_0/in VDD FA_magic_3/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1241 FA_magic_3/OR_magic_0/A FA_magic_3/HA_magic_1/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1242 VDD B3 AND_magic_15/NOT_magic_0/in AND_magic_15/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1243 AND_magic_15/NOT_magic_0/in A3 VDD AND_magic_15/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1244 AND_magic_15/NOT_magic_0/in B3 AND_magic_15/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1245 AND_magic_15/NAND_magic_0/a_13_n12# A3 GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1246 FA_magic_4/B AND_magic_15/NOT_magic_0/in VDD AND_magic_15/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1247 FA_magic_4/B AND_magic_15/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1248 VDD B0 AND_magic_2/NOT_magic_0/in AND_magic_2/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1249 AND_magic_2/NOT_magic_0/in A1 VDD AND_magic_2/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1250 AND_magic_2/NOT_magic_0/in B0 AND_magic_2/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1251 AND_magic_2/NAND_magic_0/a_13_n12# A1 GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1252 HA_magic_0/B AND_magic_2/NOT_magic_0/in VDD AND_magic_2/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1253 HA_magic_0/B AND_magic_2/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1254 FA_magic_4/OR_magic_0/NOT_magic_0/in FA_magic_4/OR_magic_0/B FA_magic_4/OR_magic_0/NOR_magic_0/a_13_6# FA_magic_4/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=48 ps=28
+M1255 FA_magic_4/OR_magic_0/NOR_magic_0/a_13_6# FA_magic_4/OR_magic_0/A VDD FA_magic_4/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1256 GND FA_magic_4/OR_magic_0/B FA_magic_4/OR_magic_0/NOT_magic_0/in Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=24 ps=20
+M1257 FA_magic_4/OR_magic_0/NOT_magic_0/in FA_magic_4/OR_magic_0/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1258 C5 FA_magic_4/OR_magic_0/NOT_magic_0/in VDD FA_magic_4/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1259 C5 FA_magic_4/OR_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1260 VDD FA_magic_4/B FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1261 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_4/A VDD FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1262 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_4/B FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1263 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# FA_magic_4/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1264 VDD FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1265 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_4/A VDD FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1266 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1267 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# FA_magic_4/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1268 VDD FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_4/HA_magic_1/A FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1269 FA_magic_4/HA_magic_1/A FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/A VDD FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1270 FA_magic_4/HA_magic_1/A FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1271 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1272 VDD FA_magic_4/B FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1273 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/A VDD FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1274 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_4/B FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1275 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1276 VDD FA_magic_4/B FA_magic_4/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_4/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1277 FA_magic_4/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_4/A VDD FA_magic_4/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1278 FA_magic_4/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_4/B FA_magic_4/HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1279 FA_magic_4/HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# FA_magic_4/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1280 FA_magic_4/OR_magic_0/B FA_magic_4/HA_magic_0/AND_magic_0/NOT_magic_0/in VDD FA_magic_4/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1281 FA_magic_4/OR_magic_0/B FA_magic_4/HA_magic_0/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1282 VDD FA_magic_4/C FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1283 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_4/HA_magic_1/A VDD FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1284 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_4/C FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1285 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# FA_magic_4/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1286 VDD FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1287 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_4/HA_magic_1/A VDD FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1288 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1289 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# FA_magic_4/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1290 VDD FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/B P6 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1291 P6 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/A VDD FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1292 P6 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1293 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1294 VDD FA_magic_4/C FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1295 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/A VDD FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1296 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_4/C FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1297 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1298 VDD FA_magic_4/C FA_magic_4/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_4/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1299 FA_magic_4/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_4/HA_magic_1/A VDD FA_magic_4/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1300 FA_magic_4/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_4/C FA_magic_4/HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1301 FA_magic_4/HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# FA_magic_4/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1302 FA_magic_4/OR_magic_0/A FA_magic_4/HA_magic_1/AND_magic_0/NOT_magic_0/in VDD FA_magic_4/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1303 FA_magic_4/OR_magic_0/A FA_magic_4/HA_magic_1/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1304 VDD B0 AND_magic_3/NOT_magic_0/in AND_magic_3/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1305 AND_magic_3/NOT_magic_0/in A2 VDD AND_magic_3/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1306 AND_magic_3/NOT_magic_0/in B0 AND_magic_3/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1307 AND_magic_3/NAND_magic_0/a_13_n12# A2 GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1308 FA_magic_0/A AND_magic_3/NOT_magic_0/in VDD AND_magic_3/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1309 FA_magic_0/A AND_magic_3/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1310 VDD B1 AND_magic_4/NOT_magic_0/in AND_magic_4/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1311 AND_magic_4/NOT_magic_0/in A1 VDD AND_magic_4/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1312 AND_magic_4/NOT_magic_0/in B1 AND_magic_4/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1313 AND_magic_4/NAND_magic_0/a_13_n12# A1 GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1314 HA_magic_1/A AND_magic_4/NOT_magic_0/in VDD AND_magic_4/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1315 HA_magic_1/A AND_magic_4/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1316 FA_magic_5/OR_magic_0/NOT_magic_0/in FA_magic_5/OR_magic_0/B FA_magic_5/OR_magic_0/NOR_magic_0/a_13_6# FA_magic_5/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=48 ps=28
+M1317 FA_magic_5/OR_magic_0/NOR_magic_0/a_13_6# FA_magic_5/OR_magic_0/A VDD FA_magic_5/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1318 GND FA_magic_5/OR_magic_0/B FA_magic_5/OR_magic_0/NOT_magic_0/in Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=24 ps=20
+M1319 FA_magic_5/OR_magic_0/NOT_magic_0/in FA_magic_5/OR_magic_0/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1320 HA_magic_3/B FA_magic_5/OR_magic_0/NOT_magic_0/in VDD FA_magic_5/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1321 HA_magic_3/B FA_magic_5/OR_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1322 VDD FA_magic_5/B FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1323 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_5/A VDD FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1324 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_5/B FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1325 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# FA_magic_5/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1326 VDD FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1327 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_5/A VDD FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1328 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1329 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# FA_magic_5/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1330 VDD FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_5/HA_magic_1/A FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1331 FA_magic_5/HA_magic_1/A FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/A VDD FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1332 FA_magic_5/HA_magic_1/A FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1333 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1334 VDD FA_magic_5/B FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1335 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/A VDD FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1336 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_5/B FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1337 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1338 VDD FA_magic_5/B FA_magic_5/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_5/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1339 FA_magic_5/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_5/A VDD FA_magic_5/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1340 FA_magic_5/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_5/B FA_magic_5/HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1341 FA_magic_5/HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# FA_magic_5/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1342 FA_magic_5/OR_magic_0/B FA_magic_5/HA_magic_0/AND_magic_0/NOT_magic_0/in VDD FA_magic_5/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1343 FA_magic_5/OR_magic_0/B FA_magic_5/HA_magic_0/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1344 VDD FA_magic_5/C FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1345 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_5/HA_magic_1/A VDD FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1346 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_5/C FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1347 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# FA_magic_5/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1348 VDD FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1349 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_5/HA_magic_1/A VDD FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1350 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1351 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# FA_magic_5/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1352 VDD FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/B P3 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1353 P3 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/A VDD FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1354 P3 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1355 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1356 VDD FA_magic_5/C FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1357 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/A VDD FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1358 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_5/C FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1359 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1360 VDD FA_magic_5/C FA_magic_5/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_5/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1361 FA_magic_5/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_5/HA_magic_1/A VDD FA_magic_5/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1362 FA_magic_5/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_5/C FA_magic_5/HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1363 FA_magic_5/HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# FA_magic_5/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1364 FA_magic_5/OR_magic_0/A FA_magic_5/HA_magic_1/AND_magic_0/NOT_magic_0/in VDD FA_magic_5/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1365 FA_magic_5/OR_magic_0/A FA_magic_5/HA_magic_1/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1366 VDD B2 AND_magic_5/NOT_magic_0/in AND_magic_5/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1367 AND_magic_5/NOT_magic_0/in A0 VDD AND_magic_5/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1368 AND_magic_5/NOT_magic_0/in B2 AND_magic_5/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1369 AND_magic_5/NAND_magic_0/a_13_n12# A0 GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1370 HA_magic_1/B AND_magic_5/NOT_magic_0/in VDD AND_magic_5/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1371 HA_magic_1/B AND_magic_5/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1372 FA_magic_6/OR_magic_0/NOT_magic_0/in FA_magic_6/OR_magic_0/B FA_magic_6/OR_magic_0/NOR_magic_0/a_13_6# FA_magic_6/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=48 ps=28
+M1373 FA_magic_6/OR_magic_0/NOR_magic_0/a_13_6# FA_magic_6/OR_magic_0/A VDD FA_magic_6/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1374 GND FA_magic_6/OR_magic_0/B FA_magic_6/OR_magic_0/NOT_magic_0/in Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=24 ps=20
+M1375 FA_magic_6/OR_magic_0/NOT_magic_0/in FA_magic_6/OR_magic_0/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1376 FA_magic_7/B FA_magic_6/OR_magic_0/NOT_magic_0/in VDD FA_magic_6/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1377 FA_magic_7/B FA_magic_6/OR_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1378 VDD FA_magic_6/B FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1379 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_6/A VDD FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1380 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_6/B FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1381 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# FA_magic_6/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1382 VDD FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1383 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_6/A VDD FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1384 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1385 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# FA_magic_6/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1386 VDD FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_6/HA_magic_1/A FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1387 FA_magic_6/HA_magic_1/A FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/A VDD FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1388 FA_magic_6/HA_magic_1/A FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1389 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1390 VDD FA_magic_6/B FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1391 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/A VDD FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1392 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_6/B FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1393 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1394 VDD FA_magic_6/B FA_magic_6/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_6/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1395 FA_magic_6/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_6/A VDD FA_magic_6/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1396 FA_magic_6/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_6/B FA_magic_6/HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1397 FA_magic_6/HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# FA_magic_6/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1398 FA_magic_6/OR_magic_0/B FA_magic_6/HA_magic_0/AND_magic_0/NOT_magic_0/in VDD FA_magic_6/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1399 FA_magic_6/OR_magic_0/B FA_magic_6/HA_magic_0/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1400 VDD FA_magic_6/C FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1401 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_6/HA_magic_1/A VDD FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1402 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_6/C FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1403 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# FA_magic_6/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1404 VDD FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1405 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_6/HA_magic_1/A VDD FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1406 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1407 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# FA_magic_6/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1408 VDD FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/B HA_magic_3/A FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1409 HA_magic_3/A FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/A VDD FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1410 HA_magic_3/A FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1411 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1412 VDD FA_magic_6/C FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1413 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/A VDD FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1414 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_6/C FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1415 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1416 VDD FA_magic_6/C FA_magic_6/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_6/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1417 FA_magic_6/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_6/HA_magic_1/A VDD FA_magic_6/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1418 FA_magic_6/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_6/C FA_magic_6/HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1419 FA_magic_6/HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# FA_magic_6/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1420 FA_magic_6/OR_magic_0/A FA_magic_6/HA_magic_1/AND_magic_0/NOT_magic_0/in VDD FA_magic_6/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1421 FA_magic_6/OR_magic_0/A FA_magic_6/HA_magic_1/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1422 VDD B0 AND_magic_6/NOT_magic_0/in AND_magic_6/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1423 AND_magic_6/NOT_magic_0/in A3 VDD AND_magic_6/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1424 AND_magic_6/NOT_magic_0/in B0 AND_magic_6/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1425 AND_magic_6/NAND_magic_0/a_13_n12# A3 GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1426 FA_magic_1/A AND_magic_6/NOT_magic_0/in VDD AND_magic_6/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1427 FA_magic_1/A AND_magic_6/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1428 FA_magic_7/OR_magic_0/NOT_magic_0/in FA_magic_7/OR_magic_0/B FA_magic_7/OR_magic_0/NOR_magic_0/a_13_6# FA_magic_7/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=48 ps=28
+M1429 FA_magic_7/OR_magic_0/NOR_magic_0/a_13_6# FA_magic_7/OR_magic_0/A VDD FA_magic_7/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1430 GND FA_magic_7/OR_magic_0/B FA_magic_7/OR_magic_0/NOT_magic_0/in Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=24 ps=20
+M1431 FA_magic_7/OR_magic_0/NOT_magic_0/in FA_magic_7/OR_magic_0/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1432 FA_magic_4/C FA_magic_7/OR_magic_0/NOT_magic_0/in VDD FA_magic_7/OR_magic_0/NOT_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1433 FA_magic_4/C FA_magic_7/OR_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1434 VDD FA_magic_7/B FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1435 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_7/A VDD FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1436 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_7/B FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1437 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# FA_magic_7/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1438 VDD FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1439 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_7/A VDD FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1440 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/A FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1441 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# FA_magic_7/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1442 VDD FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_7/HA_magic_1/A FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1443 FA_magic_7/HA_magic_1/A FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/A VDD FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1444 FA_magic_7/HA_magic_1/A FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1445 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1446 VDD FA_magic_7/B FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1447 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/A VDD FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1448 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_7/B FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1449 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1450 VDD FA_magic_7/B FA_magic_7/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_7/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1451 FA_magic_7/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_7/A VDD FA_magic_7/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1452 FA_magic_7/HA_magic_0/AND_magic_0/NOT_magic_0/in FA_magic_7/B FA_magic_7/HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1453 FA_magic_7/HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# FA_magic_7/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1454 FA_magic_7/OR_magic_0/B FA_magic_7/HA_magic_0/AND_magic_0/NOT_magic_0/in VDD FA_magic_7/HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1455 FA_magic_7/OR_magic_0/B FA_magic_7/HA_magic_0/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1456 VDD FA_magic_7/C FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1457 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_7/HA_magic_1/A VDD FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1458 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_7/C FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1459 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# FA_magic_7/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1460 VDD FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1461 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_7/HA_magic_1/A VDD FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1462 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/A FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1463 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# FA_magic_7/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1464 VDD FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/B P5 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1465 P5 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/A VDD FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1466 P5 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1467 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1468 VDD FA_magic_7/C FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1469 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/A VDD FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1470 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_7/C FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1471 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1472 VDD FA_magic_7/C FA_magic_7/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_7/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1473 FA_magic_7/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_7/HA_magic_1/A VDD FA_magic_7/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1474 FA_magic_7/HA_magic_1/AND_magic_0/NOT_magic_0/in FA_magic_7/C FA_magic_7/HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1475 FA_magic_7/HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# FA_magic_7/HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1476 FA_magic_7/OR_magic_0/A FA_magic_7/HA_magic_1/AND_magic_0/NOT_magic_0/in VDD FA_magic_7/HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1477 FA_magic_7/OR_magic_0/A FA_magic_7/HA_magic_1/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1478 VDD B1 AND_magic_7/NOT_magic_0/in AND_magic_7/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1479 AND_magic_7/NOT_magic_0/in A2 VDD AND_magic_7/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1480 AND_magic_7/NOT_magic_0/in B1 AND_magic_7/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1481 AND_magic_7/NAND_magic_0/a_13_n12# A2 GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1482 FA_magic_5/B AND_magic_7/NOT_magic_0/in VDD AND_magic_7/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1483 FA_magic_5/B AND_magic_7/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1484 VDD B2 AND_magic_8/NOT_magic_0/in AND_magic_8/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1485 AND_magic_8/NOT_magic_0/in A1 VDD AND_magic_8/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1486 AND_magic_8/NOT_magic_0/in B2 AND_magic_8/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1487 AND_magic_8/NAND_magic_0/a_13_n12# A1 GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1488 HA_magic_2/A AND_magic_8/NOT_magic_0/in VDD AND_magic_8/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1489 HA_magic_2/A AND_magic_8/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1490 VDD B3 AND_magic_9/NOT_magic_0/in AND_magic_9/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1491 AND_magic_9/NOT_magic_0/in A0 VDD AND_magic_9/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1492 AND_magic_9/NOT_magic_0/in B3 AND_magic_9/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1493 AND_magic_9/NAND_magic_0/a_13_n12# A0 GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1494 HA_magic_2/B AND_magic_9/NOT_magic_0/in VDD AND_magic_9/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1495 HA_magic_2/B AND_magic_9/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1496 VDD HA_magic_0/B HA_magic_0/XOR_magic_0/NAND_magic_3/A HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1497 HA_magic_0/XOR_magic_0/NAND_magic_3/A HA_magic_0/A VDD HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1498 HA_magic_0/XOR_magic_0/NAND_magic_3/A HA_magic_0/B HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1499 HA_magic_0/XOR_magic_0/NAND_magic_0/a_13_n12# HA_magic_0/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1500 VDD HA_magic_0/XOR_magic_0/NAND_magic_3/A HA_magic_0/XOR_magic_0/NAND_magic_2/A HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1501 HA_magic_0/XOR_magic_0/NAND_magic_2/A HA_magic_0/A VDD HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1502 HA_magic_0/XOR_magic_0/NAND_magic_2/A HA_magic_0/XOR_magic_0/NAND_magic_3/A HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1503 HA_magic_0/XOR_magic_0/NAND_magic_1/a_13_n12# HA_magic_0/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1504 VDD HA_magic_0/XOR_magic_0/NAND_magic_2/B P1 HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1505 P1 HA_magic_0/XOR_magic_0/NAND_magic_2/A VDD HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1506 P1 HA_magic_0/XOR_magic_0/NAND_magic_2/B HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1507 HA_magic_0/XOR_magic_0/NAND_magic_2/a_13_n12# HA_magic_0/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1508 VDD HA_magic_0/B HA_magic_0/XOR_magic_0/NAND_magic_2/B HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1509 HA_magic_0/XOR_magic_0/NAND_magic_2/B HA_magic_0/XOR_magic_0/NAND_magic_3/A VDD HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1510 HA_magic_0/XOR_magic_0/NAND_magic_2/B HA_magic_0/B HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1511 HA_magic_0/XOR_magic_0/NAND_magic_3/a_13_n12# HA_magic_0/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1512 VDD HA_magic_0/B HA_magic_0/AND_magic_0/NOT_magic_0/in HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1513 HA_magic_0/AND_magic_0/NOT_magic_0/in HA_magic_0/A VDD HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1514 HA_magic_0/AND_magic_0/NOT_magic_0/in HA_magic_0/B HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1515 HA_magic_0/AND_magic_0/NAND_magic_0/a_13_n12# HA_magic_0/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1516 FA_magic_0/C HA_magic_0/AND_magic_0/NOT_magic_0/in VDD HA_magic_0/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1517 FA_magic_0/C HA_magic_0/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1518 VDD HA_magic_1/B HA_magic_1/XOR_magic_0/NAND_magic_3/A HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1519 HA_magic_1/XOR_magic_0/NAND_magic_3/A HA_magic_1/A VDD HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1520 HA_magic_1/XOR_magic_0/NAND_magic_3/A HA_magic_1/B HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1521 HA_magic_1/XOR_magic_0/NAND_magic_0/a_13_n12# HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1522 VDD HA_magic_1/XOR_magic_0/NAND_magic_3/A HA_magic_1/XOR_magic_0/NAND_magic_2/A HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1523 HA_magic_1/XOR_magic_0/NAND_magic_2/A HA_magic_1/A VDD HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1524 HA_magic_1/XOR_magic_0/NAND_magic_2/A HA_magic_1/XOR_magic_0/NAND_magic_3/A HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1525 HA_magic_1/XOR_magic_0/NAND_magic_1/a_13_n12# HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1526 VDD HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_0/B HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1527 FA_magic_0/B HA_magic_1/XOR_magic_0/NAND_magic_2/A VDD HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1528 FA_magic_0/B HA_magic_1/XOR_magic_0/NAND_magic_2/B HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1529 HA_magic_1/XOR_magic_0/NAND_magic_2/a_13_n12# HA_magic_1/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1530 VDD HA_magic_1/B HA_magic_1/XOR_magic_0/NAND_magic_2/B HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1531 HA_magic_1/XOR_magic_0/NAND_magic_2/B HA_magic_1/XOR_magic_0/NAND_magic_3/A VDD HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1532 HA_magic_1/XOR_magic_0/NAND_magic_2/B HA_magic_1/B HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1533 HA_magic_1/XOR_magic_0/NAND_magic_3/a_13_n12# HA_magic_1/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1534 VDD HA_magic_1/B HA_magic_1/AND_magic_0/NOT_magic_0/in HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1535 HA_magic_1/AND_magic_0/NOT_magic_0/in HA_magic_1/A VDD HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1536 HA_magic_1/AND_magic_0/NOT_magic_0/in HA_magic_1/B HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1537 HA_magic_1/AND_magic_0/NAND_magic_0/a_13_n12# HA_magic_1/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1538 FA_magic_1/C HA_magic_1/AND_magic_0/NOT_magic_0/in VDD HA_magic_1/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1539 FA_magic_1/C HA_magic_1/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1540 VDD HA_magic_2/B HA_magic_2/XOR_magic_0/NAND_magic_3/A HA_magic_2/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1541 HA_magic_2/XOR_magic_0/NAND_magic_3/A HA_magic_2/A VDD HA_magic_2/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1542 HA_magic_2/XOR_magic_0/NAND_magic_3/A HA_magic_2/B HA_magic_2/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1543 HA_magic_2/XOR_magic_0/NAND_magic_0/a_13_n12# HA_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1544 VDD HA_magic_2/XOR_magic_0/NAND_magic_3/A HA_magic_2/XOR_magic_0/NAND_magic_2/A HA_magic_2/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1545 HA_magic_2/XOR_magic_0/NAND_magic_2/A HA_magic_2/A VDD HA_magic_2/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1546 HA_magic_2/XOR_magic_0/NAND_magic_2/A HA_magic_2/XOR_magic_0/NAND_magic_3/A HA_magic_2/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1547 HA_magic_2/XOR_magic_0/NAND_magic_1/a_13_n12# HA_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1548 VDD HA_magic_2/XOR_magic_0/NAND_magic_2/B FA_magic_1/B HA_magic_2/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1549 FA_magic_1/B HA_magic_2/XOR_magic_0/NAND_magic_2/A VDD HA_magic_2/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1550 FA_magic_1/B HA_magic_2/XOR_magic_0/NAND_magic_2/B HA_magic_2/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1551 HA_magic_2/XOR_magic_0/NAND_magic_2/a_13_n12# HA_magic_2/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1552 VDD HA_magic_2/B HA_magic_2/XOR_magic_0/NAND_magic_2/B HA_magic_2/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1553 HA_magic_2/XOR_magic_0/NAND_magic_2/B HA_magic_2/XOR_magic_0/NAND_magic_3/A VDD HA_magic_2/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1554 HA_magic_2/XOR_magic_0/NAND_magic_2/B HA_magic_2/B HA_magic_2/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1555 HA_magic_2/XOR_magic_0/NAND_magic_3/a_13_n12# HA_magic_2/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1556 VDD HA_magic_2/B HA_magic_2/AND_magic_0/NOT_magic_0/in HA_magic_2/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1557 HA_magic_2/AND_magic_0/NOT_magic_0/in HA_magic_2/A VDD HA_magic_2/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1558 HA_magic_2/AND_magic_0/NOT_magic_0/in HA_magic_2/B HA_magic_2/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1559 HA_magic_2/AND_magic_0/NAND_magic_0/a_13_n12# HA_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1560 FA_magic_2/C HA_magic_2/AND_magic_0/NOT_magic_0/in VDD HA_magic_2/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1561 FA_magic_2/C HA_magic_2/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1562 VDD HA_magic_3/B HA_magic_3/XOR_magic_0/NAND_magic_3/A HA_magic_3/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1563 HA_magic_3/XOR_magic_0/NAND_magic_3/A HA_magic_3/A VDD HA_magic_3/XOR_magic_0/NAND_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1564 HA_magic_3/XOR_magic_0/NAND_magic_3/A HA_magic_3/B HA_magic_3/XOR_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1565 HA_magic_3/XOR_magic_0/NAND_magic_0/a_13_n12# HA_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1566 VDD HA_magic_3/XOR_magic_0/NAND_magic_3/A HA_magic_3/XOR_magic_0/NAND_magic_2/A HA_magic_3/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1567 HA_magic_3/XOR_magic_0/NAND_magic_2/A HA_magic_3/A VDD HA_magic_3/XOR_magic_0/NAND_magic_1/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1568 HA_magic_3/XOR_magic_0/NAND_magic_2/A HA_magic_3/XOR_magic_0/NAND_magic_3/A HA_magic_3/XOR_magic_0/NAND_magic_1/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1569 HA_magic_3/XOR_magic_0/NAND_magic_1/a_13_n12# HA_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1570 VDD HA_magic_3/XOR_magic_0/NAND_magic_2/B P4 HA_magic_3/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1571 P4 HA_magic_3/XOR_magic_0/NAND_magic_2/A VDD HA_magic_3/XOR_magic_0/NAND_magic_2/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1572 P4 HA_magic_3/XOR_magic_0/NAND_magic_2/B HA_magic_3/XOR_magic_0/NAND_magic_2/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1573 HA_magic_3/XOR_magic_0/NAND_magic_2/a_13_n12# HA_magic_3/XOR_magic_0/NAND_magic_2/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1574 VDD HA_magic_3/B HA_magic_3/XOR_magic_0/NAND_magic_2/B HA_magic_3/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1575 HA_magic_3/XOR_magic_0/NAND_magic_2/B HA_magic_3/XOR_magic_0/NAND_magic_3/A VDD HA_magic_3/XOR_magic_0/NAND_magic_3/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1576 HA_magic_3/XOR_magic_0/NAND_magic_2/B HA_magic_3/B HA_magic_3/XOR_magic_0/NAND_magic_3/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1577 HA_magic_3/XOR_magic_0/NAND_magic_3/a_13_n12# HA_magic_3/XOR_magic_0/NAND_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1578 VDD HA_magic_3/B HA_magic_3/AND_magic_0/NOT_magic_0/in HA_magic_3/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1579 HA_magic_3/AND_magic_0/NOT_magic_0/in HA_magic_3/A VDD HA_magic_3/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1580 HA_magic_3/AND_magic_0/NOT_magic_0/in HA_magic_3/B HA_magic_3/AND_magic_0/NAND_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1581 HA_magic_3/AND_magic_0/NAND_magic_0/a_13_n12# HA_magic_3/A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1582 FA_magic_7/C HA_magic_3/AND_magic_0/NOT_magic_0/in VDD HA_magic_3/AND_magic_0/w_32_19# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1583 FA_magic_7/C HA_magic_3/AND_magic_0/NOT_magic_0/in GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+C0 AND_magic_0/w_32_19# B0 0.06fF
+C1 GND FA_magic_5/OR_magic_0/A 0.93fF
+C2 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# VDD 0.09fF
+C3 FA_magic_5/C FA_magic_5/HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C4 VDD FA_magic_6/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.24fF
+C5 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.02fF
+C6 AND_magic_7/w_32_19# AND_magic_7/NOT_magic_0/in 0.09fF
+C7 VDD FA_magic_7/HA_magic_1/A 0.36fF
+C8 FA_magic_1/B HA_magic_2/XOR_magic_0/NAND_magic_2/B 0.08fF
+C9 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.02fF
+C10 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/A P6 0.05fF
+C11 VDD FA_magic_5/B 0.33fF
+C12 GND AND_magic_2/NOT_magic_0/in 0.07fF
+C13 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C14 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/A GND 0.07fF
+C15 VDD FA_magic_7/HA_magic_1/AND_magic_0/w_32_19# 0.14fF
+C16 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.06fF
+C17 VDD P3 0.31fF
+C18 AND_magic_8/w_32_19# AND_magic_8/NOT_magic_0/in 0.09fF
+C19 FA_magic_2/OR_magic_0/B FA_magic_2/A 0.09fF
+C20 FA_magic_0/A FA_magic_0/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C21 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_2/A 0.08fF
+C22 GND A3 0.71fF
+C23 FA_magic_0/B HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# 0.02fF
+C24 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_4/A 0.12fF
+C25 FA_magic_0/HA_magic_0/AND_magic_0/w_32_19# FA_magic_0/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.09fF
+C26 VDD FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.38fF
+C27 FA_magic_2/OR_magic_0/B FA_magic_2/HA_magic_0/AND_magic_0/w_32_19# 0.03fF
+C28 VDD HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# 0.09fF
+C29 GND FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.07fF
+C30 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# VDD 0.09fF
+C31 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.08fF
+C32 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/B VDD 0.22fF
+C33 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_3/B 0.06fF
+C34 GND AND_magic_6/NOT_magic_0/in 0.07fF
+C35 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_1/HA_magic_1/A 0.02fF
+C36 HA_magic_0/A HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C37 FA_magic_7/OR_magic_0/B FA_magic_7/OR_magic_0/A 0.08fF
+C38 HA_magic_3/XOR_magic_0/NAND_magic_0/w_0_0# HA_magic_3/A 0.08fF
+C39 FA_magic_2/OR_magic_0/A GND 0.93fF
+C40 FA_magic_1/A FA_magic_5/B 0.11fF
+C41 FA_magic_3/A FA_magic_3/B 0.32fF
+C42 AND_magic_1/NOT_magic_0/in HA_magic_0/A 0.05fF
+C43 FA_magic_1/B FA_magic_1/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.08fF
+C44 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C45 GND FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.09fF
+C46 FA_magic_2/B VDD 0.20fF
+C47 FA_magic_1/OR_magic_0/A FA_magic_1/HA_magic_1/A 0.09fF
+C48 FA_magic_3/B FA_magic_3/HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C49 HA_magic_3/A HA_magic_3/AND_magic_0/w_32_19# 0.06fF
+C50 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_0/HA_magic_1/A 0.05fF
+C51 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_3/HA_magic_1/A 0.12fF
+C52 FA_magic_5/A FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.13fF
+C53 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C54 FA_magic_7/HA_magic_1/A FA_magic_7/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C55 FA_magic_1/OR_magic_0/A FA_magic_1/HA_magic_1/AND_magic_0/w_32_19# 0.03fF
+C56 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.05fF
+C57 FA_magic_1/OR_magic_0/NOT_magic_0/in FA_magic_1/OR_magic_0/B 0.10fF
+C58 FA_magic_0/OR_magic_0/B VDD 0.20fF
+C59 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# P3 0.02fF
+C60 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# VDD 0.09fF
+C61 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_0/C 0.06fF
+C62 GND FA_magic_4/C 0.55fF
+C63 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_2/C 0.06fF
+C64 VDD FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# 0.09fF
+C65 FA_magic_7/HA_magic_1/AND_magic_0/w_32_19# FA_magic_7/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.09fF
+C66 FA_magic_5/OR_magic_0/A FA_magic_5/C 0.09fF
+C67 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_5/HA_magic_1/A 0.05fF
+C68 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# VDD 0.09fF
+C69 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# VDD 0.09fF
+C70 AND_magic_10/NOT_magic_0/in FA_magic_2/A 0.05fF
+C71 FA_magic_2/HA_magic_1/A FA_magic_2/C 0.50fF
+C72 AND_magic_1/NOT_magic_0/in A0 0.05fF
+C73 FA_magic_6/OR_magic_0/NOT_magic_0/in FA_magic_6/OR_magic_0/A 0.05fF
+C74 HA_magic_1/XOR_magic_0/NAND_magic_2/A HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C75 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C76 B1 AND_magic_7/w_32_19# 0.06fF
+C77 FA_magic_3/HA_magic_1/AND_magic_0/NOT_magic_0/in VDD 0.24fF
+C78 VDD FA_magic_7/OR_magic_0/A 0.22fF
+C79 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_6/HA_magic_1/A 0.08fF
+C80 FA_magic_2/C FA_magic_2/HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C81 FA_magic_6/B FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.15fF
+C82 VDD FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.24fF
+C83 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_5/B 0.08fF
+C84 A2 A0 0.31fF
+C85 FA_magic_7/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_7/OR_magic_0/A 0.06fF
+C86 FA_magic_4/HA_magic_1/A FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.13fF
+C87 FA_magic_0/OR_magic_0/B FA_magic_0/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C88 FA_magic_5/OR_magic_0/NOT_magic_0/in HA_magic_3/B 0.05fF
+C89 A1 GND 0.71fF
+C90 B1 A3 0.25fF
+C91 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C92 VDD HA_magic_3/B 0.11fF
+C93 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/A VDD 0.38fF
+C94 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_1/A 0.12fF
+C95 GND FA_magic_4/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.07fF
+C96 FA_magic_1/C GND 0.46fF
+C97 GND HA_magic_2/XOR_magic_0/NAND_magic_2/B 0.09fF
+C98 GND FA_magic_6/OR_magic_0/NOT_magic_0/in 0.22fF
+C99 A1 AND_magic_4/NOT_magic_0/in 0.05fF
+C100 VDD FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# 0.09fF
+C101 FA_magic_1/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_1/OR_magic_0/NOT_magic_0/in 0.10fF
+C102 GND AND_magic_15/NOT_magic_0/in 0.07fF
+C103 FA_magic_7/A FA_magic_7/HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C104 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C105 HA_magic_2/B HA_magic_2/AND_magic_0/NOT_magic_0/in 0.08fF
+C106 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/B P5 0.08fF
+C107 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_4/C 0.08fF
+C108 VDD FA_magic_4/HA_magic_1/A 0.36fF
+C109 FA_magic_3/OR_magic_0/B FA_magic_3/B 0.09fF
+C110 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_3/A 0.05fF
+C111 GND FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.17fF
+C112 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_3/B 0.06fF
+C113 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/A VDD 0.24fF
+C114 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/B GND 0.09fF
+C115 HA_magic_2/XOR_magic_0/NAND_magic_2/B HA_magic_2/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C116 VDD FA_magic_4/HA_magic_1/AND_magic_0/w_32_19# 0.14fF
+C117 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C118 GND HA_magic_0/B 0.44fF
+C119 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.02fF
+C120 FA_magic_7/OR_magic_0/A FA_magic_7/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C121 FA_magic_4/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_4/OR_magic_0/A 0.06fF
+C122 FA_magic_2/A FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.13fF
+C123 AND_magic_5/NOT_magic_0/in A0 0.05fF
+C124 VDD HA_magic_2/AND_magic_0/NOT_magic_0/in 0.24fF
+C125 HA_magic_0/XOR_magic_0/NAND_magic_2/A P1 0.05fF
+C126 FA_magic_4/C FA_magic_7/OR_magic_0/NOT_magic_0/in 0.05fF
+C127 GND FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.07fF
+C128 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.06fF
+C129 GND FA_magic_5/A 0.30fF
+C130 AND_magic_8/w_32_19# HA_magic_2/A 0.03fF
+C131 FA_magic_1/HA_magic_0/AND_magic_0/NOT_magic_0/in GND 0.07fF
+C132 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# VDD 0.09fF
+C133 FA_magic_0/C FA_magic_0/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.08fF
+C134 HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# HA_magic_1/B 0.06fF
+C135 AND_magic_3/w_32_19# AND_magic_3/NOT_magic_0/in 0.09fF
+C136 FA_magic_2/OR_magic_0/A FA_magic_2/C 0.09fF
+C137 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_2/HA_magic_1/A 0.05fF
+C138 GND B0 0.96fF
+C139 FA_magic_7/C HA_magic_3/AND_magic_0/NOT_magic_0/in 0.05fF
+C140 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C141 HA_magic_3/XOR_magic_0/NAND_magic_2/A P4 0.05fF
+C142 FA_magic_0/HA_magic_1/AND_magic_0/NOT_magic_0/in VDD 0.24fF
+C143 FA_magic_1/HA_magic_1/A VDD 0.36fF
+C144 HA_magic_1/A HA_magic_1/B 0.32fF
+C145 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/A GND 0.17fF
+C146 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.08fF
+C147 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C148 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C149 VDD HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.38fF
+C150 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.08fF
+C151 B3 AND_magic_9/NOT_magic_0/in 0.08fF
+C152 AND_magic_0/w_32_19# P0 0.03fF
+C153 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_2/B 0.08fF
+C154 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.02fF
+C155 FA_magic_1/HA_magic_1/AND_magic_0/w_32_19# VDD 0.14fF
+C156 HA_magic_1/B HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C157 FA_magic_1/HA_magic_1/A FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.13fF
+C158 GND FA_magic_7/B 0.55fF
+C159 B1 A1 5.94fF
+C160 HA_magic_2/XOR_magic_0/NAND_magic_1/w_0_0# HA_magic_2/A 0.12fF
+C161 GND C5 0.04fF
+C162 VDD HA_magic_3/XOR_magic_0/NAND_magic_2/A 0.24fF
+C163 A2 AND_magic_14/NOT_magic_0/in 0.05fF
+C164 AND_magic_13/NOT_magic_0/in A3 0.05fF
+C165 VDD HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# 0.09fF
+C166 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# VDD 0.09fF
+C167 FA_magic_7/OR_magic_0/B FA_magic_7/A 0.09fF
+C168 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.05fF
+C169 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/A VDD 0.38fF
+C170 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_7/A 0.08fF
+C171 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/A GND 0.07fF
+C172 VDD FA_magic_6/C 0.20fF
+C173 FA_magic_2/A GND 0.45fF
+C174 VDD HA_magic_0/A 0.34fF
+C175 FA_magic_0/C HA_magic_0/AND_magic_0/w_32_19# 0.03fF
+C176 FA_magic_3/OR_magic_0/NOT_magic_0/in GND 0.22fF
+C177 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_0/B 0.06fF
+C178 FA_magic_7/OR_magic_0/B FA_magic_7/HA_magic_0/AND_magic_0/w_32_19# 0.03fF
+C179 AND_magic_12/NOT_magic_0/in GND 0.07fF
+C180 FA_magic_5/C FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.15fF
+C181 GND FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.09fF
+C182 FA_magic_1/B HA_magic_2/XOR_magic_0/NAND_magic_2/w_0_0# 0.02fF
+C183 VDD HA_magic_0/AND_magic_0/w_32_19# 0.14fF
+C184 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.08fF
+C185 FA_magic_4/OR_magic_0/A VDD 0.22fF
+C186 FA_magic_0/A FA_magic_0/B 0.32fF
+C187 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_4/HA_magic_1/A 0.08fF
+C188 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_1/C 0.08fF
+C189 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.02fF
+C190 VDD FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.38fF
+C191 AND_magic_1/NOT_magic_0/in VDD 0.24fF
+C192 VDD FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.22fF
+C193 FA_magic_0/B FA_magic_0/HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C194 AND_magic_0/NOT_magic_0/in B0 0.08fF
+C195 GND HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.07fF
+C196 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_0/HA_magic_1/A 0.12fF
+C197 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.05fF
+C198 A2 VDD 0.09fF
+C199 HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C200 VDD FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# 0.09fF
+C201 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.02fF
+C202 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_7/A 0.05fF
+C203 FA_magic_6/HA_magic_1/A FA_magic_6/HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C204 VDD A0 0.09fF
+C205 GND FA_magic_5/OR_magic_0/B 0.56fF
+C206 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C207 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# VDD 0.09fF
+C208 HA_magic_0/A HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.13fF
+C209 VDD FA_magic_6/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.24fF
+C210 VDD FA_magic_7/A 0.46fF
+C211 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_7/C 0.06fF
+C212 B3 GND 0.85fF
+C213 B1 B0 3.59fF
+C214 HA_magic_3/XOR_magic_0/NAND_magic_3/w_0_0# HA_magic_3/XOR_magic_0/NAND_magic_3/A 0.06fF
+C215 AND_magic_15/w_32_19# VDD 0.14fF
+C216 FA_magic_3/OR_magic_0/NOT_magic_0/in FA_magic_3/OR_magic_0/A 0.05fF
+C217 VDD FA_magic_7/HA_magic_0/AND_magic_0/w_32_19# 0.14fF
+C218 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.02fF
+C219 GND HA_magic_3/A 0.30fF
+C220 VDD AND_magic_6/w_32_19# 0.14fF
+C221 HA_magic_3/XOR_magic_0/NAND_magic_0/w_0_0# HA_magic_3/XOR_magic_0/NAND_magic_3/A 0.02fF
+C222 FA_magic_1/OR_magic_0/A VDD 0.22fF
+C223 HA_magic_1/XOR_magic_0/NAND_magic_2/A HA_magic_1/A 0.05fF
+C224 FA_magic_7/HA_magic_1/A FA_magic_7/C 0.50fF
+C225 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_3/HA_magic_1/A 0.08fF
+C226 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_5/A 0.08fF
+C227 FA_magic_3/B FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.15fF
+C228 HA_magic_3/A HA_magic_3/XOR_magic_0/NAND_magic_3/A 0.13fF
+C229 VDD FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# 0.09fF
+C230 AND_magic_4/w_32_19# AND_magic_4/NOT_magic_0/in 0.09fF
+C231 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/B VDD 0.22fF
+C232 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.08fF
+C233 FA_magic_7/C FA_magic_7/HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C234 GND FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.07fF
+C235 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.06fF
+C236 HA_magic_0/XOR_magic_0/NAND_magic_2/B HA_magic_0/B 0.08fF
+C237 FA_magic_5/A FA_magic_5/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C238 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C239 VDD FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.24fF
+C240 FA_magic_3/C VDD 0.22fF
+C241 FA_magic_2/OR_magic_0/B GND 0.56fF
+C242 FA_magic_5/HA_magic_0/AND_magic_0/w_32_19# FA_magic_5/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.09fF
+C243 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.05fF
+C244 FA_magic_0/OR_magic_0/NOT_magic_0/in GND 0.22fF
+C245 FA_magic_4/OR_magic_0/B FA_magic_4/OR_magic_0/A 0.08fF
+C246 VDD AND_magic_5/NOT_magic_0/in 0.24fF
+C247 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.08fF
+C248 FA_magic_1/A AND_magic_6/w_32_19# 0.03fF
+C249 AND_magic_3/NOT_magic_0/in B0 0.08fF
+C250 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/B GND 0.09fF
+C251 HA_magic_3/XOR_magic_0/NAND_magic_2/B HA_magic_3/B 0.08fF
+C252 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_6/HA_magic_1/A 0.02fF
+C253 FA_magic_2/C FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.15fF
+C254 FA_magic_0/OR_magic_0/B FA_magic_0/B 0.09fF
+C255 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_0/A 0.05fF
+C256 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_0/B 0.06fF
+C257 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.08fF
+C258 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_1/HA_magic_1/A 0.08fF
+C259 AND_magic_11/w_32_19# AND_magic_11/NOT_magic_0/in 0.09fF
+C260 FA_magic_6/B FA_magic_6/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.08fF
+C261 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# VDD 0.09fF
+C262 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.02fF
+C263 AND_magic_10/w_32_19# A3 0.06fF
+C264 FA_magic_4/HA_magic_1/A FA_magic_4/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C265 FA_magic_4/OR_magic_0/NOT_magic_0/w_0_0# VDD 0.11fF
+C266 GND FA_magic_4/B 0.54fF
+C267 FA_magic_6/OR_magic_0/A FA_magic_6/HA_magic_1/A 0.09fF
+C268 FA_magic_5/OR_magic_0/B FA_magic_5/C 0.05fF
+C269 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_5/HA_magic_1/A 0.05fF
+C270 FA_magic_5/B AND_magic_7/w_32_19# 0.03fF
+C271 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C272 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C273 B2 A3 5.28fF
+C274 FA_magic_6/OR_magic_0/A FA_magic_6/HA_magic_1/AND_magic_0/w_32_19# 0.03fF
+C275 FA_magic_4/HA_magic_1/AND_magic_0/w_32_19# FA_magic_4/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.09fF
+C276 FA_magic_2/OR_magic_0/NOT_magic_0/in FA_magic_3/C 0.05fF
+C277 FA_magic_6/OR_magic_0/NOT_magic_0/in FA_magic_6/OR_magic_0/B 0.10fF
+C278 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.06fF
+C279 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_5/C 0.06fF
+C280 FA_magic_0/A AND_magic_3/w_32_19# 0.03fF
+C281 VDD FA_magic_7/OR_magic_0/B 0.20fF
+C282 FA_magic_7/A FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.13fF
+C283 FA_magic_3/HA_magic_0/AND_magic_0/NOT_magic_0/in VDD 0.24fF
+C284 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C285 VDD FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# 0.09fF
+C286 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# P5 0.02fF
+C287 FA_magic_7/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_7/OR_magic_0/B 0.06fF
+C288 AND_magic_14/NOT_magic_0/in VDD 0.24fF
+C289 B1 B3 0.09fF
+C290 AND_magic_12/w_32_19# VDD 0.14fF
+C291 B1 AND_magic_4/w_32_19# 0.06fF
+C292 AND_magic_14/w_32_19# B3 0.06fF
+C293 VDD FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# 0.09fF
+C294 FA_magic_7/OR_magic_0/A FA_magic_7/C 0.09fF
+C295 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_7/HA_magic_1/A 0.05fF
+C296 AND_magic_13/w_32_19# AND_magic_13/NOT_magic_0/in 0.09fF
+C297 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.02fF
+C298 VDD FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.38fF
+C299 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.08fF
+C300 GND FA_magic_5/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.07fF
+C301 AND_magic_10/NOT_magic_0/in GND 0.07fF
+C302 FA_magic_3/C FA_magic_6/B 0.09fF
+C303 GND FA_magic_6/HA_magic_1/A 0.30fF
+C304 VDD HA_magic_2/B 0.24fF
+C305 P0 GND 0.04fF
+C306 FA_magic_3/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_3/OR_magic_0/NOT_magic_0/in 0.10fF
+C307 VDD P4 0.22fF
+C308 GND AND_magic_8/NOT_magic_0/in 0.07fF
+C309 AND_magic_0/w_32_19# AND_magic_0/NOT_magic_0/in 0.09fF
+C310 FA_magic_1/B GND 0.50fF
+C311 GND HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.09fF
+C312 HA_magic_0/XOR_magic_0/NAND_magic_2/A HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.08fF
+C313 FA_magic_5/OR_magic_0/B FA_magic_5/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C314 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# VDD 0.09fF
+C315 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.06fF
+C316 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_7/B 0.08fF
+C317 HA_magic_2/XOR_magic_0/NAND_magic_2/B HA_magic_2/XOR_magic_0/NAND_magic_3/A 0.05fF
+C318 FA_magic_0/OR_magic_0/NOT_magic_0/in FA_magic_5/C 0.05fF
+C319 FA_magic_2/A FA_magic_2/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C320 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/A VDD 0.24fF
+C321 FA_magic_4/A VDD 0.28fF
+C322 FA_magic_0/C VDD 0.28fF
+C323 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_6/A 0.12fF
+C324 GND FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.17fF
+C325 VDD FA_magic_5/OR_magic_0/NOT_magic_0/in 0.10fF
+C326 FA_magic_4/A FA_magic_4/HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C327 FA_magic_2/HA_magic_0/AND_magic_0/w_32_19# FA_magic_2/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.09fF
+C328 FA_magic_1/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_6/C 0.03fF
+C329 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/B P6 0.08fF
+C330 FA_magic_6/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_6/OR_magic_0/NOT_magic_0/in 0.10fF
+C331 AND_magic_13/w_32_19# FA_magic_3/A 0.03fF
+C332 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/B GND 0.09fF
+C333 HA_magic_3/XOR_magic_0/NAND_magic_2/A HA_magic_3/XOR_magic_0/NAND_magic_2/B 0.08fF
+C334 FA_magic_4/HA_magic_0/AND_magic_0/w_32_19# VDD 0.14fF
+C335 FA_magic_1/OR_magic_0/B FA_magic_1/OR_magic_0/A 0.08fF
+C336 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.08fF
+C337 VDD FA_magic_7/OR_magic_0/NOT_magic_0/w_0_0# 0.11fF
+C338 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C339 AND_magic_8/NOT_magic_0/in HA_magic_2/A 0.05fF
+C340 FA_magic_4/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_4/OR_magic_0/B 0.06fF
+C341 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/A VDD 0.38fF
+C342 HA_magic_1/B HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.15fF
+C343 FA_magic_2/HA_magic_1/AND_magic_0/NOT_magic_0/in GND 0.07fF
+C344 VDD HA_magic_1/AND_magic_0/NOT_magic_0/in 0.24fF
+C345 GND FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.07fF
+C346 FA_magic_1/C HA_magic_1/AND_magic_0/w_32_19# 0.03fF
+C347 GND AND_magic_9/NOT_magic_0/in 0.07fF
+C348 FA_magic_4/OR_magic_0/A FA_magic_4/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C349 FA_magic_4/OR_magic_0/NOT_magic_0/in C5 0.05fF
+C350 AND_magic_12/w_32_19# FA_magic_6/B 0.03fF
+C351 GND FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.09fF
+C352 FA_magic_1/HA_magic_1/A FA_magic_1/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C353 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.05fF
+C354 HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.02fF
+C355 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_2/HA_magic_1/A 0.05fF
+C356 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# VDD 0.09fF
+C357 HA_magic_2/XOR_magic_0/NAND_magic_1/w_0_0# HA_magic_2/XOR_magic_0/NAND_magic_3/A 0.06fF
+C358 A1 B2 0.33fF
+C359 AND_magic_0/NOT_magic_0/in P0 0.05fF
+C360 FA_magic_3/HA_magic_1/A FA_magic_3/HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C361 FA_magic_1/HA_magic_1/AND_magic_0/w_32_19# FA_magic_1/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.09fF
+C362 FA_magic_1/A VDD 0.34fF
+C363 FA_magic_0/HA_magic_0/AND_magic_0/NOT_magic_0/in VDD 0.24fF
+C364 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.02fF
+C365 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_2/C 0.06fF
+C366 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/A GND 0.17fF
+C367 FA_magic_2/OR_magic_0/NOT_magic_0/in VDD 0.10fF
+C368 VDD HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.38fF
+C369 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C370 HA_magic_3/XOR_magic_0/NAND_magic_1/w_0_0# HA_magic_3/XOR_magic_0/NAND_magic_2/A 0.02fF
+C371 FA_magic_0/OR_magic_0/NOT_magic_0/in FA_magic_0/OR_magic_0/A 0.05fF
+C372 FA_magic_5/C FA_magic_5/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.08fF
+C373 FA_magic_1/HA_magic_0/AND_magic_0/w_32_19# VDD 0.14fF
+C374 VDD FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# 0.09fF
+C375 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_0/HA_magic_1/A 0.08fF
+C376 FA_magic_0/B FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.15fF
+C377 B2 AND_magic_8/w_32_19# 0.06fF
+C378 B1 AND_magic_10/NOT_magic_0/in 0.08fF
+C379 FA_magic_1/C FA_magic_5/B 0.12fF
+C380 GND FA_magic_6/OR_magic_0/A 0.93fF
+C381 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.02fF
+C382 GND FA_magic_3/HA_magic_1/A 0.30fF
+C383 FA_magic_1/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_1/OR_magic_0/A 0.06fF
+C384 VDD HA_magic_2/XOR_magic_0/NAND_magic_2/A 0.24fF
+C385 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C386 VDD FA_magic_7/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.24fF
+C387 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C388 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/A GND 0.07fF
+C389 VDD FA_magic_6/B 0.20fF
+C390 FA_magic_6/HA_magic_1/A FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.13fF
+C391 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C392 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.08fF
+C393 FA_magic_6/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_7/B 0.03fF
+C394 FA_magic_4/OR_magic_0/B FA_magic_4/A 0.09fF
+C395 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_4/A 0.08fF
+C396 FA_magic_2/OR_magic_0/B FA_magic_2/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C397 FA_magic_4/OR_magic_0/B VDD 0.20fF
+C398 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/A VDD 0.24fF
+C399 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# VDD 0.09fF
+C400 HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.06fF
+C401 FA_magic_4/OR_magic_0/B FA_magic_4/HA_magic_0/AND_magic_0/w_32_19# 0.03fF
+C402 HA_magic_0/A HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C403 VDD FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.38fF
+C404 FA_magic_1/A FA_magic_1/HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C405 VDD FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.22fF
+C406 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_5/B 0.06fF
+C407 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# VDD 0.09fF
+C408 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_3/HA_magic_1/A 0.02fF
+C409 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_5/A 0.02fF
+C410 B2 B0 0.09fF
+C411 AND_magic_2/w_32_19# VDD 0.14fF
+C412 HA_magic_0/AND_magic_0/w_32_19# HA_magic_0/AND_magic_0/NOT_magic_0/in 0.09fF
+C413 GND AND_magic_7/NOT_magic_0/in 0.07fF
+C414 GND HA_magic_3/XOR_magic_0/NAND_magic_3/A 0.17fF
+C415 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# VDD 0.09fF
+C416 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C417 FA_magic_5/A FA_magic_5/B 0.41fF
+C418 AND_magic_13/w_32_19# B2 0.06fF
+C419 HA_magic_1/XOR_magic_0/NAND_magic_2/A HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.08fF
+C420 FA_magic_1/B FA_magic_2/C 0.09fF
+C421 FA_magic_7/C FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.15fF
+C422 FA_magic_3/B FA_magic_3/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.08fF
+C423 HA_magic_3/A HA_magic_3/AND_magic_0/NOT_magic_0/in 0.05fF
+C424 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_6/C 0.08fF
+C425 AND_magic_11/w_32_19# B2 0.06fF
+C426 GND AND_magic_4/NOT_magic_0/in 0.07fF
+C427 FA_magic_5/B FA_magic_5/HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C428 FA_magic_3/OR_magic_0/A FA_magic_3/HA_magic_1/A 0.09fF
+C429 AND_magic_14/NOT_magic_0/in FA_magic_3/B 0.05fF
+C430 FA_magic_1/OR_magic_0/A FA_magic_1/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C431 HA_magic_3/AND_magic_0/w_32_19# HA_magic_3/AND_magic_0/NOT_magic_0/in 0.09fF
+C432 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.02fF
+C433 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_5/HA_magic_1/A 0.12fF
+C434 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C435 FA_magic_3/OR_magic_0/A FA_magic_3/HA_magic_1/AND_magic_0/w_32_19# 0.03fF
+C436 AND_magic_10/w_32_19# FA_magic_2/A 0.03fF
+C437 FA_magic_3/OR_magic_0/NOT_magic_0/in FA_magic_3/OR_magic_0/B 0.10fF
+C438 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.06fF
+C439 GND HA_magic_2/A 0.34fF
+C440 FA_magic_1/OR_magic_0/B VDD 0.20fF
+C441 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_4/C 0.06fF
+C442 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# VDD 0.09fF
+C443 AND_magic_5/NOT_magic_0/in HA_magic_1/B 0.05fF
+C444 VDD FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# 0.09fF
+C445 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/B VDD 0.22fF
+C446 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C447 FA_magic_4/HA_magic_1/A FA_magic_4/C 0.50fF
+C448 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# VDD 0.09fF
+C449 FA_magic_2/C FA_magic_2/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.08fF
+C450 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.08fF
+C451 FA_magic_5/OR_magic_0/NOT_magic_0/w_0_0# HA_magic_3/B 0.03fF
+C452 GND FA_magic_3/OR_magic_0/A 0.93fF
+C453 FA_magic_0/HA_magic_1/A GND 0.30fF
+C454 FA_magic_4/C FA_magic_4/HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C455 A0 AND_magic_9/w_32_19# 0.06fF
+C456 FA_magic_0/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_0/OR_magic_0/NOT_magic_0/in 0.10fF
+C457 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.02fF
+C458 HA_magic_2/XOR_magic_0/NAND_magic_0/w_0_0# HA_magic_2/A 0.08fF
+C459 HA_magic_0/XOR_magic_0/NAND_magic_2/B P1 0.08fF
+C460 VDD FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.24fF
+C461 AND_magic_4/w_32_19# HA_magic_1/A 0.03fF
+C462 GND FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.09fF
+C463 FA_magic_3/B VDD 0.21fF
+C464 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C465 AND_magic_0/NOT_magic_0/in GND 0.07fF
+C466 HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# HA_magic_0/A 0.08fF
+C467 FA_magic_1/OR_magic_0/B FA_magic_1/A 0.09fF
+C468 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_1/A 0.08fF
+C469 HA_magic_2/A HA_magic_2/AND_magic_0/w_32_19# 0.06fF
+C470 AND_magic_11/w_32_19# FA_magic_2/B 0.03fF
+C471 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.06fF
+C472 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_3/A 0.12fF
+C473 HA_magic_3/XOR_magic_0/NAND_magic_2/B P4 0.08fF
+C474 GND FA_magic_5/C 0.40fF
+C475 A2 AND_magic_7/w_32_19# 0.06fF
+C476 FA_magic_7/A FA_magic_7/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C477 FA_magic_1/OR_magic_0/B FA_magic_1/HA_magic_0/AND_magic_0/w_32_19# 0.03fF
+C478 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.05fF
+C479 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# VDD 0.09fF
+C480 GND FA_magic_7/OR_magic_0/NOT_magic_0/in 0.22fF
+C481 B2 B3 0.17fF
+C482 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_2/B 0.06fF
+C483 FA_magic_1/OR_magic_0/NOT_magic_0/w_0_0# VDD 0.11fF
+C484 B1 GND 0.96fF
+C485 B1 AND_magic_7/NOT_magic_0/in 0.08fF
+C486 FA_magic_7/HA_magic_0/AND_magic_0/w_32_19# FA_magic_7/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.09fF
+C487 FA_magic_5/OR_magic_0/B FA_magic_5/B 0.09fF
+C488 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_5/A 0.05fF
+C489 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.08fF
+C490 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_5/B 0.06fF
+C491 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.08fF
+C492 VDD FA_magic_4/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.24fF
+C493 FA_magic_2/A FA_magic_2/B 0.32fF
+C494 A2 A3 0.26fF
+C495 VDD HA_magic_3/XOR_magic_0/NAND_magic_2/B 0.22fF
+C496 GND FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.17fF
+C497 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_6/HA_magic_1/A 0.08fF
+C498 B1 AND_magic_4/NOT_magic_0/in 0.08fF
+C499 A3 A0 0.15fF
+C500 HA_magic_0/XOR_magic_0/NAND_magic_2/A HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C501 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C502 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/B GND 0.09fF
+C503 FA_magic_2/B FA_magic_2/HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C504 FA_magic_0/HA_magic_1/A FA_magic_0/HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C505 FA_magic_4/A FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.13fF
+C506 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_2/HA_magic_1/A 0.12fF
+C507 A2 AND_magic_3/w_32_19# 0.06fF
+C508 AND_magic_15/w_32_19# A3 0.06fF
+C509 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# P6 0.02fF
+C510 HA_magic_3/XOR_magic_0/NAND_magic_2/A HA_magic_3/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C511 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_7/HA_magic_1/A 0.05fF
+C512 A3 AND_magic_6/w_32_19# 0.06fF
+C513 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/A VDD 0.38fF
+C514 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C515 GND FA_magic_5/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.07fF
+C516 FA_magic_2/C GND 0.40fF
+C517 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_1/C 0.06fF
+C518 GND FA_magic_6/A 0.30fF
+C519 VDD HA_magic_1/B 0.24fF
+C520 VDD FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# 0.09fF
+C521 GND AND_magic_3/NOT_magic_0/in 0.07fF
+C522 FA_magic_4/OR_magic_0/A FA_magic_4/C 0.09fF
+C523 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_4/HA_magic_1/A 0.05fF
+C524 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_7/C 0.06fF
+C525 FA_magic_1/HA_magic_1/A FA_magic_1/C 0.50fF
+C526 AND_magic_11/NOT_magic_0/in GND 0.07fF
+C527 GND HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.09fF
+C528 FA_magic_0/OR_magic_0/A GND 0.93fF
+C529 AND_magic_6/w_32_19# AND_magic_6/NOT_magic_0/in 0.09fF
+C530 VDD FA_magic_5/HA_magic_1/A 0.36fF
+C531 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.02fF
+C532 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C533 VDD HA_magic_3/XOR_magic_0/NAND_magic_1/w_0_0# 0.09fF
+C534 FA_magic_1/HA_magic_1/AND_magic_0/NOT_magic_0/in VDD 0.24fF
+C535 HA_magic_1/B HA_magic_1/AND_magic_0/NOT_magic_0/in 0.08fF
+C536 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_7/A 0.08fF
+C537 FA_magic_1/C FA_magic_1/HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C538 FA_magic_0/B VDD 0.22fF
+C539 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/A VDD 0.24fF
+C540 VDD FA_magic_5/HA_magic_1/AND_magic_0/w_32_19# 0.14fF
+C541 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_4/B 0.08fF
+C542 FA_magic_3/HA_magic_1/A FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.13fF
+C543 P2 VDD 0.31fF
+C544 HA_magic_1/XOR_magic_0/NAND_magic_2/B HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C545 FA_magic_0/C HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C546 FA_magic_2/C HA_magic_2/AND_magic_0/w_32_19# 0.03fF
+C547 GND FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.07fF
+C548 FA_magic_7/OR_magic_0/B FA_magic_7/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C549 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/A VDD 0.38fF
+C550 AND_magic_9/w_32_19# HA_magic_2/B 0.03fF
+C551 VDD FA_magic_7/C 0.28fF
+C552 FA_magic_2/HA_magic_0/AND_magic_0/NOT_magic_0/in GND 0.07fF
+C553 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_0/HA_magic_1/A 0.02fF
+C554 VDD HA_magic_0/AND_magic_0/NOT_magic_0/in 0.24fF
+C555 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# VDD 0.09fF
+C556 FA_magic_6/OR_magic_0/B FA_magic_6/OR_magic_0/A 0.08fF
+C557 AND_magic_13/NOT_magic_0/in GND 0.07fF
+C558 AND_magic_10/w_32_19# AND_magic_10/NOT_magic_0/in 0.09fF
+C559 GND FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.09fF
+C560 FA_magic_0/B FA_magic_0/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.08fF
+C561 HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# HA_magic_0/B 0.06fF
+C562 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_3/C 0.08fF
+C563 FA_magic_2/OR_magic_0/B FA_magic_2/B 0.09fF
+C564 FA_magic_2/HA_magic_1/A VDD 0.36fF
+C565 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_2/A 0.05fF
+C566 A1 A2 6.34fF
+C567 GND FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.17fF
+C568 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_2/B 0.06fF
+C569 FA_magic_0/OR_magic_0/A FA_magic_0/HA_magic_1/A 0.09fF
+C570 A1 A0 0.46fF
+C571 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C572 VDD FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.22fF
+C573 HA_magic_0/A HA_magic_0/B 0.32fF
+C574 FA_magic_2/HA_magic_1/AND_magic_0/w_32_19# VDD 0.14fF
+C575 B2 AND_magic_8/NOT_magic_0/in 0.08fF
+C576 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C577 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C578 VDD AND_magic_9/w_32_19# 0.14fF
+C579 FA_magic_6/HA_magic_1/A FA_magic_6/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C580 FA_magic_0/OR_magic_0/A FA_magic_0/HA_magic_1/AND_magic_0/w_32_19# 0.03fF
+C581 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.05fF
+C582 FA_magic_0/OR_magic_0/NOT_magic_0/in FA_magic_0/OR_magic_0/B 0.10fF
+C583 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.02fF
+C584 HA_magic_3/XOR_magic_0/NAND_magic_3/w_0_0# HA_magic_3/B 0.06fF
+C585 FA_magic_3/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_3/OR_magic_0/A 0.06fF
+C586 HA_magic_0/B HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C587 FA_magic_1/A FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.13fF
+C588 VDD FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# 0.09fF
+C589 HA_magic_3/XOR_magic_0/NAND_magic_0/w_0_0# HA_magic_3/B 0.06fF
+C590 FA_magic_6/HA_magic_1/AND_magic_0/w_32_19# FA_magic_6/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.09fF
+C591 HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# HA_magic_1/A 0.12fF
+C592 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/A GND 0.07fF
+C593 GND FA_magic_6/OR_magic_0/B 0.56fF
+C594 FA_magic_3/A GND 0.46fF
+C595 FA_magic_1/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_1/OR_magic_0/B 0.06fF
+C596 HA_magic_3/A HA_magic_3/B 0.41fF
+C597 VDD HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.24fF
+C598 VDD FA_magic_7/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.24fF
+C599 GND FA_magic_4/OR_magic_0/NOT_magic_0/in 0.22fF
+C600 FA_magic_5/OR_magic_0/NOT_magic_0/in FA_magic_5/OR_magic_0/A 0.05fF
+C601 AND_magic_15/w_32_19# AND_magic_15/NOT_magic_0/in 0.09fF
+C602 FA_magic_1/OR_magic_0/A FA_magic_1/C 0.09fF
+C603 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_1/HA_magic_1/A 0.05fF
+C604 HA_magic_3/B HA_magic_3/AND_magic_0/w_32_19# 0.06fF
+C605 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_5/HA_magic_1/A 0.08fF
+C606 VDD FA_magic_5/OR_magic_0/A 0.22fF
+C607 GND HA_magic_3/AND_magic_0/NOT_magic_0/in 0.07fF
+C608 VDD AND_magic_7/w_32_19# 0.14fF
+C609 FA_magic_5/B FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.15fF
+C610 FA_magic_7/C FA_magic_7/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.08fF
+C611 FA_magic_6/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_6/OR_magic_0/A 0.06fF
+C612 AND_magic_2/NOT_magic_0/in VDD 0.24fF
+C613 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/A P2 0.05fF
+C614 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/A VDD 0.24fF
+C615 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.08fF
+C616 VDD FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# 0.09fF
+C617 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_1/B 0.08fF
+C618 VDD HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# 0.09fF
+C619 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C620 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C621 HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# HA_magic_1/A 0.08fF
+C622 A3 VDD 0.09fF
+C623 A2 B0 0.16fF
+C624 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_0/A 0.12fF
+C625 GND HA_magic_2/XOR_magic_0/NAND_magic_3/A 0.17fF
+C626 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# VDD 0.09fF
+C627 B0 A0 6.09fF
+C628 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.05fF
+C629 VDD FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.24fF
+C630 AND_magic_11/w_32_19# A2 0.06fF
+C631 FA_magic_6/A FA_magic_6/HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C632 FA_magic_1/OR_magic_0/NOT_magic_0/in GND 0.22fF
+C633 VDD AND_magic_6/NOT_magic_0/in 0.24fF
+C634 AND_magic_3/w_32_19# VDD 0.14fF
+C635 FA_magic_4/C FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.15fF
+C636 HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# P1 0.02fF
+C637 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.08fF
+C638 FA_magic_2/OR_magic_0/A VDD 0.22fF
+C639 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_7/B 0.06fF
+C640 AND_magic_6/w_32_19# B0 0.06fF
+C641 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/A GND 0.17fF
+C642 HA_magic_2/XOR_magic_0/NAND_magic_3/w_0_0# HA_magic_2/XOR_magic_0/NAND_magic_3/A 0.06fF
+C643 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_3/HA_magic_1/A 0.08fF
+C644 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.02fF
+C645 FA_magic_2/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_3/C 0.03fF
+C646 GND HA_magic_1/A 0.34fF
+C647 HA_magic_2/XOR_magic_0/NAND_magic_0/w_0_0# HA_magic_2/XOR_magic_0/NAND_magic_3/A 0.02fF
+C648 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/B VDD 0.22fF
+C649 HA_magic_0/XOR_magic_0/NAND_magic_2/A HA_magic_0/A 0.05fF
+C650 HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.02fF
+C651 FA_magic_7/A FA_magic_7/B 0.47fF
+C652 HA_magic_2/A HA_magic_2/XOR_magic_0/NAND_magic_3/A 0.13fF
+C653 FA_magic_6/OR_magic_0/A FA_magic_6/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C654 HA_magic_3/XOR_magic_0/NAND_magic_2/w_0_0# P4 0.02fF
+C655 AND_magic_12/w_32_19# A1 0.06fF
+C656 FA_magic_7/B FA_magic_7/HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C657 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.05fF
+C658 AND_magic_4/NOT_magic_0/in HA_magic_1/A 0.05fF
+C659 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.02fF
+C660 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.06fF
+C661 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_7/HA_magic_1/A 0.12fF
+C662 VDD FA_magic_4/C 0.22fF
+C663 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C664 FA_magic_3/OR_magic_0/B GND 0.56fF
+C665 FA_magic_0/A GND 0.44fF
+C666 HA_magic_3/XOR_magic_0/NAND_magic_2/A HA_magic_3/A 0.05fF
+C667 FA_magic_1/A AND_magic_6/NOT_magic_0/in 0.05fF
+C668 FA_magic_4/C FA_magic_7/OR_magic_0/NOT_magic_0/w_0_0# 0.03fF
+C669 GND FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.09fF
+C670 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C671 B2 GND 0.96fF
+C672 VDD HA_magic_3/XOR_magic_0/NAND_magic_2/w_0_0# 0.09fF
+C673 FA_magic_2/OR_magic_0/NOT_magic_0/in FA_magic_2/OR_magic_0/A 0.05fF
+C674 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.02fF
+C675 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.08fF
+C676 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C677 HA_magic_2/XOR_magic_0/NAND_magic_2/B HA_magic_2/B 0.08fF
+C678 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_2/HA_magic_1/A 0.08fF
+C679 FA_magic_0/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_5/C 0.03fF
+C680 FA_magic_2/B FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.15fF
+C681 GND FA_magic_6/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.07fF
+C682 FA_magic_5/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_5/OR_magic_0/NOT_magic_0/in 0.10fF
+C683 GND FA_magic_7/HA_magic_1/A 0.30fF
+C684 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.02fF
+C685 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# VDD 0.09fF
+C686 FA_magic_0/HA_magic_1/A FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.13fF
+C687 GND FA_magic_5/B 0.52fF
+C688 AND_magic_2/w_32_19# AND_magic_2/NOT_magic_0/in 0.09fF
+C689 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.08fF
+C690 VDD FA_magic_5/OR_magic_0/NOT_magic_0/w_0_0# 0.11fF
+C691 FA_magic_5/B AND_magic_7/NOT_magic_0/in 0.05fF
+C692 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.06fF
+C693 A1 VDD 0.09fF
+C694 FA_magic_4/A FA_magic_4/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C695 A2 B3 0.25fF
+C696 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_6/A 0.05fF
+C697 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C698 FA_magic_6/OR_magic_0/B FA_magic_6/A 0.09fF
+C699 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_6/A 0.08fF
+C700 B3 A0 0.08fF
+C701 FA_magic_4/HA_magic_0/AND_magic_0/NOT_magic_0/in VDD 0.24fF
+C702 FA_magic_1/C VDD 0.50fF
+C703 VDD HA_magic_2/XOR_magic_0/NAND_magic_2/B 0.23fF
+C704 FA_magic_4/HA_magic_0/AND_magic_0/w_32_19# FA_magic_4/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.09fF
+C705 FA_magic_6/OR_magic_0/B FA_magic_6/HA_magic_0/AND_magic_0/w_32_19# 0.03fF
+C706 GND FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.17fF
+C707 VDD FA_magic_6/OR_magic_0/NOT_magic_0/in 0.10fF
+C708 FA_magic_3/OR_magic_0/B FA_magic_3/OR_magic_0/A 0.08fF
+C709 AND_magic_15/NOT_magic_0/in VDD 0.24fF
+C710 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.08fF
+C711 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/B GND 0.09fF
+C712 B2 AND_magic_5/w_32_19# 0.06fF
+C713 FA_magic_4/OR_magic_0/NOT_magic_0/w_0_0# C5 0.03fF
+C714 AND_magic_15/w_32_19# B3 0.06fF
+C715 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_7/A 0.02fF
+C716 FA_magic_1/C FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.15fF
+C717 VDD AND_magic_8/w_32_19# 0.14fF
+C718 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_0/C 0.08fF
+C719 FA_magic_1/C HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C720 VDD FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.38fF
+C721 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/B VDD 0.22fF
+C722 FA_magic_7/OR_magic_0/B FA_magic_7/B 0.09fF
+C723 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_7/A 0.05fF
+C724 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.02fF
+C725 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_7/B 0.06fF
+C726 FA_magic_3/HA_magic_1/A FA_magic_3/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C727 FA_magic_2/OR_magic_0/NOT_magic_0/w_0_0# VDD 0.11fF
+C728 FA_magic_2/B GND 0.49fF
+C729 VDD HA_magic_0/B 0.82fF
+C730 VDD FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# 0.09fF
+C731 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_4/HA_magic_1/A 0.05fF
+C732 FA_magic_0/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_0/OR_magic_0/A 0.06fF
+C733 FA_magic_5/HA_magic_1/A FA_magic_5/HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C734 FA_magic_3/HA_magic_1/AND_magic_0/w_32_19# FA_magic_3/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.09fF
+C735 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/A VDD 0.24fF
+C736 VDD FA_magic_5/A 0.46fF
+C737 FA_magic_0/OR_magic_0/B GND 0.56fF
+C738 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.06fF
+C739 AND_magic_10/w_32_19# B1 0.06fF
+C740 HA_magic_1/XOR_magic_0/NAND_magic_2/B HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.05fF
+C741 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_4/C 0.06fF
+C742 AND_magic_0/w_32_19# A0 0.06fF
+C743 AND_magic_13/NOT_magic_0/in FA_magic_3/A 0.05fF
+C744 VDD HA_magic_2/XOR_magic_0/NAND_magic_1/w_0_0# 0.09fF
+C745 FA_magic_1/HA_magic_0/AND_magic_0/NOT_magic_0/in VDD 0.24fF
+C746 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_6/C 0.06fF
+C747 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/A HA_magic_3/A 0.05fF
+C748 AND_magic_12/w_32_19# AND_magic_12/NOT_magic_0/in 0.09fF
+C749 VDD FA_magic_5/HA_magic_0/AND_magic_0/w_32_19# 0.14fF
+C750 B1 B2 0.17fF
+C751 B1 AND_magic_1/w_32_19# 0.06fF
+C752 FA_magic_6/HA_magic_1/A FA_magic_6/C 0.50fF
+C753 AND_magic_13/w_32_19# VDD 0.14fF
+C754 HA_magic_2/XOR_magic_0/NAND_magic_2/A HA_magic_2/XOR_magic_0/NAND_magic_2/B 0.08fF
+C755 VDD FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# 0.09fF
+C756 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/A VDD 0.38fF
+C757 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.08fF
+C758 AND_magic_11/w_32_19# VDD 0.14fF
+C759 GND FA_magic_3/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.07fF
+C760 GND FA_magic_7/OR_magic_0/A 0.93fF
+C761 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# VDD 0.09fF
+C762 FA_magic_6/C FA_magic_6/HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C763 GND FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.07fF
+C764 FA_magic_2/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_2/OR_magic_0/NOT_magic_0/in 0.10fF
+C765 HA_magic_0/B HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.15fF
+C766 AND_magic_15/w_32_19# FA_magic_4/B 0.03fF
+C767 VDD FA_magic_7/B 0.11fF
+C768 FA_magic_4/OR_magic_0/B FA_magic_4/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C769 C5 VDD 0.11fF
+C770 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# VDD 0.09fF
+C771 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.06fF
+C772 VDD P5 0.31fF
+C773 A1 AND_magic_2/w_32_19# 0.06fF
+C774 FA_magic_3/OR_magic_0/NOT_magic_0/in FA_magic_4/A 0.05fF
+C775 FA_magic_1/A FA_magic_1/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C776 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.05fF
+C777 GND HA_magic_3/B 0.40fF
+C778 FA_magic_0/A AND_magic_3/NOT_magic_0/in 0.05fF
+C779 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/A VDD 0.24fF
+C780 FA_magic_2/A VDD 0.35fF
+C781 HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C782 FA_magic_3/A FA_magic_3/HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C783 GND FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.17fF
+C784 FA_magic_3/OR_magic_0/NOT_magic_0/in VDD 0.10fF
+C785 HA_magic_3/B HA_magic_3/XOR_magic_0/NAND_magic_3/A 0.15fF
+C786 FA_magic_1/HA_magic_0/AND_magic_0/w_32_19# FA_magic_1/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.09fF
+C787 AND_magic_12/NOT_magic_0/in VDD 0.24fF
+C788 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_5/HA_magic_1/A 0.02fF
+C789 VDD FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.22fF
+C790 AND_magic_14/NOT_magic_0/in B3 0.08fF
+C791 FA_magic_2/HA_magic_0/AND_magic_0/w_32_19# VDD 0.14fF
+C792 AND_magic_12/w_32_19# B3 0.06fF
+C793 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.08fF
+C794 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.08fF
+C795 AND_magic_11/NOT_magic_0/in B2 0.08fF
+C796 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C797 HA_magic_2/XOR_magic_0/NAND_magic_1/w_0_0# HA_magic_2/XOR_magic_0/NAND_magic_2/A 0.02fF
+C798 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_0/HA_magic_1/A 0.08fF
+C799 FA_magic_5/B FA_magic_5/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.08fF
+C800 GND FA_magic_4/HA_magic_1/A 0.30fF
+C801 FA_magic_0/B HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.05fF
+C802 FA_magic_3/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_3/OR_magic_0/B 0.06fF
+C803 FA_magic_5/OR_magic_0/A FA_magic_5/HA_magic_1/A 0.09fF
+C804 FA_magic_3/OR_magic_0/A FA_magic_3/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C805 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/A GND 0.07fF
+C806 VDD HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.24fF
+C807 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C808 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C809 FA_magic_5/OR_magic_0/A FA_magic_5/HA_magic_1/AND_magic_0/w_32_19# 0.03fF
+C810 AND_magic_2/w_32_19# HA_magic_0/B 0.03fF
+C811 FA_magic_1/OR_magic_0/B FA_magic_1/C 0.01fF
+C812 FA_magic_5/OR_magic_0/NOT_magic_0/in FA_magic_5/OR_magic_0/B 0.10fF
+C813 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_1/HA_magic_1/A 0.05fF
+C814 HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.02fF
+C815 FA_magic_2/HA_magic_1/A FA_magic_2/HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C816 FA_magic_6/A FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.13fF
+C817 VDD FA_magic_5/OR_magic_0/B 0.20fF
+C818 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C819 VDD FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# 0.09fF
+C820 GND HA_magic_2/AND_magic_0/NOT_magic_0/in 0.07fF
+C821 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.05fF
+C822 FA_magic_6/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_6/OR_magic_0/B 0.06fF
+C823 VDD HA_magic_3/XOR_magic_0/NAND_magic_3/w_0_0# 0.09fF
+C824 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_1/C 0.06fF
+C825 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C826 HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.06fF
+C827 VDD FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# 0.09fF
+C828 VDD FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# 0.09fF
+C829 VDD HA_magic_3/XOR_magic_0/NAND_magic_0/w_0_0# 0.09fF
+C830 B2 AND_magic_13/NOT_magic_0/in 0.08fF
+C831 FA_magic_6/OR_magic_0/A FA_magic_6/C 0.09fF
+C832 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_6/HA_magic_1/A 0.05fF
+C833 AND_magic_4/w_32_19# VDD 0.14fF
+C834 FA_magic_4/C FA_magic_4/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.08fF
+C835 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.02fF
+C836 A0 AND_magic_9/NOT_magic_0/in 0.05fF
+C837 VDD HA_magic_3/A 0.46fF
+C838 AND_magic_2/w_32_19# B0 0.06fF
+C839 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# VDD 0.09fF
+C840 FA_magic_7/OR_magic_0/NOT_magic_0/in FA_magic_7/OR_magic_0/A 0.05fF
+C841 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.02fF
+C842 FA_magic_1/HA_magic_1/A GND 0.30fF
+C843 FA_magic_0/HA_magic_1/AND_magic_0/NOT_magic_0/in GND 0.07fF
+C844 VDD HA_magic_3/AND_magic_0/w_32_19# 0.14fF
+C845 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/A P3 0.05fF
+C846 GND HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.17fF
+C847 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C848 HA_magic_3/XOR_magic_0/NAND_magic_2/w_0_0# HA_magic_3/XOR_magic_0/NAND_magic_2/B 0.06fF
+C849 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_7/HA_magic_1/A 0.08fF
+C850 HA_magic_0/XOR_magic_0/NAND_magic_2/A HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.08fF
+C851 AND_magic_12/NOT_magic_0/in FA_magic_6/B 0.05fF
+C852 VDD FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.24fF
+C853 FA_magic_7/B FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.15fF
+C854 HA_magic_2/A HA_magic_2/AND_magic_0/NOT_magic_0/in 0.05fF
+C855 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_6/B 0.08fF
+C856 AND_magic_11/NOT_magic_0/in FA_magic_2/B 0.05fF
+C857 FA_magic_3/OR_magic_0/B FA_magic_3/A 0.09fF
+C858 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_3/A 0.08fF
+C859 FA_magic_1/OR_magic_0/B FA_magic_1/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C860 GND HA_magic_3/XOR_magic_0/NAND_magic_2/A 0.07fF
+C861 HA_magic_2/AND_magic_0/w_32_19# HA_magic_2/AND_magic_0/NOT_magic_0/in 0.09fF
+C862 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_5/A 0.12fF
+C863 FA_magic_2/OR_magic_0/B VDD 0.20fF
+C864 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C865 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# VDD 0.09fF
+C866 FA_magic_3/OR_magic_0/B FA_magic_3/HA_magic_0/AND_magic_0/w_32_19# 0.03fF
+C867 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/A GND 0.17fF
+C868 FA_magic_0/OR_magic_0/NOT_magic_0/in VDD 0.10fF
+C869 HA_magic_3/XOR_magic_0/NAND_magic_2/A HA_magic_3/XOR_magic_0/NAND_magic_3/A 0.08fF
+C870 GND FA_magic_6/C 0.50fF
+C871 FA_magic_0/OR_magic_0/B FA_magic_0/OR_magic_0/A 0.08fF
+C872 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/B VDD 0.22fF
+C873 GND HA_magic_0/A 0.34fF
+C874 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_4/B 0.06fF
+C875 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# VDD 0.09fF
+C876 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_2/HA_magic_1/A 0.02fF
+C877 AND_magic_0/w_32_19# VDD 0.14fF
+C878 GND FA_magic_4/OR_magic_0/A 0.93fF
+C879 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C880 FA_magic_4/A FA_magic_4/B 0.32fF
+C881 FA_magic_2/B FA_magic_2/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.08fF
+C882 GND FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.17fF
+C883 GND FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.09fF
+C884 FA_magic_4/B VDD 0.11fF
+C885 AND_magic_1/NOT_magic_0/in GND 0.07fF
+C886 FA_magic_0/HA_magic_1/A FA_magic_0/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C887 FA_magic_2/OR_magic_0/A FA_magic_2/HA_magic_1/A 0.09fF
+C888 FA_magic_4/B FA_magic_4/HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C889 VDD P6 0.31fF
+C890 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_4/HA_magic_1/A 0.12fF
+C891 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C892 FA_magic_0/HA_magic_1/AND_magic_0/w_32_19# FA_magic_0/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.09fF
+C893 FA_magic_2/OR_magic_0/A FA_magic_2/HA_magic_1/AND_magic_0/w_32_19# 0.03fF
+C894 A2 GND 0.71fF
+C895 VDD HA_magic_2/XOR_magic_0/NAND_magic_2/w_0_0# 0.09fF
+C896 FA_magic_2/OR_magic_0/NOT_magic_0/in FA_magic_2/OR_magic_0/B 0.10fF
+C897 A2 AND_magic_7/NOT_magic_0/in 0.05fF
+C898 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.02fF
+C899 GND A0 0.57fF
+C900 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_3/C 0.06fF
+C901 HA_magic_1/A HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C902 GND FA_magic_6/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.07fF
+C903 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.06fF
+C904 GND FA_magic_7/A 0.30fF
+C905 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# VDD 0.09fF
+C906 VDD FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# 0.09fF
+C907 FA_magic_3/HA_magic_1/A FA_magic_3/C 0.50fF
+C908 FA_magic_1/C FA_magic_1/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.08fF
+C909 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# VDD 0.09fF
+C910 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C911 AND_magic_10/NOT_magic_0/in VDD 0.24fF
+C912 FA_magic_0/B FA_magic_1/C 0.10fF
+C913 VDD FA_magic_5/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.24fF
+C914 FA_magic_1/OR_magic_0/A GND 0.93fF
+C915 VDD FA_magic_6/HA_magic_1/A 0.36fF
+C916 P0 VDD 0.18fF
+C917 FA_magic_3/C FA_magic_3/HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C918 FA_magic_1/B VDD 0.22fF
+C919 VDD AND_magic_8/NOT_magic_0/in 0.24fF
+C920 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.08fF
+C921 FA_magic_5/HA_magic_1/A FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.13fF
+C922 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/B GND 0.09fF
+C923 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C924 VDD FA_magic_6/HA_magic_1/AND_magic_0/w_32_19# 0.14fF
+C925 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.08fF
+C926 VDD HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.23fF
+C927 FA_magic_2/C HA_magic_2/AND_magic_0/NOT_magic_0/in 0.05fF
+C928 A3 AND_magic_6/NOT_magic_0/in 0.05fF
+C929 AND_magic_9/NOT_magic_0/in HA_magic_2/B 0.05fF
+C930 AND_magic_5/w_32_19# A0 0.06fF
+C931 VDD FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.38fF
+C932 FA_magic_0/A FA_magic_0/HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C933 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_2/A 0.12fF
+C934 GND FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.07fF
+C935 GND FA_magic_3/C 0.49fF
+C936 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/B P2 0.08fF
+C937 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/B VDD 0.22fF
+C938 HA_magic_2/XOR_magic_0/NAND_magic_2/A HA_magic_2/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C939 GND AND_magic_5/NOT_magic_0/in 0.07fF
+C940 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_1/B 0.06fF
+C941 AND_magic_0/NOT_magic_0/in A0 0.05fF
+C942 FA_magic_6/C FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.15fF
+C943 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_5/C 0.08fF
+C944 FA_magic_4/OR_magic_0/B FA_magic_4/B 0.09fF
+C945 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_4/A 0.05fF
+C946 FA_magic_0/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_0/OR_magic_0/B 0.06fF
+C947 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_4/B 0.06fF
+C948 FA_magic_2/HA_magic_1/AND_magic_0/NOT_magic_0/in VDD 0.24fF
+C949 VDD P1 0.22fF
+C950 FA_magic_1/A FA_magic_1/B 0.32fF
+C951 VDD AND_magic_9/NOT_magic_0/in 0.24fF
+C952 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/A VDD 0.24fF
+C953 B1 AND_magic_1/NOT_magic_0/in 0.08fF
+C954 FA_magic_0/OR_magic_0/A FA_magic_0/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C955 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.02fF
+C956 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C957 VDD HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# 0.09fF
+C958 HA_magic_0/B HA_magic_0/AND_magic_0/NOT_magic_0/in 0.08fF
+C959 VDD FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.22fF
+C960 FA_magic_1/B FA_magic_1/HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C961 FA_magic_5/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_5/OR_magic_0/A 0.06fF
+C962 B1 A2 0.25fF
+C963 FA_magic_3/A FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.13fF
+C964 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_1/HA_magic_1/A 0.12fF
+C965 AND_magic_14/w_32_19# A2 0.06fF
+C966 FA_magic_1/B HA_magic_2/XOR_magic_0/NAND_magic_2/A 0.05fF
+C967 B1 A0 0.54fF
+C968 HA_magic_0/XOR_magic_0/NAND_magic_2/B HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C969 VDD FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# 0.09fF
+C970 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/A VDD 0.38fF
+C971 FA_magic_7/HA_magic_1/A FA_magic_7/HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C972 GND FA_magic_3/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.07fF
+C973 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C974 HA_magic_3/B HA_magic_3/AND_magic_0/NOT_magic_0/in 0.08fF
+C975 GND FA_magic_7/OR_magic_0/B 0.56fF
+C976 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# VDD 0.09fF
+C977 A1 AND_magic_2/NOT_magic_0/in 0.05fF
+C978 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# VDD 0.09fF
+C979 AND_magic_5/w_32_19# AND_magic_5/NOT_magic_0/in 0.09fF
+C980 FA_magic_3/OR_magic_0/A FA_magic_3/C 0.09fF
+C981 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_3/HA_magic_1/A 0.05fF
+C982 AND_magic_14/NOT_magic_0/in GND 0.07fF
+C983 HA_magic_3/XOR_magic_0/NAND_magic_2/B HA_magic_3/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C984 VDD FA_magic_6/OR_magic_0/A 0.22fF
+C985 FA_magic_3/HA_magic_1/A VDD 0.36fF
+C986 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.02fF
+C987 A1 A3 0.17fF
+C988 GND FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.17fF
+C989 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C990 VDD HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# 0.09fF
+C991 GND HA_magic_2/B 0.42fF
+C992 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/A VDD 0.24fF
+C993 FA_magic_3/HA_magic_1/AND_magic_0/w_32_19# VDD 0.14fF
+C994 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_3/B 0.08fF
+C995 VDD FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# 0.09fF
+C996 FA_magic_2/HA_magic_1/A FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.13fF
+C997 FA_magic_0/OR_magic_0/B FA_magic_0/A 0.09fF
+C998 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_0/A 0.08fF
+C999 A2 AND_magic_3/NOT_magic_0/in 0.05fF
+C1000 A3 AND_magic_15/NOT_magic_0/in 0.05fF
+C1001 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.06fF
+C1002 AND_magic_11/NOT_magic_0/in A2 0.05fF
+C1003 FA_magic_6/A FA_magic_6/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C1004 FA_magic_0/OR_magic_0/B FA_magic_0/HA_magic_0/AND_magic_0/w_32_19# 0.03fF
+C1005 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.05fF
+C1006 GND FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.07fF
+C1007 FA_magic_0/C GND 0.40fF
+C1008 HA_magic_2/XOR_magic_0/NAND_magic_3/w_0_0# HA_magic_2/B 0.06fF
+C1009 GND FA_magic_4/A 0.34fF
+C1010 GND FA_magic_5/OR_magic_0/NOT_magic_0/in 0.22fF
+C1011 AND_magic_2/NOT_magic_0/in HA_magic_0/B 0.05fF
+C1012 HA_magic_2/XOR_magic_0/NAND_magic_0/w_0_0# HA_magic_2/B 0.06fF
+C1013 FA_magic_6/HA_magic_0/AND_magic_0/w_32_19# FA_magic_6/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.09fF
+C1014 HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# HA_magic_0/A 0.12fF
+C1015 HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# HA_magic_0/B 0.06fF
+C1016 GND VDD 3.82fF
+C1017 HA_magic_2/A HA_magic_2/B 0.32fF
+C1018 VDD AND_magic_7/NOT_magic_0/in 0.24fF
+C1019 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.08fF
+C1020 VDD HA_magic_3/XOR_magic_0/NAND_magic_3/A 0.38fF
+C1021 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.08fF
+C1022 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_7/HA_magic_1/A 0.02fF
+C1023 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_5/HA_magic_1/A 0.08fF
+C1024 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_2/C 0.08fF
+C1025 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_6/A 0.08fF
+C1026 FA_magic_1/OR_magic_0/B FA_magic_1/B 0.09fF
+C1027 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_1/A 0.05fF
+C1028 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/A GND 0.17fF
+C1029 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_1/B 0.06fF
+C1030 HA_magic_2/B HA_magic_2/AND_magic_0/w_32_19# 0.06fF
+C1031 VDD AND_magic_4/NOT_magic_0/in 0.24fF
+C1032 AND_magic_2/NOT_magic_0/in B0 0.08fF
+C1033 HA_magic_3/XOR_magic_0/NAND_magic_1/w_0_0# HA_magic_3/A 0.12fF
+C1034 GND HA_magic_1/AND_magic_0/NOT_magic_0/in 0.07fF
+C1035 FA_magic_7/B FA_magic_7/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.08fF
+C1036 VDD HA_magic_2/XOR_magic_0/NAND_magic_3/w_0_0# 0.09fF
+C1037 FA_magic_7/OR_magic_0/A FA_magic_7/HA_magic_1/A 0.09fF
+C1038 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.05fF
+C1039 VDD HA_magic_2/XOR_magic_0/NAND_magic_0/w_0_0# 0.09fF
+C1040 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.02fF
+C1041 A3 B0 0.16fF
+C1042 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_6/HA_magic_1/A 0.05fF
+C1043 FA_magic_2/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_2/OR_magic_0/A 0.06fF
+C1044 VDD HA_magic_2/A 0.34fF
+C1045 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C1046 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_0/C 0.06fF
+C1047 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C1048 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# VDD 0.09fF
+C1049 FA_magic_7/OR_magic_0/A FA_magic_7/HA_magic_1/AND_magic_0/w_32_19# 0.03fF
+C1050 AND_magic_13/w_32_19# A3 0.06fF
+C1051 FA_magic_0/HA_magic_0/AND_magic_0/NOT_magic_0/in GND 0.07fF
+C1052 FA_magic_7/OR_magic_0/NOT_magic_0/in FA_magic_7/OR_magic_0/B 0.10fF
+C1053 FA_magic_1/A GND 0.44fF
+C1054 VDD HA_magic_2/AND_magic_0/w_32_19# 0.14fF
+C1055 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_6/C 0.06fF
+C1056 FA_magic_2/OR_magic_0/NOT_magic_0/in GND 0.22fF
+C1057 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# VDD 0.09fF
+C1058 GND HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.17fF
+C1059 FA_magic_0/HA_magic_1/A FA_magic_0/C 0.50fF
+C1060 VDD AND_magic_5/w_32_19# 0.14fF
+C1061 FA_magic_4/OR_magic_0/NOT_magic_0/in FA_magic_4/OR_magic_0/A 0.05fF
+C1062 B0 AND_magic_6/NOT_magic_0/in 0.08fF
+C1063 AND_magic_14/w_32_19# AND_magic_14/NOT_magic_0/in 0.09fF
+C1064 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.02fF
+C1065 AND_magic_3/w_32_19# B0 0.06fF
+C1066 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_4/HA_magic_1/A 0.08fF
+C1067 FA_magic_3/OR_magic_0/A VDD 0.22fF
+C1068 FA_magic_0/HA_magic_1/A VDD 0.36fF
+C1069 FA_magic_0/C FA_magic_0/HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C1070 FA_magic_4/B FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.15fF
+C1071 FA_magic_7/C HA_magic_3/AND_magic_0/w_32_19# 0.03fF
+C1072 GND HA_magic_2/XOR_magic_0/NAND_magic_2/A 0.07fF
+C1073 AND_magic_0/NOT_magic_0/in VDD 0.24fF
+C1074 GND FA_magic_7/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.07fF
+C1075 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/B VDD 0.22fF
+C1076 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.08fF
+C1077 FA_magic_0/HA_magic_1/AND_magic_0/w_32_19# VDD 0.14fF
+C1078 HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C1079 GND FA_magic_6/B 1.66fF
+C1080 B3 AND_magic_9/w_32_19# 0.06fF
+C1081 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/A P5 0.05fF
+C1082 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/B HA_magic_3/A 0.08fF
+C1083 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C1084 HA_magic_1/A HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.13fF
+C1085 FA_magic_6/OR_magic_0/B FA_magic_6/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C1086 A1 AND_magic_8/w_32_19# 0.06fF
+C1087 FA_magic_1/OR_magic_0/NOT_magic_0/in FA_magic_6/C 0.05fF
+C1088 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/A GND 0.07fF
+C1089 VDD FA_magic_5/C 2.22fF
+C1090 GND FA_magic_4/OR_magic_0/B 0.56fF
+C1091 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.05fF
+C1092 FA_magic_5/OR_magic_0/B FA_magic_5/OR_magic_0/A 0.08fF
+C1093 GND FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.17fF
+C1094 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_7/A 0.12fF
+C1095 VDD FA_magic_7/OR_magic_0/NOT_magic_0/in 0.10fF
+C1096 GND FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.09fF
+C1097 HA_magic_2/XOR_magic_0/NAND_magic_2/A HA_magic_2/A 0.05fF
+C1098 FA_magic_3/C FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.15fF
+C1099 AND_magic_14/w_32_19# VDD 0.14fF
+C1100 FA_magic_7/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_7/OR_magic_0/NOT_magic_0/in 0.10fF
+C1101 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.08fF
+C1102 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C1103 VDD HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# 0.09fF
+C1104 VDD FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.38fF
+C1105 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_2/HA_magic_1/A 0.08fF
+C1106 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# VDD 0.09fF
+C1107 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.02fF
+C1108 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C1109 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/B VDD 0.22fF
+C1110 HA_magic_1/XOR_magic_0/NAND_magic_2/B HA_magic_1/B 0.08fF
+C1111 FA_magic_5/HA_magic_1/A FA_magic_5/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C1112 FA_magic_0/A FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.13fF
+C1113 VDD FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# 0.09fF
+C1114 A1 B0 0.25fF
+C1115 B3 A3 4.23fF
+C1116 FA_magic_5/HA_magic_1/AND_magic_0/w_32_19# FA_magic_5/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.09fF
+C1117 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.05fF
+C1118 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# P2 0.02fF
+C1119 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.06fF
+C1120 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# VDD 0.09fF
+C1121 VDD FA_magic_5/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.24fF
+C1122 FA_magic_2/C VDD 0.29fF
+C1123 VDD FA_magic_6/A 0.46fF
+C1124 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C1125 FA_magic_1/OR_magic_0/B GND 0.56fF
+C1126 FA_magic_0/B HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.08fF
+C1127 FA_magic_0/OR_magic_0/A FA_magic_0/C 0.09fF
+C1128 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_0/HA_magic_1/A 0.05fF
+C1129 VDD AND_magic_3/NOT_magic_0/in 0.24fF
+C1130 AND_magic_1/w_32_19# HA_magic_0/A 0.03fF
+C1131 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/B GND 0.09fF
+C1132 VDD HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.25fF
+C1133 VDD FA_magic_6/HA_magic_0/AND_magic_0/w_32_19# 0.14fF
+C1134 AND_magic_11/NOT_magic_0/in VDD 0.24fF
+C1135 FA_magic_1/OR_magic_0/NOT_magic_0/in FA_magic_1/OR_magic_0/A 0.05fF
+C1136 FA_magic_0/OR_magic_0/A VDD 0.22fF
+C1137 FA_magic_6/C FA_magic_6/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.08fF
+C1138 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.02fF
+C1139 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.08fF
+C1140 VDD FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# 0.09fF
+C1141 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_1/HA_magic_1/A 0.08fF
+C1142 FA_magic_3/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_4/A 0.03fF
+C1143 FA_magic_1/B FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.15fF
+C1144 FA_magic_4/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_4/OR_magic_0/NOT_magic_0/in 0.10fF
+C1145 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_0/B 0.08fF
+C1146 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# VDD 0.09fF
+C1147 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C1148 GND FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.07fF
+C1149 FA_magic_6/OR_magic_0/NOT_magic_0/in FA_magic_7/B 0.05fF
+C1150 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C1151 FA_magic_3/OR_magic_0/NOT_magic_0/w_0_0# VDD 0.11fF
+C1152 AND_magic_1/w_32_19# AND_magic_1/NOT_magic_0/in 0.09fF
+C1153 FA_magic_3/B GND 0.52fF
+C1154 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.06fF
+C1155 A1 AND_magic_12/NOT_magic_0/in 0.05fF
+C1156 FA_magic_7/HA_magic_1/A FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.13fF
+C1157 FA_magic_3/A FA_magic_3/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C1158 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.06fF
+C1159 B2 A2 5.82fF
+C1160 VDD FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.24fF
+C1161 B2 A0 0.38fF
+C1162 FA_magic_5/A FA_magic_5/HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C1163 AND_magic_1/w_32_19# A0 0.06fF
+C1164 FA_magic_2/HA_magic_0/AND_magic_0/NOT_magic_0/in VDD 0.24fF
+C1165 FA_magic_3/HA_magic_0/AND_magic_0/w_32_19# FA_magic_3/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.09fF
+C1166 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/B P3 0.08fF
+C1167 FA_magic_2/OR_magic_0/B FA_magic_2/OR_magic_0/A 0.08fF
+C1168 AND_magic_13/NOT_magic_0/in VDD 0.24fF
+C1169 HA_magic_0/XOR_magic_0/NAND_magic_2/B HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.05fF
+C1170 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.08fF
+C1171 VDD HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# 0.09fF
+C1172 VDD FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.22fF
+C1173 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_6/B 0.06fF
+C1174 FA_magic_5/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_5/OR_magic_0/B 0.06fF
+C1175 HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# HA_magic_1/B 0.06fF
+C1176 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/A VDD 0.38fF
+C1177 GND FA_magic_4/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.07fF
+C1178 GND HA_magic_3/XOR_magic_0/NAND_magic_2/B 0.09fF
+C1179 FA_magic_6/A FA_magic_6/B 0.32fF
+C1180 HA_magic_1/XOR_magic_0/NAND_magic_2/A HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.08fF
+C1181 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/B FA_magic_7/C 0.08fF
+C1182 FA_magic_5/OR_magic_0/A FA_magic_5/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C1183 HA_magic_3/XOR_magic_0/NAND_magic_2/B HA_magic_3/XOR_magic_0/NAND_magic_3/A 0.05fF
+C1184 FA_magic_2/HA_magic_1/A FA_magic_2/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C1185 FA_magic_6/B FA_magic_6/HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C1186 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.02fF
+C1187 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# VDD 0.09fF
+C1188 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_3/HA_magic_1/A 0.05fF
+C1189 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_5/A 0.05fF
+C1190 A1 B3 0.16fF
+C1191 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_6/HA_magic_1/A 0.12fF
+C1192 A1 AND_magic_4/w_32_19# 0.06fF
+C1193 FA_magic_4/HA_magic_1/A FA_magic_4/HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C1194 FA_magic_2/HA_magic_1/AND_magic_0/w_32_19# FA_magic_2/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.09fF
+C1195 VDD FA_magic_6/OR_magic_0/B 0.20fF
+C1196 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/A VDD 0.24fF
+C1197 FA_magic_3/A VDD 0.35fF
+C1198 VDD FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# 0.09fF
+C1199 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.06fF
+C1200 GND FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.17fF
+C1201 FA_magic_4/OR_magic_0/NOT_magic_0/in VDD 0.10fF
+C1202 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_3/C 0.06fF
+C1203 AND_magic_10/NOT_magic_0/in A3 0.05fF
+C1204 AND_magic_9/w_32_19# AND_magic_9/NOT_magic_0/in 0.09fF
+C1205 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C1206 GND HA_magic_1/B 0.40fF
+C1207 B2 AND_magic_5/NOT_magic_0/in 0.08fF
+C1208 B3 AND_magic_15/NOT_magic_0/in 0.08fF
+C1209 HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C1210 FA_magic_3/HA_magic_0/AND_magic_0/w_32_19# VDD 0.14fF
+C1211 VDD FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# 0.09fF
+C1212 VDD FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# 0.09fF
+C1213 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_6/A 0.02fF
+C1214 HA_magic_2/B HA_magic_2/XOR_magic_0/NAND_magic_3/A 0.15fF
+C1215 VDD HA_magic_3/AND_magic_0/NOT_magic_0/in 0.24fF
+C1216 GND FA_magic_5/HA_magic_1/A 0.30fF
+C1217 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.02fF
+C1218 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.08fF
+C1219 FA_magic_1/HA_magic_1/AND_magic_0/NOT_magic_0/in GND 0.07fF
+C1220 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/B 0.08fF
+C1221 HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.02fF
+C1222 HA_magic_3/XOR_magic_0/NAND_magic_1/w_0_0# HA_magic_3/XOR_magic_0/NAND_magic_3/A 0.06fF
+C1223 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/A GND 0.07fF
+C1224 FA_magic_0/B GND 0.72fF
+C1225 FA_magic_0/OR_magic_0/NOT_magic_0/w_0_0# VDD 0.11fF
+C1226 AND_magic_14/w_32_19# FA_magic_3/B 0.03fF
+C1227 FA_magic_5/OR_magic_0/B FA_magic_5/A 0.09fF
+C1228 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_5/A 0.08fF
+C1229 FA_magic_3/OR_magic_0/B FA_magic_3/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.05fF
+C1230 VDD HA_magic_2/XOR_magic_0/NAND_magic_3/A 0.38fF
+C1231 FA_magic_5/OR_magic_0/B FA_magic_5/HA_magic_0/AND_magic_0/w_32_19# 0.03fF
+C1232 FA_magic_2/A FA_magic_2/HA_magic_0/AND_magic_0/w_32_19# 0.06fF
+C1233 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/A GND 0.17fF
+C1234 FA_magic_1/OR_magic_0/NOT_magic_0/in VDD 0.10fF
+C1235 GND FA_magic_7/C 0.40fF
+C1236 GND HA_magic_0/AND_magic_0/NOT_magic_0/in 0.07fF
+C1237 AND_magic_5/w_32_19# HA_magic_1/B 0.03fF
+C1238 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# FA_magic_4/HA_magic_1/A 0.02fF
+C1239 FA_magic_0/C FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/A 0.15fF
+C1240 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.05fF
+C1241 VDD FA_magic_6/OR_magic_0/NOT_magic_0/w_0_0# 0.11fF
+C1242 VDD HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# 0.09fF
+C1243 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# VDD 0.09fF
+C1244 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C1245 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/A VDD 0.38fF
+C1246 FA_magic_4/B FA_magic_4/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.08fF
+C1247 FA_magic_2/HA_magic_1/A GND 0.30fF
+C1248 FA_magic_6/OR_magic_0/B FA_magic_6/B 0.09fF
+C1249 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/A FA_magic_6/A 0.05fF
+C1250 FA_magic_2/OR_magic_0/NOT_magic_0/w_0_0# FA_magic_2/OR_magic_0/B 0.06fF
+C1251 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/A 0.02fF
+C1252 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_6/B 0.06fF
+C1253 VDD HA_magic_1/A 0.34fF
+C1254 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.08fF
+C1255 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# HA_magic_3/A 0.02fF
+C1256 FA_magic_4/OR_magic_0/A FA_magic_4/HA_magic_1/A 0.09fF
+C1257 AND_magic_15/NOT_magic_0/in FA_magic_4/B 0.05fF
+C1258 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# FA_magic_7/HA_magic_1/A 0.08fF
+C1259 GND FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/B 0.09fF
+C1260 FA_magic_2/OR_magic_0/A FA_magic_2/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C1261 VDD HA_magic_1/AND_magic_0/w_32_19# 0.14fF
+C1262 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/B FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# 0.02fF
+C1263 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# VDD 0.09fF
+C1264 HA_magic_2/XOR_magic_0/NAND_magic_2/w_0_0# HA_magic_2/XOR_magic_0/NAND_magic_2/B 0.06fF
+C1265 FA_magic_4/OR_magic_0/A FA_magic_4/HA_magic_1/AND_magic_0/w_32_19# 0.03fF
+C1266 FA_magic_4/OR_magic_0/NOT_magic_0/in FA_magic_4/OR_magic_0/B 0.10fF
+C1267 HA_magic_1/A HA_magic_1/AND_magic_0/NOT_magic_0/in 0.05fF
+C1268 FA_magic_1/HA_magic_1/A FA_magic_1/HA_magic_1/AND_magic_0/w_32_19# 0.06fF
+C1269 FA_magic_3/OR_magic_0/B VDD 0.20fF
+C1270 FA_magic_0/A VDD 0.34fF
+C1271 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# FA_magic_5/C 0.06fF
+C1272 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# VDD 0.09fF
+C1273 AND_magic_10/w_32_19# VDD 0.14fF
+C1274 HA_magic_1/AND_magic_0/w_32_19# HA_magic_1/AND_magic_0/NOT_magic_0/in 0.09fF
+C1275 GND HA_magic_1/XOR_magic_0/NAND_magic_2/A 0.07fF
+C1276 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/B VDD 0.22fF
+C1277 AND_magic_12/NOT_magic_0/in B3 0.08fF
+C1278 GND FA_magic_7/HA_magic_0/AND_magic_0/NOT_magic_0/in 0.07fF
+C1279 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/A 0.06fF
+C1280 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/A FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# 0.06fF
+C1281 FA_magic_0/HA_magic_0/AND_magic_0/w_32_19# VDD 0.14fF
+C1282 FA_magic_5/HA_magic_1/A FA_magic_5/C 0.50fF
+C1283 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# VDD 0.09fF
+C1284 HA_magic_2/XOR_magic_0/NAND_magic_2/A HA_magic_2/XOR_magic_0/NAND_magic_3/A 0.08fF
+C1285 A1 AND_magic_8/NOT_magic_0/in 0.05fF
+C1286 VDD FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# 0.09fF
+C1287 FA_magic_3/C FA_magic_3/HA_magic_1/AND_magic_0/NOT_magic_0/in 0.08fF
+C1288 AND_magic_1/w_32_19# VDD 0.14fF
+C1289 HA_magic_3/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1290 HA_magic_3/AND_magic_0/w_32_19# Gnd 1.25fF
+C1291 HA_magic_3/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1292 HA_magic_3/B Gnd 1.80fF
+C1293 HA_magic_3/A Gnd 1.73fF
+C1294 HA_magic_3/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1295 P4 Gnd 0.19fF
+C1296 HA_magic_3/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1297 HA_magic_3/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1298 HA_magic_3/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1299 HA_magic_3/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1300 HA_magic_3/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1301 HA_magic_2/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1302 HA_magic_2/AND_magic_0/w_32_19# Gnd 1.25fF
+C1303 HA_magic_2/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1304 HA_magic_2/B Gnd 1.89fF
+C1305 HA_magic_2/A Gnd 1.43fF
+C1306 HA_magic_2/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1307 HA_magic_2/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1308 HA_magic_2/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1309 HA_magic_2/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1310 HA_magic_2/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1311 HA_magic_2/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1312 HA_magic_1/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1313 HA_magic_1/AND_magic_0/w_32_19# Gnd 1.25fF
+C1314 HA_magic_1/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1315 HA_magic_1/B Gnd 1.88fF
+C1316 HA_magic_1/A Gnd 1.41fF
+C1317 HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1318 HA_magic_1/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1319 HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1320 HA_magic_1/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1321 HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1322 HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1323 HA_magic_0/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1324 HA_magic_0/AND_magic_0/w_32_19# Gnd 1.25fF
+C1325 HA_magic_0/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1326 HA_magic_0/B Gnd 1.85fF
+C1327 HA_magic_0/A Gnd 1.20fF
+C1328 HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1329 P1 Gnd 0.19fF
+C1330 HA_magic_0/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1331 HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1332 HA_magic_0/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1333 HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1334 HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1335 AND_magic_9/NOT_magic_0/in Gnd 0.28fF
+C1336 A0 Gnd 1.11fF
+C1337 AND_magic_9/w_32_19# Gnd 1.25fF
+C1338 AND_magic_8/NOT_magic_0/in Gnd 0.28fF
+C1339 AND_magic_8/w_32_19# Gnd 1.25fF
+C1340 AND_magic_7/NOT_magic_0/in Gnd 0.28fF
+C1341 AND_magic_7/w_32_19# Gnd 1.25fF
+C1342 FA_magic_7/OR_magic_0/A Gnd 1.11fF
+C1343 FA_magic_7/HA_magic_1/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1344 FA_magic_7/HA_magic_1/AND_magic_0/w_32_19# Gnd 1.25fF
+C1345 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1346 FA_magic_7/C Gnd 1.96fF
+C1347 FA_magic_7/HA_magic_1/A Gnd 1.41fF
+C1348 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1349 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1350 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1351 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1352 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1353 FA_magic_7/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1354 FA_magic_7/HA_magic_0/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1355 FA_magic_7/HA_magic_0/AND_magic_0/w_32_19# Gnd 1.25fF
+C1356 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1357 FA_magic_7/B Gnd 1.89fF
+C1358 FA_magic_7/A Gnd 1.40fF
+C1359 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1360 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1361 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1362 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1363 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1364 FA_magic_7/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1365 FA_magic_7/OR_magic_0/NOT_magic_0/in Gnd 0.20fF
+C1366 FA_magic_7/OR_magic_0/NOT_magic_0/w_0_0# Gnd 1.12fF
+C1367 AND_magic_6/NOT_magic_0/in Gnd 0.28fF
+C1368 B0 Gnd 1.41fF
+C1369 AND_magic_6/w_32_19# Gnd 1.25fF
+C1370 FA_magic_6/OR_magic_0/A Gnd 1.11fF
+C1371 FA_magic_6/HA_magic_1/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1372 FA_magic_6/HA_magic_1/AND_magic_0/w_32_19# Gnd 1.25fF
+C1373 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1374 FA_magic_6/C Gnd 2.04fF
+C1375 FA_magic_6/HA_magic_1/A Gnd 1.41fF
+C1376 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1377 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1378 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1379 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1380 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1381 FA_magic_6/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1382 FA_magic_6/HA_magic_0/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1383 FA_magic_6/HA_magic_0/AND_magic_0/w_32_19# Gnd 1.25fF
+C1384 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1385 FA_magic_6/B Gnd 1.86fF
+C1386 FA_magic_6/A Gnd 1.96fF
+C1387 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1388 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1389 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1390 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1391 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1392 FA_magic_6/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1393 FA_magic_6/OR_magic_0/NOT_magic_0/in Gnd 0.20fF
+C1394 FA_magic_6/OR_magic_0/NOT_magic_0/w_0_0# Gnd 1.12fF
+C1395 AND_magic_5/NOT_magic_0/in Gnd 0.28fF
+C1396 AND_magic_5/w_32_19# Gnd 1.25fF
+C1397 FA_magic_5/OR_magic_0/A Gnd 1.11fF
+C1398 FA_magic_5/HA_magic_1/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1399 FA_magic_5/HA_magic_1/AND_magic_0/w_32_19# Gnd 1.25fF
+C1400 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1401 FA_magic_5/C Gnd 2.04fF
+C1402 FA_magic_5/HA_magic_1/A Gnd 1.41fF
+C1403 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1404 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1405 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1406 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1407 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1408 FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1409 FA_magic_5/HA_magic_0/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1410 FA_magic_5/HA_magic_0/AND_magic_0/w_32_19# Gnd 1.25fF
+C1411 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1412 FA_magic_5/A Gnd 1.26fF
+C1413 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1414 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1415 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1416 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1417 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1418 FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1419 FA_magic_5/OR_magic_0/NOT_magic_0/in Gnd 0.20fF
+C1420 FA_magic_5/OR_magic_0/NOT_magic_0/w_0_0# Gnd 1.12fF
+C1421 AND_magic_4/NOT_magic_0/in Gnd 0.28fF
+C1422 AND_magic_4/w_32_19# Gnd 1.25fF
+C1423 AND_magic_3/NOT_magic_0/in Gnd 0.28fF
+C1424 AND_magic_3/w_32_19# Gnd 1.25fF
+C1425 FA_magic_4/OR_magic_0/A Gnd 1.11fF
+C1426 FA_magic_4/HA_magic_1/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1427 FA_magic_4/HA_magic_1/AND_magic_0/w_32_19# Gnd 1.25fF
+C1428 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1429 FA_magic_4/HA_magic_1/A Gnd 1.41fF
+C1430 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1431 VDD Gnd 38.70fF
+C1432 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1433 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1434 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1435 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1436 FA_magic_4/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1437 FA_magic_4/HA_magic_0/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1438 FA_magic_4/HA_magic_0/AND_magic_0/w_32_19# Gnd 1.25fF
+C1439 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1440 FA_magic_4/B Gnd 1.88fF
+C1441 FA_magic_4/A Gnd 0.93fF
+C1442 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1443 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1444 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1445 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1446 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1447 FA_magic_4/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1448 C5 Gnd 0.10fF
+C1449 FA_magic_4/OR_magic_0/NOT_magic_0/in Gnd 0.20fF
+C1450 FA_magic_4/OR_magic_0/NOT_magic_0/w_0_0# Gnd 1.12fF
+C1451 AND_magic_2/NOT_magic_0/in Gnd 0.28fF
+C1452 AND_magic_2/w_32_19# Gnd 1.25fF
+C1453 AND_magic_15/NOT_magic_0/in Gnd 0.28fF
+C1454 B3 Gnd 4.60fF
+C1455 A3 Gnd 5.11fF
+C1456 AND_magic_15/w_32_19# Gnd 1.25fF
+C1457 FA_magic_3/OR_magic_0/A Gnd 1.11fF
+C1458 FA_magic_3/HA_magic_1/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1459 FA_magic_3/HA_magic_1/AND_magic_0/w_32_19# Gnd 1.25fF
+C1460 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1461 FA_magic_3/C Gnd 1.12fF
+C1462 FA_magic_3/HA_magic_1/A Gnd 1.41fF
+C1463 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1464 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1465 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1466 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1467 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1468 GND Gnd 200.05fF
+C1469 FA_magic_3/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1470 FA_magic_3/HA_magic_0/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1471 FA_magic_3/HA_magic_0/AND_magic_0/w_32_19# Gnd 1.25fF
+C1472 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1473 FA_magic_3/B Gnd 1.87fF
+C1474 FA_magic_3/A Gnd 1.54fF
+C1475 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1476 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1477 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1478 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1479 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1480 FA_magic_3/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1481 FA_magic_3/OR_magic_0/NOT_magic_0/in Gnd 0.20fF
+C1482 FA_magic_3/OR_magic_0/NOT_magic_0/w_0_0# Gnd 1.12fF
+C1483 AND_magic_1/NOT_magic_0/in Gnd 0.28fF
+C1484 AND_magic_1/w_32_19# Gnd 1.25fF
+C1485 AND_magic_14/NOT_magic_0/in Gnd 0.28fF
+C1486 A2 Gnd 5.19fF
+C1487 AND_magic_14/w_32_19# Gnd 1.25fF
+C1488 FA_magic_2/OR_magic_0/A Gnd 1.11fF
+C1489 FA_magic_2/HA_magic_1/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1490 FA_magic_2/HA_magic_1/AND_magic_0/w_32_19# Gnd 1.25fF
+C1491 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1492 FA_magic_2/HA_magic_1/A Gnd 1.41fF
+C1493 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1494 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1495 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1496 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1497 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1498 FA_magic_2/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1499 FA_magic_2/HA_magic_0/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1500 FA_magic_2/HA_magic_0/AND_magic_0/w_32_19# Gnd 1.25fF
+C1501 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1502 FA_magic_2/B Gnd 1.87fF
+C1503 FA_magic_2/A Gnd 1.68fF
+C1504 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1505 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1506 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1507 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1508 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1509 FA_magic_2/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1510 FA_magic_2/OR_magic_0/NOT_magic_0/in Gnd 0.20fF
+C1511 FA_magic_2/OR_magic_0/NOT_magic_0/w_0_0# Gnd 1.12fF
+C1512 P0 Gnd 0.10fF
+C1513 AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1514 AND_magic_0/w_32_19# Gnd 1.25fF
+C1515 AND_magic_13/NOT_magic_0/in Gnd 0.28fF
+C1516 B2 Gnd 4.95fF
+C1517 AND_magic_13/w_32_19# Gnd 1.25fF
+C1518 FA_magic_1/OR_magic_0/A Gnd 1.11fF
+C1519 FA_magic_1/HA_magic_1/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1520 FA_magic_1/HA_magic_1/AND_magic_0/w_32_19# Gnd 1.25fF
+C1521 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1522 FA_magic_1/C Gnd 3.01fF
+C1523 FA_magic_1/HA_magic_1/A Gnd 1.41fF
+C1524 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1525 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1526 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1527 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1528 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1529 FA_magic_1/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1530 FA_magic_1/HA_magic_0/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1531 FA_magic_1/HA_magic_0/AND_magic_0/w_32_19# Gnd 1.25fF
+C1532 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1533 FA_magic_1/B Gnd 0.72fF
+C1534 FA_magic_1/A Gnd 1.66fF
+C1535 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1536 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1537 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1538 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1539 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1540 FA_magic_1/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1541 FA_magic_1/OR_magic_0/NOT_magic_0/in Gnd 0.20fF
+C1542 FA_magic_1/OR_magic_0/NOT_magic_0/w_0_0# Gnd 1.12fF
+C1543 AND_magic_12/NOT_magic_0/in Gnd 0.28fF
+C1544 A1 Gnd 4.71fF
+C1545 AND_magic_12/w_32_19# Gnd 1.25fF
+C1546 FA_magic_0/OR_magic_0/A Gnd 1.11fF
+C1547 FA_magic_0/HA_magic_1/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1548 FA_magic_0/HA_magic_1/AND_magic_0/w_32_19# Gnd 1.25fF
+C1549 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1550 FA_magic_0/C Gnd 7.07fF
+C1551 FA_magic_0/HA_magic_1/A Gnd 1.41fF
+C1552 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1553 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1554 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1555 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1556 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1557 FA_magic_0/HA_magic_1/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1558 FA_magic_0/HA_magic_0/AND_magic_0/NOT_magic_0/in Gnd 0.28fF
+C1559 FA_magic_0/HA_magic_0/AND_magic_0/w_32_19# Gnd 1.25fF
+C1560 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/A Gnd 0.69fF
+C1561 FA_magic_0/B Gnd 1.91fF
+C1562 FA_magic_0/A Gnd 1.66fF
+C1563 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/w_0_0# Gnd 0.64fF
+C1564 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/B Gnd 0.43fF
+C1565 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0# Gnd 0.64fF
+C1566 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_2/A Gnd 0.36fF
+C1567 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_1/w_0_0# Gnd 0.64fF
+C1568 FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_0/w_0_0# Gnd 0.64fF
+C1569 FA_magic_0/OR_magic_0/NOT_magic_0/in Gnd 0.20fF
+C1570 FA_magic_0/OR_magic_0/NOT_magic_0/w_0_0# Gnd 1.12fF
+C1571 AND_magic_11/NOT_magic_0/in Gnd 0.28fF
+C1572 AND_magic_11/w_32_19# Gnd 1.25fF
+C1573 AND_magic_10/NOT_magic_0/in Gnd 0.28fF
+C1574 B1 Gnd 1.25fF
+C1575 AND_magic_10/w_32_19# Gnd 1.25fF
+
+.ENDS multiplier_magic

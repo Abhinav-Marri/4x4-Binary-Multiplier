@@ -1,0 +1,35 @@
+timestamp 1669670993
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use XOR_magic XOR_magic_0 1 0 122 0 1 53
+use AND_magic AND_magic_0 1 0 56 0 1 81
+node "m2_90_n10#" 2 1297.2 90 -10 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 524 250 0 0 0 0 0 0 0 0
+node "sum" 0 21.0864 250 59 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0 0 0 0 0 0 0
+node "B" 2 450.712 37 41 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 564 272 0 0 0 0 0 0 0 0 0 0
+node "carry" 1 408.727 121 95 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 141 78 0 0 0 0 0 0 0 0
+node "A" 3 808.118 45 59 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 350 190 245 108 0 0 0 0 0 0 0 0
+node "m1_118_120#" 0 66.8328 118 120 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72 44 0 0 0 0 0 0 0 0 0 0
+cap "B" "m2_90_n10#" 85.4352
+cap "B" "A" 165.444
+cap "m1_118_120#" "carry" 85.4352
+cap "A" "m2_90_n10#" 85.4352
+subcap "carry" -437.521
+subcap "A" -248.533
+cap "XOR_magic_0/NAND_magic_0/GND" "XOR_magic_0/B" 4.26326e-14
+cap "XOR_magic_0/A" "XOR_magic_0/NAND_magic_0/GND" 5.22
+cap "XOR_magic_0/A" "XOR_magic_0/B" 2.84217e-14
+cap "XOR_magic_0/NAND_magic_0/VDD" "XOR_magic_0/NAND_magic_0/w_0_0#" -3.55271e-15
+cap "AND_magic_0/A" "AND_magic_0/NAND_magic_0/GND" 3.48
+merge "AND_magic_0/A" "XOR_magic_0/A" -16.032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "XOR_magic_0/A" "A"
+merge "AND_magic_0/B" "XOR_magic_0/B" -16.032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "XOR_magic_0/B" "B"
+merge "AND_magic_0/NAND_magic_0/VDD" "XOR_magic_0/NAND_magic_0/VDD" -18.036 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0 0 0 0 0 0 0
+merge "XOR_magic_0/NAND_magic_0/VDD" "m1_118_120#"
+merge "XOR_magic_0/out" "sum" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_0/NAND_magic_0/GND" "XOR_magic_0/NAND_magic_0/GND" -158.755 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14 -30 0 0 0 0 0 0 0 0
+merge "XOR_magic_0/NAND_magic_0/GND" "m2_90_n10#"
+merge "AND_magic_0/out" "carry" -28.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0

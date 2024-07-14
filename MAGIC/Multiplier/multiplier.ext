@@ -1,0 +1,488 @@
+timestamp 1669709031
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use AND_magic AND_magic_15 1 0 3 0 1 -957
+use FA_magic FA_magic_3 1 0 432 0 1 -975
+use AND_magic AND_magic_14 1 0 3 0 1 -893
+use FA_magic FA_magic_4 1 0 1030 0 1 -1149
+use FA_magic FA_magic_7 1 0 1597 0 1 -963
+use AND_magic AND_magic_13 1 0 3 0 1 -829
+use AND_magic AND_magic_12 1 0 3 0 1 -763
+use AND_magic AND_magic_11 1 0 3 0 1 -699
+use FA_magic FA_magic_2 1 0 429 0 1 -765
+use FA_magic FA_magic_6 1 0 1028 0 1 -764
+use AND_magic AND_magic_10 1 0 3 0 1 -635
+use HA_magic HA_magic_2 1 0 61 0 1 -586
+use AND_magic AND_magic_9 1 0 3 0 1 -571
+use AND_magic AND_magic_8 1 0 3 0 1 -505
+use AND_magic AND_magic_7 1 0 3 0 1 -441
+use FA_magic FA_magic_1 1 0 418 0 1 -543
+use FA_magic FA_magic_5 1 0 1028 0 1 -463
+use HA_magic HA_magic_3 1 0 1533 0 1 -563
+use AND_magic AND_magic_6 1 0 3 0 1 -377
+use HA_magic HA_magic_1 1 0 54 0 1 -328
+use AND_magic AND_magic_5 1 0 3 0 1 -313
+use AND_magic AND_magic_4 1 0 3 0 1 -247
+use FA_magic FA_magic_0 1 0 418 0 1 -324
+use AND_magic AND_magic_3 1 0 3 0 1 -183
+use HA_magic HA_magic_0 1 0 51 0 1 -136
+use AND_magic AND_magic_2 1 0 3 0 1 -119
+use AND_magic AND_magic_1 1 0 3 0 1 -55
+use AND_magic AND_magic_0 1 0 3 0 1 11
+node "m2_1459_n1123#" 4 4138.33 1459 -1123 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2382 738 0 0 0 0 0 0 0 0
+node "P6" 0 130.666 1496 -1030 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35 24 0 0 0 0 0 0 0 0
+node "m2_812_n1073#" 4 3912.45 812 -1073 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2262 694 0 0 0 0 0 0 0 0
+node "P5" 0 119.457 2063 -844 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 22 0 0 0 0 0 0 0 0
+node "m2_898_n856#" 8 7971.25 898 -856 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5036 1392 0 0 0 0 0 0 0 0
+node "m2_1437_n749#" 3 4348.53 1437 -749 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3320 762 0 0 0 0 0 0 0 0
+node "m2_793_n760#" 5 3371.47 793 -760 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1584 618 0 0 0 0 0 0 0 0
+node "m2_1493_n645#" 3 2621.36 1493 -645 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1227 466 0 0 0 0 0 0 0 0
+node "m2_895_n646#" 2 1334.39 895 -646 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 598 238 0 0 0 0 0 0 0 0
+node "m2_275_n703#" 7 6240.67 275 -703 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3495 1156 0 0 0 0 0 0 0 0
+node "m2_847_n515#" 4 3446.93 847 -515 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1799 616 0 0 0 0 0 0 0 0
+node "m2_884_n424#" 3 2215.63 884 -424 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 965 396 0 0 0 0 0 0 0 0
+node "P3" 0 108.247 1494 -344 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0
+node "P2" 0 108.247 884 -205 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0
+node "m2_268_n436#" 5 2825.81 268 -436 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1142 532 0 0 0 0 0 0 0 0
+node "m2_265_n186#" 4 2664.19 265 -186 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1284 516 0 0 0 0 0 0 0 0
+node "m2_n6_n951#" 17 10331.3 -6 -951 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5185 2084 0 0 0 0 0 0 0 0
+node "C5" 0 35.1045 1493 -1100 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35 24 0 0 0 0 0 0 0 0 0 0
+node "m1_1215_n957#" 13 3448.75 1215 -957 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5119 1828 0 0 0 0 0 0 0 0 0 0
+node "m1_68_n943#" 14 3874.7 68 -943 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5833 2028 0 0 0 0 0 0 0 0 0 0
+node "m1_895_n925#" 4 557.091 895 -925 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 647 352 0 0 0 0 0 0 0 0 0 0
+node "m1_884_n880#" 3 986.746 884 -880 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1544 498 0 0 0 0 0 0 0 0 0 0
+node "m1_68_n879#" 5 1192.58 68 -879 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1650 670 0 0 0 0 0 0 0 0 0 0
+node "m1_1782_n771#" 10 4921.64 1782 -771 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 520 218 1681 826 0 0 0 0 0 0 0 0
+node "m1_68_n815#" 5 1221.24 68 -815 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1690 686 0 0 0 0 0 0 0 0 0 0
+node "m1_617_n783#" 6 1201.34 617 -783 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1627 686 0 0 0 0 0 0 0 0 0 0
+node "m1_1491_n714#" 3 726.276 1491 -714 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1043 396 0 0 0 0 0 0 0 0 0 0
+node "m1_1481_n675#" 3 983.784 1481 -675 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1560 490 0 0 0 0 0 0 0 0 0 0
+node "m1_68_n685#" 7 1144.61 68 -685 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1403 700 0 0 0 0 0 0 0 0 0 0
+node "m1_68_n749#" 19 5029.93 68 -749 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3262 1646 1159 430 0 0 0 0 0 0 0 0
+node "m1_68_n621#" 5 1231.99 68 -621 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1705 692 0 0 0 0 0 0 0 0 0 0
+node "m1_882_n584#" 3 377.926 882 -584 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 378 258 0 0 0 0 0 0 0 0 0 0
+node "P4" 0 24.354 1787 -504 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0 0 0 0 0 0 0
+node "m1_613_n574#" 11 6150.81 613 -574 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 22 2293 1116 0 0 0 0 0 0 0 0
+node "m1_46_n575#" 2 505.705 46 -575 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 551 232 36 24 0 0 0 0 0 0 0 0
+node "m1_68_n557#" 1 151.05 68 -557 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 180 94 0 0 0 0 0 0 0 0 0 0
+node "m1_874_n493#" 8 1386.94 874 -493 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1688 852 0 0 0 0 0 0 0 0 0 0
+node "m1_314_n527#" 2 558.295 314 -527 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 765 316 0 0 0 0 0 0 0 0 0 0
+node "m1_68_n491#" 1 132.185 68 -491 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 152 84 0 0 0 0 0 0 0 0 0 0
+node "m1_1491_n413#" 4 534.041 1491 -413 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 555 358 0 0 0 0 0 0 0 0 0 0
+node "m1_602_n350#" 10 6329.19 602 -350 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 46 28 2731 1172 0 0 0 0 0 0 0 0
+node "m1_68_n363#" 7 1139.97 68 -363 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1401 696 0 0 0 0 0 0 0 0 0 0
+node "m1_68_n427#" 15 4859.84 68 -427 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5450 1928 698 244 0 0 0 0 0 0 0 0
+node "m1_46_n322#" 2 475.338 46 -322 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 540 226 25 20 0 0 0 0 0 0 0 0
+node "m1_68_n299#" 1 142.511 68 -299 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 172 88 0 0 0 0 0 0 0 0 0 0
+node "m1_1481_n285#" 4 1182.79 1481 -285 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1803 612 0 0 0 0 0 0 0 0 0 0
+node "m1_881_n274#" 6 1139.73 881 -274 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1451 680 0 0 0 0 0 0 0 0 0 0
+node "m1_308_n269#" 2 428.885 308 -269 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 552 254 0 0 0 0 0 0 0 0 0 0
+node "m1_68_n233#" 1 109.312 68 -233 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 124 70 0 0 0 0 0 0 0 0 0 0
+node "m1_68_n169#" 6 1050.38 68 -169 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1276 646 0 0 0 0 0 0 0 0 0 0
+node "m1_871_n151#" 9 2538.84 871 -151 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3888 1308 0 0 0 0 0 0 0 0 0 0
+node "m1_46_n120#" 2 440.44 46 -120 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 404 208 36 24 0 0 0 0 0 0 0 0
+node "m1_68_n105#" 1 111.207 68 -105 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 70 0 0 0 0 0 0 0 0 0 0
+node "P1" 0 27.9375 300 -73 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "m1_68_n41#" 1 99.5088 68 -41 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 112 64 0 0 0 0 0 0 0 0 0 0
+node "m1_602_n12#" 14 5180.4 602 -12 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 505 260 1312 878 0 0 0 0 0 0 0 0
+node "B3" 15 3646.89 -78 -898 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2098 1078 862 452 0 0 0 0 0 0 0 0
+node "A3" 20 4470.45 -70 -944 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2660 1366 1044 550 0 0 0 0 0 0 0 0
+node "B2" 18 4000.51 -62 -834 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2396 1234 952 504 0 0 0 0 0 0 0 0
+node "A2" 21 4549.25 -54 -880 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3176 1624 856 456 0 0 0 0 0 0 0 0
+node "A1" 19 4076.04 -46 -750 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2908 1490 764 410 0 0 0 0 0 0 0 0
+node "B1" 18 3730.98 -38 -640 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2648 1360 668 362 0 0 0 0 0 0 0 0
+node "B0" 13 2879.22 -30 -382 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1876 974 572 314 0 0 0 0 0 0 0 0
+node "P0" 0 24.354 68 25 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0 0 0 0 0 0 0
+node "A0" 15 2380.29 -83 25 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2904 1460 0 0 0 0 0 0 0 0 0 0
+node "m1_65_n918#" 52 16226.7 65 -918 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7162 3340 4288 2114 0 0 0 0 0 0 0 0
+cap "m2_n6_n951#" "B1" 439.056
+cap "m1_46_n322#" "m1_65_n918#" 96.714
+cap "B2" "A0" 308.33
+cap "m1_602_n350#" "m1_65_n918#" 216.585
+cap "B0" "B1" 3593.62
+cap "m1_68_n815#" "m1_65_n918#" 96.714
+cap "B2" "B3" 170.87
+cap "m1_68_n363#" "m2_268_n436#" 96.714
+cap "m2_898_n856#" "m1_1491_n714#" 155.506
+cap "m1_68_n427#" "m1_68_n363#" 107.993
+cap "m1_68_n879#" "m2_275_n703#" 119.871
+cap "m1_65_n918#" "m1_46_n575#" 96.714
+cap "B1" "A2" 170.87
+cap "m1_1215_n957#" "m2_1459_n1123#" 155.805
+cap "B1" "A0" 462.496
+cap "m1_68_n169#" "m1_65_n918#" 85.4352
+cap "m2_847_n515#" "m1_874_n493#" 107.993
+cap "m2_n6_n951#" "A1" 439.056
+cap "B1" "B3" 85.4352
+cap "m1_68_n105#" "m1_65_n918#" 85.4352
+cap "m2_1437_n749#" "m1_1481_n675#" 155.506
+cap "B0" "A1" 170.87
+cap "m1_68_n427#" "m1_602_n350#" 119.871
+cap "m1_68_n749#" "m2_275_n703#" 107.993
+cap "m1_65_n918#" "m1_68_n41#" 85.4352
+cap "m2_n6_n951#" "A3" 433.836
+cap "m1_68_n299#" "m1_65_n918#" 85.4352
+cap "m1_68_n749#" "m1_617_n783#" 85.4352
+cap "m1_68_n685#" "m1_65_n918#" 85.4352
+cap "B0" "A3" 85.4352
+cap "B1" "B2" 170.87
+cap "A1" "A2" 6338.91
+cap "A1" "A0" 462.496
+cap "m2_268_n436#" "m1_65_n918#" 50.4
+cap "P0" "m1_65_n918#" 74.1564
+cap "A1" "B3" 85.4352
+cap "A2" "A3" 256.306
+cap "m1_68_n427#" "m1_65_n918#" 216.585
+cap "m1_68_n621#" "m1_65_n918#" 96.714
+cap "A3" "A0" 154.165
+cap "m1_68_n815#" "m2_275_n703#" 119.871
+cap "A3" "B3" 4153.3
+cap "A1" "B2" 256.306
+cap "m2_n6_n951#" "B0" 439.056
+cap "m2_275_n703#" "m1_65_n918#" 158.393
+cap "m1_68_n233#" "m1_65_n918#" 85.4352
+cap "B2" "A3" 5204.87
+cap "m1_68_n427#" "m2_268_n436#" 122.909
+cap "m2_n6_n951#" "A2" 436.446
+cap "m1_46_n120#" "m1_65_n918#" 85.4352
+cap "m2_n6_n951#" "A0" 290.142
+cap "m2_1437_n749#" "m1_1491_n714#" 155.506
+cap "m2_793_n760#" "m1_617_n783#" 96.714
+cap "m1_65_n918#" "m1_68_n557#" 85.4352
+cap "m1_314_n527#" "m1_613_n574#" 85.1355
+cap "B0" "A2" 85.4352
+cap "B1" "A1" 5864.67
+cap "m1_68_n685#" "m2_275_n703#" 96.714
+cap "m2_n6_n951#" "B3" 326.682
+cap "B0" "A0" 6018.84
+cap "m1_68_n879#" "m1_65_n918#" 96.714
+cap "B1" "A3" 170.87
+cap "m1_602_n350#" "m2_265_n186#" 62.64
+cap "A2" "A0" 308.33
+cap "m1_308_n269#" "m2_265_n186#" 361.791
+cap "m1_68_n943#" "m2_812_n1073#" 143.028
+cap "m1_68_n621#" "m2_275_n703#" 108.293
+cap "m2_n6_n951#" "B2" 436.446
+cap "A2" "B3" 170.87
+cap "m1_68_n363#" "m1_65_n918#" 85.4352
+cap "m1_68_n749#" "m1_65_n918#" 85.4352
+cap "m1_602_n350#" "m1_308_n269#" 96.714
+cap "m1_68_n491#" "m1_65_n918#" 85.4352
+cap "B0" "B2" 85.4352
+cap "m2_793_n760#" "m1_68_n749#" 260.158
+cap "m1_68_n169#" "m2_265_n186#" 96.714
+cap "A1" "A3" 170.87
+cap "A2" "B2" 5747.36
+subcap "m2_1459_n1123#" -3189.86
+subcap "P6" -155.137
+subcap "m2_n6_n951#" -9822.99
+cap "AND_magic_15/A" "AND_magic_15/NAND_magic_0/GND" -2.84217e-14
+subcap "m1_68_n943#" -3768.45
+subcap "m1_895_n925#" -645.543
+cap "FA_magic_4/A" "FA_magic_4/HA_magic_0/AND_magic_0/NAND_magic_0/VDD" 27.492
+subcap "m1_1215_n957#" -3425.13
+subcap "m1_1215_n957#" -3138.87
+cap "FA_magic_4/m1_170_180#" "FA_magic_4/C" 29.4557
+cap "AND_magic_14/A" "AND_magic_14/NAND_magic_0/GND" -2.84217e-14
+cap "AND_magic_14/NAND_magic_0/GND" "AND_magic_14/B" 1.42109e-14
+subcap "m1_68_n879#" -1094.75
+subcap "m1_65_n918#" -15028.7
+cap "AND_magic_15/NAND_magic_0/VDD" "AND_magic_14/out" -1.42109e-14
+subcap "m2_898_n856#" -7581.54
+subcap "m1_895_n925#" -419.408
+subcap "m1_884_n880#" -687.301
+cap "AND_magic_12/A" "AND_magic_13/NAND_magic_0/GND" -2.84217e-14
+cap "AND_magic_13/NAND_magic_0/GND" "AND_magic_13/B" 1.42109e-14
+cap "AND_magic_13/NAND_magic_0/GND" "AND_magic_13/A" -2.84217e-14
+cap "AND_magic_13/NAND_magic_0/GND" "AND_magic_12/B" 1.42109e-14
+subcap "m1_68_n815#" -1123.42
+subcap "m1_68_n749#" -4940.96
+cap "AND_magic_13/NAND_magic_0/VDD" "AND_magic_13/out" -1.42109e-14
+subcap "m1_617_n783#" -1187.31
+subcap "m1_617_n783#" -808.573
+cap "FA_magic_3/m1_170_180#" "FA_magic_3/C" 29.4557
+cap "FA_magic_2/m2_137_50#" "m1_68_n749#" 332.1
+subcap "m2_793_n760#" -1983.46
+cap "m2_793_n760#" "m1_68_n749#" 480.362
+cap "m1_68_n749#" "FA_magic_2/m2_137_50#" 79.1712
+cap "FA_magic_2/m2_137_50#" "m2_793_n760#" 41.76
+subcap "m2_1437_n749#" -3167.79
+subcap "m1_1782_n771#" -4849.96
+cap "AND_magic_11/NAND_magic_0/GND" "AND_magic_11/A" -2.84217e-14
+cap "AND_magic_11/NAND_magic_0/GND" "AND_magic_11/B" 1.42109e-14
+cap "AND_magic_11/NAND_magic_0/GND" "AND_magic_10/B" -1.42109e-14
+subcap "m1_68_n685#" -1051.63
+subcap "m2_895_n646#" -378.464
+subcap "m2_1493_n645#" -1752.01
+subcap "m1_1491_n714#" -606.628
+subcap "m1_1481_n675#" -601.579
+subcap "B1" -3433.05
+cap "AND_magic_9/A" "AND_magic_10/NAND_magic_0/GND" -2.84217e-14
+cap "AND_magic_10/NAND_magic_0/GND" "AND_magic_10/A" -1.42109e-14
+cap "AND_magic_10/NAND_magic_0/GND" "AND_magic_9/B" 2.84217e-14
+subcap "m1_68_n621#" -995.843
+cap "HA_magic_2/B" "AND_magic_9/NOT_magic_0/GND" 27.492
+cap "AND_magic_10/NAND_magic_0/VDD" "HA_magic_2/B" -1.42109e-14
+cap "AND_magic_10/NAND_magic_0/VDD" "AND_magic_10/out" -1.42109e-14
+cap "m1_65_n918#" "HA_magic_2/m2_90_n10#" 169.461
+subcap "m1_314_n527#" -571.721
+cap "m1_65_n918#" "HA_magic_2/XOR_magic_0/NAND_magic_2/B" 17.6734
+cap "m1_65_n918#" "HA_magic_2/XOR_magic_0/NAND_magic_3/B" 47.1291
+cap "m1_65_n918#" "HA_magic_2/XOR_magic_0/NAND_magic_2/GND" 28.8855
+subcap "m1_314_n527#" -690.973
+subcap "m1_613_n574#" -6031.5
+cap "FA_magic_2/m1_170_180#" "FA_magic_2/C" 5.96571
+subcap "m1_613_n574#" -6050.12
+cap "FA_magic_2/C" "FA_magic_2/m1_170_180#" 1.49143
+subcap "m1_882_n584#" -122.728
+cap "AND_magic_8/NAND_magic_0/GND" "AND_magic_8/A" -2.84217e-14
+cap "AND_magic_8/NAND_magic_0/GND" "AND_magic_8/B" 1.42109e-14
+cap "AND_magic_8/NAND_magic_0/GND" "AND_magic_7/B" 1.42109e-14
+subcap "m1_68_n427#" -4976.14
+subcap "m1_314_n527#" -444.616
+cap "HA_magic_2/sum" "m2_268_n436#" 85.1355
+subcap "m2_847_n515#" -2508.9
+subcap "m1_874_n493#" -1261.29
+cap "HA_magic_3/A" "HA_magic_3/B" 96.714
+subcap "B0" -2420.08
+cap "AND_magic_6/B" "AND_magic_7/NAND_magic_0/GND" 2.84217e-14
+cap "AND_magic_7/NAND_magic_0/GND" "AND_magic_7/A" -1.42109e-14
+cap "AND_magic_6/A" "AND_magic_7/NAND_magic_0/GND" -1.42109e-14
+subcap "m1_68_n363#" -920.298
+subcap "m1_68_n427#" -4628.7
+cap "AND_magic_7/NAND_magic_0/VDD" "AND_magic_7/out" -1.42109e-14
+cap "m1_65_n918#" "HA_magic_1/m2_90_n10#" 179.95
+cap "m1_65_n918#" "HA_magic_1/XOR_magic_0/NAND_magic_3/out" 8.83671
+cap "m1_65_n918#" "HA_magic_1/XOR_magic_0/NAND_magic_3/B" 23.5646
+cap "HA_magic_1/XOR_magic_0/m2_7_n63#" "m1_65_n918#" 18.396
+cap "m2_268_n436#" "FA_magic_1/B" 61.9785
+cap "FA_magic_1/HA_magic_0/carry" "m1_602_n350#" 10.44
+subcap "m1_602_n350#" -5215.65
+subcap "m2_884_n424#" -1961.66
+cap "FA_magic_5/B" "FA_magic_5/HA_magic_0/A" 96.714
+subcap "m1_1491_n413#" -463.407
+cap "AND_magic_5/NAND_magic_0/GND" "AND_magic_5/A" -2.84217e-14
+cap "AND_magic_4/B" "AND_magic_5/NAND_magic_0/GND" 2.84217e-14
+cap "AND_magic_5/NAND_magic_0/GND" "AND_magic_5/B" 2.84217e-14
+cap "AND_magic_4/A" "AND_magic_5/NAND_magic_0/GND" -4.44089e-16
+subcap "m1_308_n269#" -242.829
+cap "m1_65_n918#" "HA_magic_1/XOR_magic_0/NAND_magic_2/B" 8.83671
+cap "HA_magic_1/XOR_magic_0/NAND_magic_3/B" "m1_65_n918#" 23.5646
+subcap "m1_308_n269#" -138.764
+subcap "m1_881_n274#" -1016.08
+cap "m1_881_n274#" "FA_magic_5/HA_magic_0/AND_magic_0/NAND_magic_0/VDD" 92.7855
+cap "FA_magic_5/HA_magic_0/AND_magic_0/NAND_magic_0/VDD" "m1_881_n274#" 1030.95
+cap "FA_magic_5/HA_magic_0/carry" "m1_881_n274#" 51.5988
+cap "FA_magic_5/C" "FA_magic_5/HA_magic_0/XOR_magic_0/NAND_magic_1/VDD" 903.799
+subcap "m1_1481_n285#" -907.158
+cap "AND_magic_3/A" "AND_magic_4/NAND_magic_0/GND" -1.42109e-14
+cap "AND_magic_4/NAND_magic_0/GND" "AND_magic_3/B" 2.84217e-14
+cap "AND_magic_4/NAND_magic_0/GND" "AND_magic_4/A" -1.42109e-14
+subcap "m1_68_n169#" -830.711
+cap "m1_65_n918#" "HA_magic_0/m2_90_n10#" 872.389
+cap "m1_65_n918#" "HA_magic_0/XOR_magic_0/a_26_n57#" 217.08
+subcap "m2_265_n186#" -1304.94
+cap "HA_magic_0/XOR_magic_0/m2_7_n63#" "m1_65_n918#" 517.871
+cap "HA_magic_0/XOR_magic_0/NAND_magic_3/out" "m1_65_n918#" 20.619
+cap "HA_magic_0/XOR_magic_0/NAND_magic_3/B" "m1_65_n918#" 380.604
+cap "FA_magic_0/B" "m2_265_n186#" -5.68434e-14
+subcap "m1_871_n151#" -2186.89
+cap "AND_magic_2/NAND_magic_0/GND" "AND_magic_1/B" 2.84217e-14
+cap "AND_magic_1/A" "AND_magic_2/NAND_magic_0/GND" -2.84217e-14
+cap "AND_magic_2/NAND_magic_0/GND" "AND_magic_2/B" 2.84217e-14
+cap "AND_magic_2/NAND_magic_0/GND" "AND_magic_2/A" -1.42109e-14
+cap "HA_magic_0/B" "AND_magic_2/NOT_magic_0/GND" 41.238
+cap "HA_magic_0/XOR_magic_0/NAND_magic_2/B" "m1_65_n918#" 8.83671
+cap "HA_magic_0/XOR_magic_0/NAND_magic_3/B" "m1_65_n918#" 23.5646
+cap "HA_magic_0/XOR_magic_0/NAND_magic_2/w_0_0#" "HA_magic_0/sum" -3.55271e-15
+subcap "A0" -1906.98
+cap "AND_magic_0/NAND_magic_0/GND" "AND_magic_0/B" 2.84217e-14
+subcap "m1_68_n41#" -200.182
+cap "HA_magic_0/AND_magic_0/NAND_magic_0/VDD" "AND_magic_0/out" -2.84217e-14
+cap "HA_magic_0/AND_magic_0/NAND_magic_0/VDD" "HA_magic_0/AND_magic_0/A" -7.10543e-15
+merge "FA_magic_3/OR_magic_0/NOR_magic_0/GND" "FA_magic_3/m2_137_50#" -486.921 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -213 -87 0 0 0 0 0 0 0 0
+merge "FA_magic_3/m2_137_50#" "FA_magic_4/HA_magic_0/m2_90_n10#"
+merge "FA_magic_4/HA_magic_0/m2_90_n10#" "m2_812_n1073#"
+merge "FA_magic_7/HA_magic_0/m2_90_n10#" "FA_magic_4/OR_magic_0/NOT_magic_0/GND" -125.28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 0 0 0 0 0 0 0 0
+merge "FA_magic_4/OR_magic_0/NOT_magic_0/GND" "m2_1459_n1123#"
+merge "FA_magic_4/carry" "C5" -6.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_0/NAND_magic_0/GND" "AND_magic_1/NAND_magic_0/GND" -835.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -160 0 0 0 0 0 0 0 0
+merge "AND_magic_1/NAND_magic_0/GND" "AND_magic_2/NAND_magic_0/GND"
+merge "AND_magic_2/NAND_magic_0/GND" "AND_magic_3/NAND_magic_0/GND"
+merge "AND_magic_3/NAND_magic_0/GND" "AND_magic_4/NAND_magic_0/GND"
+merge "AND_magic_4/NAND_magic_0/GND" "AND_magic_5/NAND_magic_0/GND"
+merge "AND_magic_5/NAND_magic_0/GND" "AND_magic_6/NAND_magic_0/GND"
+merge "AND_magic_6/NAND_magic_0/GND" "AND_magic_7/NAND_magic_0/GND"
+merge "AND_magic_7/NAND_magic_0/GND" "AND_magic_8/NAND_magic_0/GND"
+merge "AND_magic_8/NAND_magic_0/GND" "AND_magic_9/NAND_magic_0/GND"
+merge "AND_magic_9/NAND_magic_0/GND" "AND_magic_10/NAND_magic_0/GND"
+merge "AND_magic_10/NAND_magic_0/GND" "AND_magic_11/NAND_magic_0/GND"
+merge "AND_magic_11/NAND_magic_0/GND" "AND_magic_12/NAND_magic_0/GND"
+merge "AND_magic_12/NAND_magic_0/GND" "AND_magic_13/NAND_magic_0/GND"
+merge "AND_magic_13/NAND_magic_0/GND" "AND_magic_14/NAND_magic_0/GND"
+merge "AND_magic_14/NAND_magic_0/GND" "AND_magic_15/NAND_magic_0/GND"
+merge "AND_magic_15/NAND_magic_0/GND" "m2_n6_n951#"
+merge "HA_magic_0/sum" "P1" -10.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0 0 0
+merge "FA_magic_5/B" "AND_magic_7/out" -2900.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2067 -1046 -656 -244 0 0 0 0 0 0 0 0
+merge "AND_magic_7/out" "m1_68_n427#"
+merge "AND_magic_6/A" "AND_magic_10/A" -54.414 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -48 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_10/A" "AND_magic_13/A"
+merge "AND_magic_13/A" "AND_magic_15/A"
+merge "AND_magic_15/A" "A3"
+merge "AND_magic_2/A" "AND_magic_4/A" -713.729 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -832 -450 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_4/A" "AND_magic_8/A"
+merge "AND_magic_8/A" "AND_magic_12/A"
+merge "AND_magic_12/A" "A1"
+merge "FA_magic_0/A" "AND_magic_3/out" -694.44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -800 -420 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_3/out" "m1_68_n169#"
+merge "FA_magic_0/HA_magic_0/m2_90_n10#" "HA_magic_0/XOR_magic_0/m2_7_n63#" -2307.35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1160 -451 0 0 0 0 0 0 0 0
+merge "HA_magic_0/XOR_magic_0/m2_7_n63#" "FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/GND"
+merge "FA_magic_0/HA_magic_0/XOR_magic_0/NAND_magic_3/GND" "m2_265_n186#"
+merge "AND_magic_9/B" "AND_magic_12/B" -58.2048 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -48 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_12/B" "AND_magic_14/B"
+merge "AND_magic_14/B" "AND_magic_15/B"
+merge "AND_magic_15/B" "B3"
+merge "FA_magic_4/A" "FA_magic_3/carry" -11.8056 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 -16 0 0 0 0 0 0 0 0 0 0
+merge "FA_magic_3/carry" "m1_895_n925#"
+merge "AND_magic_0/B" "AND_magic_2/B" -378.43 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -424 -244 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_2/B" "AND_magic_3/B"
+merge "AND_magic_3/B" "AND_magic_6/B"
+merge "AND_magic_6/B" "B0"
+merge "FA_magic_0/B" "HA_magic_1/sum" -18.036 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0 0 0 0 0 0 0
+merge "HA_magic_1/sum" "m1_308_n269#"
+merge "AND_magic_8/out" "HA_magic_2/A" -36.912 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "HA_magic_2/A" "m1_68_n491#"
+merge "FA_magic_5/sum" "P3" -52.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "HA_magic_0/carry" "FA_magic_0/C" -1154.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -8 -303 -211 0 0 0 0 0 0 0 0
+merge "FA_magic_0/C" "m1_602_n12#"
+merge "FA_magic_2/carry" "FA_magic_3/C" -791.188 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1055 -457 0 0 0 0 0 0 0 0 0 0
+merge "FA_magic_3/C" "m1_617_n783#"
+merge "HA_magic_2/m2_90_n10#" "AND_magic_9/NOT_magic_0/GND" -168.423 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -12 0 0 0 0 0 0 0 0
+merge "AND_magic_9/NOT_magic_0/GND" "m1_46_n575#"
+merge "FA_magic_3/HA_magic_0/AND_magic_0/A" "AND_magic_13/out" -44.136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_13/out" "m1_68_n815#"
+merge "FA_magic_6/HA_magic_0/m2_90_n10#" "FA_magic_2/m2_137_50#" -2497.87 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1131 -464 0 0 0 0 0 0 0 0
+merge "FA_magic_2/m2_137_50#" "m2_793_n760#"
+merge "HA_magic_3/sum" "P4" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_0/out" "P0" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_0/A" "AND_magic_1/A" -705.93 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -820 -446 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_1/A" "AND_magic_5/A"
+merge "AND_magic_5/A" "AND_magic_9/A"
+merge "AND_magic_9/A" "A0"
+merge "HA_magic_0/AND_magic_0/A" "AND_magic_1/out" -36.912 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_1/out" "HA_magic_0/A"
+merge "HA_magic_0/A" "m1_68_n41#"
+merge "FA_magic_1/carry" "FA_magic_6/C" -36.6939 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -21 -30 0 0 0 0 0 0 0 0 0 0
+merge "FA_magic_6/C" "m1_874_n493#"
+merge "FA_magic_2/HA_magic_0/B" "AND_magic_11/out" -25.203 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -22 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_11/out" "m1_68_n685#"
+merge "AND_magic_5/B" "AND_magic_8/B" -710.461 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -828 -448 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_8/B" "AND_magic_11/B"
+merge "AND_magic_11/B" "AND_magic_13/B"
+merge "AND_magic_13/B" "B2"
+merge "HA_magic_0/AND_magic_0/NAND_magic_0/GND" "AND_magic_2/NOT_magic_0/GND" -91.536 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -12 0 0 0 0 0 0 0 0
+merge "AND_magic_2/NOT_magic_0/GND" "m1_46_n120#"
+merge "FA_magic_6/OR_magic_0/NOR_magic_0/VDD" "FA_magic_7/HA_magic_0/AND_magic_0/NAND_magic_0/VDD" -31.3236 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -30 0 0 0 0 0 0 0 0 0 0
+merge "FA_magic_7/HA_magic_0/AND_magic_0/NAND_magic_0/VDD" "m1_1481_n675#"
+merge "AND_magic_2/out" "HA_magic_0/B" -18.036 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0 0 0 0 0 0 0
+merge "HA_magic_0/B" "m1_68_n105#"
+merge "FA_magic_5/C" "FA_magic_0/carry" -533.917 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -691 -315 0 0 0 0 0 0 0 0 0 0
+merge "FA_magic_0/carry" "m1_881_n274#"
+merge "AND_magic_0/NAND_magic_0/VDD" "AND_magic_1/NAND_magic_0/VDD" -2468.85 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1356 -1703 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_1/NAND_magic_0/VDD" "HA_magic_0/AND_magic_0/NAND_magic_0/VDD"
+merge "HA_magic_0/AND_magic_0/NAND_magic_0/VDD" "AND_magic_2/NAND_magic_0/VDD"
+merge "AND_magic_2/NAND_magic_0/VDD" "FA_magic_0/HA_magic_0/AND_magic_0/NAND_magic_0/VDD"
+merge "FA_magic_0/HA_magic_0/AND_magic_0/NAND_magic_0/VDD" "AND_magic_3/NAND_magic_0/VDD"
+merge "AND_magic_3/NAND_magic_0/VDD" "AND_magic_4/NAND_magic_0/VDD"
+merge "AND_magic_4/NAND_magic_0/VDD" "HA_magic_1/AND_magic_0/NAND_magic_0/VDD"
+merge "HA_magic_1/AND_magic_0/NAND_magic_0/VDD" "AND_magic_5/NAND_magic_0/VDD"
+merge "AND_magic_5/NAND_magic_0/VDD" "FA_magic_1/HA_magic_0/AND_magic_0/NAND_magic_0/VDD"
+merge "FA_magic_1/HA_magic_0/AND_magic_0/NAND_magic_0/VDD" "AND_magic_6/NAND_magic_0/VDD"
+merge "AND_magic_6/NAND_magic_0/VDD" "AND_magic_7/NAND_magic_0/VDD"
+merge "AND_magic_7/NAND_magic_0/VDD" "AND_magic_8/NAND_magic_0/VDD"
+merge "AND_magic_8/NAND_magic_0/VDD" "HA_magic_2/AND_magic_0/NAND_magic_0/VDD"
+merge "HA_magic_2/AND_magic_0/NAND_magic_0/VDD" "FA_magic_2/HA_magic_0/AND_magic_0/NAND_magic_0/VDD"
+merge "FA_magic_2/HA_magic_0/AND_magic_0/NAND_magic_0/VDD" "AND_magic_9/NAND_magic_0/VDD"
+merge "AND_magic_9/NAND_magic_0/VDD" "AND_magic_10/NAND_magic_0/VDD"
+merge "AND_magic_10/NAND_magic_0/VDD" "AND_magic_11/NAND_magic_0/VDD"
+merge "AND_magic_11/NAND_magic_0/VDD" "AND_magic_12/NAND_magic_0/VDD"
+merge "AND_magic_12/NAND_magic_0/VDD" "FA_magic_3/HA_magic_0/AND_magic_0/NAND_magic_0/VDD"
+merge "FA_magic_3/HA_magic_0/AND_magic_0/NAND_magic_0/VDD" "AND_magic_13/NAND_magic_0/VDD"
+merge "AND_magic_13/NAND_magic_0/VDD" "AND_magic_14/NAND_magic_0/VDD"
+merge "AND_magic_14/NAND_magic_0/VDD" "AND_magic_15/NAND_magic_0/VDD"
+merge "AND_magic_15/NAND_magic_0/VDD" "m1_65_n918#"
+merge "HA_magic_1/XOR_magic_0/NAND_magic_2/GND" "FA_magic_1/HA_magic_0/AND_magic_0/NOT_magic_0/GND" -752.82 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -177 -144 0 0 0 0 0 0 0 0
+merge "FA_magic_1/HA_magic_0/AND_magic_0/NOT_magic_0/GND" "HA_magic_1/XOR_magic_0/m2_7_n63#"
+merge "HA_magic_1/XOR_magic_0/m2_7_n63#" "FA_magic_1/HA_magic_0/m2_90_n10#"
+merge "FA_magic_1/HA_magic_0/m2_90_n10#" "m2_268_n436#"
+merge "HA_magic_2/XOR_magic_0/NAND_magic_2/GND" "FA_magic_2/HA_magic_0/m2_90_n10#" -789.691 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -339 -141 0 0 0 0 0 0 0 0
+merge "FA_magic_2/HA_magic_0/m2_90_n10#" "FA_magic_3/HA_magic_0/m2_90_n10#"
+merge "FA_magic_3/HA_magic_0/m2_90_n10#" "m2_275_n703#"
+merge "FA_magic_0/sum" "P2" -52.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "HA_magic_1/m2_90_n10#" "AND_magic_5/NOT_magic_0/GND" -88.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 -10 0 0 0 0 0 0 0 0
+merge "AND_magic_5/NOT_magic_0/GND" "m1_46_n322#"
+merge "AND_magic_3/A" "AND_magic_7/A" -707.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -820 -448 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_7/A" "AND_magic_11/A"
+merge "AND_magic_11/A" "AND_magic_14/A"
+merge "AND_magic_14/A" "A2"
+merge "FA_magic_3/HA_magic_0/B" "AND_magic_14/out" -18.036 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_14/out" "m1_68_n879#"
+merge "HA_magic_3/A" "FA_magic_6/sum" -745.509 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -313 -125 0 0 0 0 0 0 0 0
+merge "FA_magic_6/sum" "m2_1493_n645#"
+merge "FA_magic_7/A" "FA_magic_3/sum" -93.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0 0 0 0 0
+merge "FA_magic_3/sum" "m2_898_n856#"
+merge "FA_magic_5/HA_magic_0/A" "FA_magic_1/sum" -1281.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -525 -230 0 0 0 0 0 0 0 0
+merge "FA_magic_1/sum" "m2_884_n424#"
+merge "FA_magic_5/carry" "HA_magic_3/B" -14.028 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "HA_magic_3/B" "m1_1491_n413#"
+merge "FA_magic_5/m1_392_180#" "HA_magic_3/AND_magic_0/NOT_magic_0/VDD" -306.848 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -356 -194 0 0 0 0 0 0 0 0 0 0
+merge "HA_magic_3/AND_magic_0/NOT_magic_0/VDD" "HA_magic_3/AND_magic_0/NAND_magic_0/VDD"
+merge "HA_magic_3/AND_magic_0/NAND_magic_0/VDD" "m1_1481_n285#"
+merge "FA_magic_6/carry" "FA_magic_7/B" -16.032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "FA_magic_7/B" "m1_1491_n714#"
+merge "FA_magic_7/sum" "P5" -52.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "FA_magic_5/HA_magic_0/m2_90_n10#" "FA_magic_1/OR_magic_0/NOT_magic_0/GND" -136.643 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -26 0 0 0 0 0 0 0 0
+merge "FA_magic_1/OR_magic_0/NOT_magic_0/GND" "m2_847_n515#"
+merge "HA_magic_3/carry" "FA_magic_7/C" -944.048 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -316 -170 0 0 0 0 0 0 0 0
+merge "FA_magic_7/C" "m1_1782_n771#"
+merge "FA_magic_4/sum" "P6" -52.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "AND_magic_4/out" "HA_magic_1/A" -36.912 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "HA_magic_1/A" "m1_68_n233#"
+merge "FA_magic_7/carry" "FA_magic_4/C" -609.891 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -627 -411 0 0 0 0 0 0 0 0 0 0
+merge "FA_magic_4/C" "m1_1215_n957#"
+merge "AND_magic_5/out" "HA_magic_1/B" -32.37 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -26 0 0 0 0 0 0 0 0 0 0
+merge "HA_magic_1/B" "m1_68_n299#"
+merge "AND_magic_1/B" "AND_magic_4/B" -377.906 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -416 -246 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_4/B" "AND_magic_7/B"
+merge "AND_magic_7/B" "AND_magic_10/B"
+merge "AND_magic_10/B" "B1"
+merge "FA_magic_0/m1_392_180#" "FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_1/VDD" -113.734 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -138 -70 0 0 0 0 0 0 0 0 0 0
+merge "FA_magic_5/HA_magic_1/XOR_magic_0/NAND_magic_1/VDD" "m1_871_n151#"
+merge "HA_magic_2/carry" "FA_magic_2/C" -2954.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 -957 -542 0 0 0 0 0 0 0 0
+merge "FA_magic_2/C" "m1_613_n574#"
+merge "FA_magic_1/B" "HA_magic_2/sum" -20.6718 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2 -20 0 0 0 0 0 0 0 0 0 0
+merge "HA_magic_2/sum" "m1_314_n527#"
+merge "FA_magic_2/A" "AND_magic_10/out" -44.136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_10/out" "m1_68_n621#"
+merge "FA_magic_1/A" "AND_magic_6/out" -36.912 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "AND_magic_6/out" "m1_68_n363#"
+merge "HA_magic_1/carry" "FA_magic_1/C" -2968.98 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 -8 -1174 -557 0 0 0 0 0 0 0 0
+merge "FA_magic_1/C" "m1_602_n350#"
+merge "FA_magic_3/m1_392_180#" "FA_magic_4/HA_magic_0/AND_magic_0/NAND_magic_0/VDD" -34.1667 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -13 -30 0 0 0 0 0 0 0 0 0 0
+merge "FA_magic_4/HA_magic_0/AND_magic_0/NAND_magic_0/VDD" "m1_884_n880#"
+merge "FA_magic_6/HA_magic_0/AND_magic_0/NAND_magic_0/VDD" "FA_magic_2/m1_392_180#" -76.9614 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -66 -56 0 0 0 0 0 0 0 0 0 0
+merge "FA_magic_2/m1_392_180#" "m1_882_n584#"
+merge "HA_magic_3/m2_90_n10#" "FA_magic_6/OR_magic_0/NOR_magic_0/GND" -214.494 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -37 -40 0 0 0 0 0 0 0 0
+merge "FA_magic_6/OR_magic_0/NOR_magic_0/GND" "FA_magic_6/m2_137_50#"
+merge "FA_magic_6/m2_137_50#" "m2_1437_n749#"
+merge "AND_magic_9/out" "HA_magic_2/B" -18.036 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0 0 0 0 0 0 0
+merge "HA_magic_2/B" "m1_68_n557#"
+merge "AND_magic_15/out" "FA_magic_4/B" 7.5519 0 0 0 0 0 0 0 0 0 0 0 0 0 0 81 -18 0 0 0 0 0 0 0 0 0 0
+merge "FA_magic_4/B" "m1_68_n943#"
+merge "FA_magic_6/A" "FA_magic_2/sum" -111.787 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -20 0 0 0 0 0 0 0 0
+merge "FA_magic_2/sum" "m2_895_n646#"
+merge "FA_magic_6/B" "AND_magic_12/out" -2081.36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2017 -1034 -149 -82 0 0 0 0 0 0 0 0
+merge "AND_magic_12/out" "m1_68_n749#"

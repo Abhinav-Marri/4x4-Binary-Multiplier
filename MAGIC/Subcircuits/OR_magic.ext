@@ -1,0 +1,21 @@
+timestamp 1669670886
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use NOT_magic NOT_magic_0 1 0 25 0 1 30
+use NOR_magic NOR_magic_0 1 0 -2 0 1 30
+node "B" 0 17.8188 -5 7 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0 0 0 0 0 0 0
+node "out" 0 17.8188 49 25 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0 0 0 0 0 0 0
+node "A" 0 17.8188 -5 25 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0 0 0 0 0 0 0
+cap "NOT_magic_0/w_0_0#" "NOT_magic_0/VDD" -5.01
+cap "NOT_magic_0/in" "NOT_magic_0/VDD" 47.1291
+cap "NOT_magic_0/in" "NOT_magic_0/GND" -1.42109e-14
+merge "NOR_magic_0/w_0_0#" "NOT_magic_0/w_0_0#" -100.44 0 0 0 0 -100 -50 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "NOR_magic_0/GND" "NOT_magic_0/GND" -52.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "NOR_magic_0/VDD" "NOT_magic_0/VDD" -19.344 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0 0 0 0 0 0 0 0 0
+merge "NOR_magic_0/A" "A" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "NOR_magic_0/B" "B" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "NOT_magic_0/out" "out" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "NOR_magic_0/out" "NOT_magic_0/in" -24.354 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0 0 0 0 0 0 0 0 0

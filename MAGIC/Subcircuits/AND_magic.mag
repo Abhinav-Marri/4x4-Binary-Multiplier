@@ -1,0 +1,28 @@
+magic
+tech scmos
+timestamp 1669670829
+<< nwell >>
+rect 32 19 38 39
+<< metal1 >>
+rect 32 39 38 43
+rect -3 14 0 18
+rect 32 14 38 18
+rect 62 14 65 18
+rect -3 -4 11 0
+<< metal2 >>
+rect 5 -6 10 6
+rect 34 -6 38 11
+rect 5 -11 38 -6
+use NOT_magic  NOT_magic_0
+timestamp 1669662021
+transform 1 0 38 0 1 19
+box 0 -15 24 24
+use NAND_magic  NAND_magic_0
+timestamp 1669662301
+transform 1 0 0 0 1 19
+box 0 -24 32 24
+<< labels >>
+rlabel metal1 -2 15 -2 15 3 A
+rlabel metal1 -2 -2 -2 -2 3 B
+rlabel metal1 63 16 63 16 7 out
+<< end >>

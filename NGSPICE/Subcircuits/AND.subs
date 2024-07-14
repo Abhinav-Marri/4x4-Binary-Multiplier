@@ -1,0 +1,13 @@
+
+.SUBCKT AND out a b vdd gnd 
+
+MN1 node1 a node2 node2 nmos W={2*lamda}  L=lamda
+MN2 node2 b gnd gnd nmos W={2*lamda}  L=lamda
+MP1 node1 a vdd vdd pmos W={2*lamda}  L=lamda
+MP2 node1 b vdd vdd pmos W={2*lamda}  L=lamda
+
+
+MN3 out node1 gnd gnd nmos W={2*lamda}  L=lamda
+MP3 out node1 vdd vdd pmos W={2*lamda}  L=lamda
+
+.ENDS AND

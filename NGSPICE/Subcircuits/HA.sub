@@ -1,0 +1,12 @@
+
+.subckt HA a b sum carry vdd gnd
+
+.INCLUDE AND.subs
+.INCLUDE XOR.sp
+
+x1 sum a b vdd gnd XOR
+x2 carry a b vdd gnd AND
+
+
+.ends HA
+

@@ -1,0 +1,9 @@
+Delays with inputs and all outputs :
+delay with p0 = 5.7552E-11
+delay with p1 = 4.6681E-09
+delay with p = 1.05254E-08
+delay with p3 = 5.52132E-09
+delay with p4 = 1.05655E-08
+delay with p5 = 1.36607E-09
+delay with p6 = 4.38025E-09
+delay with c5 = 1.44134E-08

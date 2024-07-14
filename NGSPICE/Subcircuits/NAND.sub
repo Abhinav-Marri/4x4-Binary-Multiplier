@@ -1,0 +1,9 @@
+
+.SUBCKT NAND out a b vdd gnd 
+
+MN1 out a node2 node2 nmos W={2*lamda}  L=lamda
+MN2 node2 b gnd gnd nmos W={2*lamda}  L=lamda
+MP1 out a vdd vdd pmos W={2*lamda}  L=lamda
+MP2 out b vdd vdd pmos W={2*lamda}  L=lamda
+
+.ends NAND

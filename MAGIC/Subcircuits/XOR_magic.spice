@@ -1,0 +1,85 @@
+* SPICE3 file created from XOR_magic.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 VDD B NAND_magic_3/A NAND_magic_0/w_0_0# pfet w=8 l=2
++  ad=320 pd=208 as=48 ps=28
+M1001 NAND_magic_3/A A VDD NAND_magic_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 NAND_magic_3/A B NAND_magic_0/a_13_n12# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1003 NAND_magic_0/a_13_n12# A GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=116 ps=88
+M1004 VDD NAND_magic_3/A NAND_magic_2/A NAND_magic_1/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1005 NAND_magic_2/A A VDD NAND_magic_1/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 NAND_magic_2/A NAND_magic_3/A NAND_magic_1/a_13_n12# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1007 NAND_magic_1/a_13_n12# A GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 VDD NAND_magic_2/B out NAND_magic_2/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1009 out NAND_magic_2/A VDD NAND_magic_2/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 out NAND_magic_2/B NAND_magic_2/a_13_n12# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1011 NAND_magic_2/a_13_n12# NAND_magic_2/A GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 VDD B NAND_magic_2/B NAND_magic_3/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1013 NAND_magic_2/B NAND_magic_3/A VDD NAND_magic_3/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 NAND_magic_2/B B NAND_magic_3/a_13_n12# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1015 NAND_magic_3/a_13_n12# NAND_magic_3/A GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 NAND_magic_2/A out 0.05fF
+C1 out NAND_magic_2/w_0_0# 0.02fF
+C2 NAND_magic_3/w_0_0# NAND_magic_2/B 0.02fF
+C3 GND NAND_magic_2/B 0.09fF
+C4 NAND_magic_3/A NAND_magic_2/B 0.05fF
+C5 NAND_magic_3/A NAND_magic_3/w_0_0# 0.06fF
+C6 NAND_magic_3/A GND 0.17fF
+C7 NAND_magic_3/A NAND_magic_1/w_0_0# 0.06fF
+C8 VDD NAND_magic_2/B 0.22fF
+C9 NAND_magic_3/w_0_0# VDD 0.09fF
+C10 B NAND_magic_2/B 0.08fF
+C11 B NAND_magic_3/w_0_0# 0.06fF
+C12 GND VDD 0.07fF
+C13 A GND 0.14fF
+C14 VDD NAND_magic_1/w_0_0# 0.09fF
+C15 A NAND_magic_1/w_0_0# 0.12fF
+C16 B GND 0.14fF
+C17 NAND_magic_3/A NAND_magic_0/w_0_0# 0.02fF
+C18 NAND_magic_2/A NAND_magic_2/B 0.08fF
+C19 NAND_magic_3/A VDD 0.38fF
+C20 NAND_magic_3/A A 0.13fF
+C21 NAND_magic_3/A B 0.15fF
+C22 NAND_magic_2/A GND 0.07fF
+C23 NAND_magic_2/A NAND_magic_1/w_0_0# 0.02fF
+C24 NAND_magic_3/A NAND_magic_2/A 0.08fF
+C25 NAND_magic_2/w_0_0# NAND_magic_2/B 0.06fF
+C26 NAND_magic_0/w_0_0# VDD 0.09fF
+C27 A NAND_magic_0/w_0_0# 0.08fF
+C28 A VDD 0.12fF
+C29 B NAND_magic_0/w_0_0# 0.06fF
+C30 B A 0.08fF
+C31 NAND_magic_2/A VDD 0.24fF
+C32 NAND_magic_2/A A 0.05fF
+C33 out NAND_magic_2/B 0.08fF
+C34 VDD NAND_magic_2/w_0_0# 0.09fF
+C35 NAND_magic_2/A NAND_magic_2/w_0_0# 0.06fF
+C36 VDD out 0.22fF
+C37 NAND_magic_3/A Gnd 0.69fF
+C38 B Gnd 0.98fF
+C39 A Gnd 0.51fF
+C40 NAND_magic_3/w_0_0# Gnd 0.64fF
+C41 out Gnd 0.14fF
+C42 VDD Gnd 1.11fF
+C43 NAND_magic_2/B Gnd 0.43fF
+C44 NAND_magic_2/w_0_0# Gnd 0.64fF
+C45 NAND_magic_2/A Gnd 0.36fF
+C46 NAND_magic_1/w_0_0# Gnd 0.64fF
+C47 GND Gnd 4.10fF
+C48 NAND_magic_0/w_0_0# Gnd 0.64fF

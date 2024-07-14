@@ -1,0 +1,67 @@
+timestamp 1669671046
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use OR_magic OR_magic_0 1 0 404 0 1 25
+use HA_magic HA_magic_0 1 0 -76 0 1 60
+use HA_magic HA_magic_1 1 0 148 0 1 60
+node "m2_269_50#" 3 557.347 269 50 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 302 206 0 0 0 0 0 0 0 0
+node "m2_137_50#" 6 3473.97 137 50 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1440 640 0 0 0 0 0 0 0 0
+node "A" 0 141.876 -47 146 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 26 0 0 0 0 0 0 0 0
+node "carry" 0 26.6739 456 50 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21 20 0 0 0 0 0 0 0 0 0 0
+node "m1_268_59#" 5 1558.64 268 59 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 565 290 389 202 0 0 0 0 0 0 0 0
+node "m1_44_59#" 6 2831.38 44 59 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2957 784 397 206 0 0 0 0 0 0 0 0
+node "B" 0 38.688 -47 114 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 26 0 0 0 0 0 0 0 0 0 0
+node "sum" 1 774.093 401 119 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 22 330 142 0 0 0 0 0 0 0 0
+node "m1_174_119#" 1 471.996 174 119 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 173 90 0 0 0 0 0 0 0 0
+node "m1_392_180#" 3 550.438 392 180 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 664 340 0 0 0 0 0 0 0 0 0 0
+node "C" 1 184.466 185 138 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 216 116 0 0 0 0 0 0 0 0 0 0
+node "m1_170_180#" 1 444.027 170 180 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 146 80 0 0 0 0 0 0 0 0
+cap "m1_44_59#" "m2_137_50#" 130.55
+cap "m2_269_50#" "m1_268_59#" 1065.66
+cap "m1_170_180#" "C" 85.4352
+cap "m1_174_119#" "C" 73.557
+cap "sum" "m1_392_180#" 96.714
+subcap "m1_44_59#" -2151.31
+cap "m1_44_59#" "HA_magic_0/XOR_magic_0/NAND_magic_0/GND" 184.149
+cap "m1_44_59#" "HA_magic_0/B" 85.4352
+subcap "m2_137_50#" -36.3222
+subcap "m1_44_59#" -2895.53
+cap "m1_44_59#" "HA_magic_0/XOR_magic_0/NAND_magic_0/GND" 74.385
+subcap "m1_174_119#" -455.206
+subcap "m1_268_59#" -650.588
+cap "HA_magic_1/XOR_magic_0/NAND_magic_0/GND" "m1_268_59#" -188.748
+cap "HA_magic_1/XOR_magic_0/B" "m1_268_59#" 85.4352
+subcap "sum" -780.08
+cap "OR_magic_0/NOT_magic_0/VDD" "OR_magic_0/NOT_magic_0/w_0_0#" -1.42109e-14
+cap "OR_magic_0/A" "HA_magic_1/XOR_magic_0/NAND_magic_2/GND" -52.0884
+subcap "carry" -33.9
+cap "HA_magic_0/A" "HA_magic_0/AND_magic_0/out" 85.4352
+cap "HA_magic_1/B" "HA_magic_0/sum" 109.07
+cap "HA_magic_1/AND_magic_0/NAND_magic_0/VDD" "HA_magic_0/sum" 3.55271e-15
+cap "HA_magic_1/AND_magic_0/out" "HA_magic_1/XOR_magic_0/A" 85.4352
+subcap "sum" -522.104
+subcap "m1_392_180#" -321.444
+merge "HA_magic_1/A" "HA_magic_0/sum" -109.114 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -16 -10 -14 0 0 0 0 0 0 0 0
+merge "HA_magic_0/sum" "m1_174_119#"
+merge "HA_magic_1/AND_magic_0/out" "OR_magic_0/A" -93.9984 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -8 0 0 0 0 0 0 0 0
+merge "OR_magic_0/A" "m1_268_59#"
+merge "HA_magic_0/carry" "HA_magic_0/AND_magic_0/out" -118.146 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 -12 0 0 0 0 0 0 0 0
+merge "HA_magic_0/AND_magic_0/out" "OR_magic_0/B"
+merge "OR_magic_0/B" "m1_44_59#"
+merge "HA_magic_1/AND_magic_0/NAND_magic_0/VDD" "HA_magic_0/XOR_magic_0/m1_81_67#" -57.792 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "HA_magic_0/XOR_magic_0/m1_81_67#" "m1_170_180#"
+merge "OR_magic_0/NOT_magic_0/GND" "HA_magic_1/m2_90_n10#" -257.332 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -48 0 0 0 0 0 0 0 0
+merge "HA_magic_1/m2_90_n10#" "HA_magic_0/XOR_magic_0/NAND_magic_0/GND"
+merge "HA_magic_0/XOR_magic_0/NAND_magic_0/GND" "m2_137_50#"
+merge "HA_magic_1/sum" "sum" -31.2159 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -10 0 0 0 0 0 0 0 0 0 0
+merge "HA_magic_1/XOR_magic_0/m1_81_67#" "OR_magic_0/NOT_magic_0/VDD" -95.1948 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -92 -66 0 0 0 0 0 0 0 0 0 0
+merge "OR_magic_0/NOT_magic_0/VDD" "m1_392_180#"
+merge "HA_magic_1/B" "C" -17.8188 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0 0 0 0 0 0 0
+merge "OR_magic_0/out" "carry" -3.1689 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 -6 0 0 0 0 0 0 0 0 0 0
+merge "HA_magic_1/XOR_magic_0/NAND_magic_2/GND" "HA_magic_1/XOR_magic_0/NAND_magic_0/GND" -660.051 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -302 -206 0 0 0 0 0 0 0 0
+merge "HA_magic_1/XOR_magic_0/NAND_magic_0/GND" "m2_269_50#"
+merge "HA_magic_0/A" "A" -52.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "HA_magic_0/B" "B" -17.9175 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -10 0 0 0 0 0 0 0 0 0 0
